@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>开发者导航</title>
+	<link rel="shortcut icon" type="image/x-icon" href="/img/favicon.png"/>
+	<meta name="viewport" content="width=device-width, initial-scale=0.5" />
+	<link rel="stylesheet" href="css/reset.css" />
+	<link rel="stylesheet" href="css/index.css" />
+</head>
+<body>
+	<!-- 导航 -->
+	<header>
+		<div id="topBar" class="topBar war">
+			<!-- 搜索 -->
+			<form name="f" onsubmit="return s4()" method="get">
+				<img class="logo" src="/img/favicon.png">
+				<!-- <input type="text" name="k" placeholder="百度：搜索些什么..." size="28" onmouseover="this.focus()" onfocus="this.select()"> -->
+				<!-- <input type="submit" value="搜索"> -->
+			</form>
+			<div class="search-hd">
+			    <form action="https://www.baidu.com/s" method="get" id="searchForm">
+			        <div class="search-status">
+			            <div class="search-select">
+			                <input type="text" class="search-val" placeholder="请输入您要查找的内容" autocomplete="off" value="" name="wd" id="keywords"/>
+			                <ul class="options">
+			                    <li><a href="http://www.sunkejava.com/">sunkejava</a></li>
+			                    <li><a href="javascript:;">Hexo</a></li>
+			                    <li><a href="javascript:;">Demo</a></li>
+			                    <li><a href="javascript:;">banner</a></li>
+			                </ul>
+			            </div>
+			        </div>
+			        <input type="hidden" name="type" value='project' id="sType"/><a class="search-hd-btn" href="javascript:;"><i class="iconfont icon-search"></i></a>
+			    </form>
+			</div>
+			<!-- 导航 -->
+			<nav id="nav" class="nav"></nav>
+		</div>
+	</header>
+	<!-- 内容 -->
+	<div id="content" class="content"></div>
+	<!-- 版本 -->
+	<footer id="footer">
+		<div class="footer_war war">
+			<div class="message">Cruising In The Code Of Life!</br>内容投稿或建议请联系declineaberdeen@foxmail.com 如果您觉得本站有帮助！</br>让更多的人了解开发、让更多的人熟悉开发、让更多的人痴迷开发，让我们为IT界尽上绵薄之力...</div>
+			<div class="declare">Copyright &copy; 2015-2016 &nbsp;<a href="http://www.sunkejava.com/" target="_blank">京ICP备45006200号</a></div>
+		</div>
+	</footer>
+	<!-- 提交 -->
+	<aside id="backTop"><div class="Tip"><a href="https://www.sunkejava.com/" target="_self">返回</a></div></aside>
+	
+	<script type="text/javascript" src="js/jquery.js" ></script>
+	<script type="text/javascript" src="js/index.js" ></script>
+	<script type="text/javascript" src="js/data.js" ></script>
+</body>
+</html>

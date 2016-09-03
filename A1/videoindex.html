@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Videoindex test</title>
+
+	<script src="http://libs.baidu.com/jquery/2.0.0/jquery.js"></script>
+	<script src="js/mediaelement-and-player.min.js"></script>
+	<link rel="stylesheet" href="css/style2.css" media="screen">
+	<link rel="stylesheet" href="css/as2.css" type="text/css">
+		<script type="text/javascript">
+		function show(){
+         var random_bg=parseInt(Math.random()*66);
+<!-- 		 alert(random_bg); -->
+         var bg='url(img/bg-'+random_bg+'.jpg)';
+         $("body").css("background-image",bg);
+			
+		var Request = new Object(); 
+			Request = GetRequest(); 
+			var tvurl,name; 
+			tvurl = decodeURI(Request['url']);			
+			tvname = decodeURI(Request['name']);
+			tvimg = decodeURI(Request['img']);
+			
+			var hehe = document.getElementById("shenquname");
+			hehe.innerText = "正在播放："+tvname;
+			document.title = tvname;
+			document.getElementById("source-vid").src = tvurl;
+			document.getElementById("poster-vid").poster = tvimg;
+
+			$(document).ready(function() {
+			$('video').mediaelementplayer({
+			alwaysShowControls: false,
+			videoVolume: 'horizontal',
+			features: ['playpause','progress','volume','fullscreen']
+				});
+			});
+			
+			showLeftTime();
+		}
+		
+		
+		function GetRequest() { 
+			var url = location.search; //获取url中"?"符后的字串 
+			var theRequest = new Object(); 
+			if (url.indexOf("?") != -1) { 
+			var str = encodeURI(url.substr(1));	
+			strs = str.split("&"); 
+			for(var i = 0; i < strs.length; i ++) { 
+			theRequest[strs[i].split("=")[0]]=unescape(strs[i].split("=")[1]); 
+			} 
+			} 
+			return theRequest; 
+			} 
+		
+		function showLeftTime()
+					{
+					var Week = ['日','一','二','三','四','五','六']
+					var now=new Date();
+					var year=now.getFullYear();
+					var month=now.getMonth()+1;
+					var day=now.getDate();
+					var weekday = now.getDay();
+					var hours=now.getHours();
+					var minutes=now.getMinutes();
+					var seconds=now.getSeconds();
+					var nowa;
+					if(hours <= 3 ){
+						nowa = "拂晓";
+					}else if (hours <= 6){
+						nowa = "黎明";
+					}else if(hours <= 9){
+						nowa = "清晨";
+					}else if(hours <=12){
+						nowa = "上午";
+					}else if(hours  <= 15){
+						nowa = "中午";
+					}else if(hours  <= 18){
+						nowa = "下午";
+					}else if(hours  <= 21){
+						nowa = "傍晚";
+					}else{
+						nowa = "深夜";
+					}
+					var varcharone = ""+year+"年"+month+"月"+day+"日";
+					var varcharone = ""+year+"年"+month+"月"+day+"日";
+					minutes < 10 ? minutes="0"+minutes:minutes=minutes;
+					seconds < 10 ? seconds="0"+seconds:seconds=seconds;
+					var varchartwo =  "星 期 "+Week[weekday]+"--"+hours+":"+minutes+":"+seconds+"--"+nowa;
+					document.getElementById("nianyueri").innerText = varcharone;
+					document.getElementById("shijian").innerText = varchartwo;
+					//一秒刷新一次显示时间
+					//alert(varcharone);
+					var timeID=setTimeout(showLeftTime,1000);
+					}
+		
+		</script>
+	<style type="text/css">
+			.mejs-container { margin: 25px auto; }
+			.user-head {
+				width: 100%;
+				height: 300px;
+				margin: 0 18px 0 0;
+				background: rgba(255, 223, 255, 0.4);
+				}
+			.songnamet{
+				background:rgba(255, 223, 255, 0.4);
+			}
+			.song-name-box{
+					margin:auto;
+					height:20px;
+					padding: 10px 5px;
+					background:#fd0;
+
+					border-radius: 25px;
+					-webkit-border-radius: 25px;
+					-moz-border-radius: 25px;
+					width:500px;
+					
+				
+			}
+			.songname-title {
+				text-align:center;
+				height:18px;
+				line-height:18px;
+				width: 100%;
+				color: #000000;
+				font-size:25px;
+			}
+			.quanju{
+				width:100%;
+				height:100%;
+				float-left:0px;
+				float-top:10px;
+				background:rgba(255, 223, 255, 0.4);
+				overflow:hidden;
+			}
+	</style>
+<meta name="robots" content="noindex,follow" />
+</head>
+
+<body onload = "show()">
+	<!-- 歌手介绍背景框 -->
+        <div class="user-head">
+            <div class="user-content">
+                <div class="user-basic">
+                    <!-- 头像 -->
+					<div class="avatar"><img src="http://downhdlogo.yy.com/hdlogo/640640/640/640/86/1092868475/u1092868475UwlzMsy.jpeg?20160815145126" onerror="this.src='http://yyweb.yystatic.com/pc/images/default_portrait-8dde4521cf.jpg?20160815145126'" alt="" />
+                        <div class="mask"></div>
+                    </div>
+					<!-- 简介 -->
+                    <div class="motto">
+                        少点套路，多点真诚</div>
+                    <!-- 关注按钮 -->
+					<div class="interact">
+                        <a href="javascript:;" data-yy="1163847368" title="洛瑶" class="follow-btn">洛瑶</a>
+                        </div>
+                </div>
+                <div class="user-info user-info-incomplete user-info-incomplete-other">
+                    <!-- 分享 -->
+					<div class="info-hd">
+                        <h1 class="nick">主播信息：</h1>
+                        <div class="share-wrapper"><a href="javascript:;" class="share-btn"><i></i>分享</a>
+                            <div class="layout share-layout hidden"><i class="enterstage"></i><i class="tri"></i><i class="tri2"></i>
+                                <div class="layout-inner bdsharebuttonbox">
+                                    <a href="#" title="分享到新浪微博" data-cmd="tsina" data-type="sina" class="sina"></a>
+                                    <a href="#" title="分享到QQ空间" data-cmd="qzone" data-type="zone" class="zone"></a>
+                                    <a href="#" title="分享到QQ好友" data-cmd="sqq" data-type="qq" class="qq"></a>
+                                    <a href="#" title="分享到百度贴吧" data-cmd="tieba" data-type="tieba" class="tieba"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+					<!-- 个人信息 -->
+                <div class="info">
+                        <ul>
+                            <li>生日：
+                                <span>
+                                12月15日</span>
+                            </li>
+                            <li>关注：<a class="follow-link" href="http://www.yy.com/u/follow/1163847368#follow">95</a></li>
+                            <li>所在地：
+                                <span>
+                                中国</span>
+                            </li>
+                            <li>粉丝：<a class="fans-link" href="http://www.yy.com/u/follow/1163847368#fans">197,994</a></li>
+                            <li>直播间ID：
+                                <span>
+                                <a class="zhibo-link" target="_blank" href="http://www.yy.com/50511">50511<i class="icon-zhibo hidden"></i></a></span>
+                            </li>
+                            <li>上次直播时间：
+                                <span>
+                                2016年08月17日 17:09</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+				<!-- 打卡信息 -->
+               <div class="clickin-wrapper">
+                        <a href="www.sunkejava.com" class="clickin-btn "><span class="click">收藏</span>
+                            <p class="notice"><span id= "nianyueri" class="day">08月17日</span><span id="shijian" class="txt">今天已有<i class="nums">4847</i>位游客收藏</span></p>
+                        </a>
+               </div>
+			</div>
+        </div>
+		<div class="songnamet">
+			<div class="song-name-box">  
+				<p id="shenquname" class="songname-title">正在播放：最新单曲火山</p>
+			</div>
+		</div>
+		<div id = "shenquurl" class = "quanju">
+				<video id = "poster-vid" class= "video" width="800" height="500" poster="">
+					<source id = "source-vid" src="http://godsong.bs2dl.yy.com/djFlOWNiYTFkZmZhYTNjYmUxN2IwYjIwOTE2OGM3OWIyMTEzOTcxMjg5NW1j" type="video/mp4">
+				</video>
+		</div>
+		<footer id="footer">
+		<div class="footer_war war">
+			<div class="message">Cruising In The Code Of Life!</br>内容投稿或建议请联系declineaberdeen@foxmail.com 如果您觉得本站有帮助！</br>让更多的人了解开发、让更多的人熟悉开发、让更多的人痴迷开发...</div>
+			<div class="declare">Copyright &copy; 2015-2016 &nbsp;<a href="http://www.sunkejava.com/" target="_blank">京ICP备45006200号</a></div>
+		</div>
+	</footer>
+</body>
+
+</html>

@@ -1,0 +1,293 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+	<!DOCTYPE html><meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<head>
+		<title>Bing Search Test</title>
+		<link rel="stylesheet" href="css/as2.css" type="text/css">
+		<link rel="stylesheet" href="css/style2.css" media="screen">
+		<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+		<script type="text/javascript">
+		function show(){
+         var random_bg=parseInt(Math.random()*66);
+<!-- 		 alert(random_bg); -->
+         var bg='url(img/bg-'+random_bg+'.jpg)';
+         $("body").css("background-image",bg,"width:","100%");
+		 
+					var $this=$(this);
+					var tbody = $("#video-model").find("ul");
+					$.getJSON("json/a.json",function(data){
+						$this.attr("disabled","ture");
+                        tbody.empty();
+						$.each(data,function(index,el){
+						//alert(el["ownername"]);
+						tbody.append(
+								"<li class='video-user-item'><a class='video-user-box' href='./videoindex.html?name="+encodeURI(el["songname"])+"&url="
+								+el["resurl"]+"&img="+el["snapshoturl"]+"' target='_blank'><div class='video-user-pic'><div class='video-pic'><div class='video-pic-inner'><div class='pic-default1'><img src='"
+								+el["snapshoturl"]+"' alt=&quot&quot/></div></div><div class='op-time'>"
+								+el["duration"]+"</div><div class='mask'></div><i class='icon-play'></i></div></div><div class='video-user-info'><p class='user-i-title'>"
+								+el["songname"]+"</p><p class='user-video-op'><span class='op-like'><i class='icon-user-like'></i>"
+								+el["likeCount"]+"</span><span class='aud-count'><i class='icon-eye'></i>"
+								+el["watchCount"]+"</span></p></div></a></li>");
+                        <!-- alert("./videoindex.html?name="+encodeURI(el["songname"])+"&ur"); -->
+						});
+
+					});
+						
+						//页面滚动到距顶部600px出现/消失返回顶部按钮
+						$(window).scroll(function(){
+							var targetTop = $(this).scrollTop();
+
+							if(targetTop > 600){
+								$('#backTop').animate({'right':'0'},200);
+							}else if(targetTop <= 600){
+								$('#backTop').stop();
+								$('#backTop').animate({'right':'-40px'},200);
+							}
+						});
+					showLeftTime();
+		}
+		function showLeftTime()
+					{
+					var Week = ['日','一','二','三','四','五','六']
+					var now=new Date();
+					var year=now.getFullYear();
+					var month=now.getMonth()+1;
+					var day=now.getDate();
+					var weekday = now.getDay();
+					var hours=now.getHours();
+					var minutes=now.getMinutes();
+					var seconds=now.getSeconds();
+					var nowa;
+					if(hours <= 3 ){
+						nowa = "拂晓";
+					}else if (hours <= 6){
+						nowa = "黎明";
+					}else if(hours <= 9){
+						nowa = "清晨";
+					}else if(hours <=12){
+						nowa = "上午";
+					}else if(hours  <= 15){
+						nowa = "中午";
+					}else if(hours  <= 18){
+						nowa = "下午";
+					}else if(hours  <= 21){
+						nowa = "傍晚";
+					}else{
+						nowa = "深夜";
+					}
+					var varcharone = ""+year+"年"+month+"月"+day+"日";
+					hours < 10 ? hours="0"+hours:hours=hours;
+					minutes < 10 ? minutes="0"+minutes:minutes=minutes;
+					seconds < 10 ? seconds="0"+seconds:seconds=seconds;
+					var varchartwo =  "星期"+Week[weekday]+"--"+hours+":"+minutes+":"+seconds+"--"+nowa;
+					document.getElementById("nianyueri").innerText = varcharone;
+					document.getElementById("shijian").innerText = varchartwo;
+					//一秒刷新一次显示时间
+					//alert(varcharone);
+					var timeID=setTimeout(showLeftTime,1000);
+					}
+		</script>
+		<style type = "text/css">
+			.logo{
+				margin:2px 18px 0 0;
+				background-image:url(img/logo2.png);
+				width:185px;
+				height:50px;
+				float:left;
+				top:0px;
+				margin-left:10%;
+			}
+			body{
+				background-attachment:fixed;
+				background-repeat:no-repeat;
+				background-size:cover;
+				background-position: center center;
+				-moz-background-size:cover;
+				-webkit-background-size:cover;
+			}
+			form{
+				margin:15px 18px 0 0;
+				float:left;
+				padding:2px;
+				border:1px solid rgba(0,0,0,.2);
+				overflow: hidden;
+				width:425;
+			}
+			
+			.search-input-text{
+				border:0;
+				float:left;
+				font-size:18px;
+				height:25px;
+				line-height:25px;
+				width:400px;
+				background: rgba(255, 255, 255, 0.4); 
+				padding-left:5px;
+				}
+			.search-input-button{
+				border:0;
+				cursor:pointer;
+				cursor:hand;
+				background-image:url(img/search24-1.png);
+				width:25px;
+				height:25px;
+				float:left;
+			}
+			.search-box{
+				position:absolute;
+				left:0;
+				top:0;
+				width: 100%;
+				background: rgba(255, 223, 255, 0.4);
+			}
+			
+			.search-input-button:hover{
+				background-image:url(img/search24-2.png);
+			}
+			aside{
+			height: 40px;
+			width: 40px;
+			border-radius: 5px 0 0 5px;
+			position: fixed;
+			bottom: 20px;
+			right: -40px;
+			cursor: pointer;
+			}
+			/*Top*/
+			.Tip{
+				width: 40px;
+				height: 40px;
+				margin-bottom: 20px;
+				position: absolute;
+				background: #e74c3c;
+				border-radius: 5px 0 0 5px;
+				text-align: center;
+				line-height: 40px;
+				color: #FFF;
+			}
+			.Tip a{
+				color: #FFF;
+				font-size: 15px;
+			}
+		</style>
+	</head>
+	<body onload = "show()">
+		<!-- <div class = "bg-div">
+			<div class = "search-box">
+			<div class = "logo"></div>
+			<form class = "search-form" id="search-form">
+				<input type = "text" id = "search-input" class ="search-input-text" placeholder="毒药" name="q" autocomplete="off"/>
+				<input type = "submit" id = "search-button" class = "search-input-button" value=""/>
+			</form>
+			</div>
+		</div> -->
+		  <!-- 歌手介绍背景框 -->
+        <div class="user-head">
+            <div class="user-content">
+                <div class="user-basic">
+                    <!-- 头像 -->
+					<div class="avatar"><img src="http://downhdlogo.yy.com/hdlogo/640640/640/640/86/1092868475/u1092868475UwlzMsy.jpeg?20160815145126" onerror="this.src='http://yyweb.yystatic.com/pc/images/default_portrait-8dde4521cf.jpg?20160815145126'" alt="" />
+                        <div class="mask"></div>
+                    </div>
+					<!-- 简介 -->
+                    <div class="motto">
+                        少点套路，多点真诚</div>
+                    <!-- 关注按钮 -->
+					<div class="interact">
+                        <a href="javascript:;" data-yy="1163847368" title="洛瑶" class="follow-btn">洛瑶</a>
+                        </div>
+                </div>
+                <div class="user-info user-info-incomplete user-info-incomplete-other">
+                    <!-- 分享 -->
+					<div class="info-hd">
+                        <h1 class="nick">主播信息：</h1>
+                        <div class="share-wrapper"><a href="javascript:;" class="share-btn"><i></i>分享</a>
+                            <div class="layout share-layout hidden"><i class="enterstage"></i><i class="tri"></i><i class="tri2"></i>
+                                <div class="layout-inner bdsharebuttonbox">
+                                    <a href="#" title="分享到新浪微博" data-cmd="tsina" data-type="sina" class="sina"></a>
+                                    <a href="#" title="分享到QQ空间" data-cmd="qzone" data-type="zone" class="zone"></a>
+                                    <a href="#" title="分享到QQ好友" data-cmd="sqq" data-type="qq" class="qq"></a>
+                                    <a href="#" title="分享到百度贴吧" data-cmd="tieba" data-type="tieba" class="tieba"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+					<!-- 个人信息 -->
+                <div class="info">
+                        <ul>
+                            <li>生日：
+                                <span>
+                                12月15日</span>
+                            </li>
+                            <li>关注：<a class="follow-link" href="http://www.yy.com/u/follow/1163847368#follow">95</a></li>
+                            <li>所在地：
+                                <span>
+                                中国</span>
+                            </li>
+                            <li>粉丝：<a class="fans-link" href="http://www.yy.com/u/follow/1163847368#fans">197,994</a></li>
+                            <li>直播间ID：
+                                <span>
+                                <a class="zhibo-link" target="_blank" href="http://www.yy.com/50511">50511<i class="icon-zhibo hidden"></i></a></span>
+                            </li>
+                            <li>上次直播时间：
+                                <span>
+                                2016年08月17日 17:09</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+				<!-- 打卡信息 -->
+               <div class="clickin-wrapper">
+                        <a href="javascript:;" class="clickin-btn "><span class="click">收藏</span>
+                            <p class="notice"><span id= "nianyueri" class="day">08月17日</span><span id="shijian" class="txt">今天已有<i class="nums">4847</i>位游客收藏</span></p>
+                        </a>
+               </div>
+			</div>
+        </div>
+<div class="wrapper">
+    <div class="works-tab-body">
+      <ul class="cf">
+			<!-- MV -->
+        <li class="works-tc-item shenqu active">
+            <div id = "video-model" class="shenqu-non-empty"><div class="col-list">
+                    <ul class="video-user-list">
+                      <li class="video-user-item">
+                          <a class="video-user-box" href="" target="_blank">
+                            <div class="video-user-pic">
+                                <div class="video-pic">
+                                    <div class="video-pic-inner">
+                                       <div class="pic-default1"><img src="http://godsong.bs2dl.yy.com/djIzNzQ1Mjk0YzljYTA5Y2NmODc2MzI5ZGJhYzI1MmI5MTM5NjcxMDE5MQ_27.jpg" alt=""/></div>
+									</div>
+                                    <div class="op-time">00:04:32</div>
+                                    <div class="mask"></div><i class="icon-play"></i>
+                                </div>
+                           </div>
+                            <div class="video-user-info">
+                              <p class="user-i-title">【逝去的爱】</p>
+                              <p class="user-video-op">
+                                <span class="op-like"><i class="icon-user-like"></i>48865</span>
+                                <span class="aud-count"><i class="icon-eye"></i>59624</span>
+                              </p>
+                            </div>
+                          </a>
+                        </li>                      
+					</ul>
+                  </div>
+                  <div class="shenqu-foot">
+                    <div id="paginator" class="paginator"> </div>
+                  </div>
+                </div>
+              </li>
+              </div>
+      </ul>
+    </div>
+  </div>
+		<aside id="backTop"><div class="Tip"><a href="https://www.sunkejava.com/" target="_self">返回</a></div></aside>
+				<footer id="footer">
+		<div class="footer_war war">
+			<div class="message">Cruising In The Code Of Life!</br>内容投稿或建议请联系declineaberdeen@foxmail.com 如果您觉得本站有帮助！</br>让更多的人了解开发、让更多的人熟悉开发、让更多的人痴迷开发...</div>
+			<div class="declare">Copyright &copy; 2015-2016 &nbsp;<a href="http://www.sunkejava.com/" target="_blank">京ICP备45006200号</a></div>
+		</div>
+	</footer>
+	</body>
+</html>
