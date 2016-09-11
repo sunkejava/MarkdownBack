@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="bases64.js"></script>
+	<title>常用编码转换</title>
+</head>
+<style type = "text/css">
+			body{
+				background-color:#333;
+				background-image: url("http://s.cn.bing.net/az/hprichbg/rb/Stadsbiblioteket_ZH-CN6055045711_1920x1080.jpg");
+			}
+			
+</style>
+<body>
+<textarea id=code cols=80 rows=20>
+</textarea>
+<textarea id=code1 cols=80 rows=20>
+</textarea>
+<input id=btn1 type=button onclick=Urlutf8() value=URL加密(UTF-8)>
+<input id=btn2 type=button onclick=Urlgbk() value=URL加密(GBK)>
+<input id=btn3 type=button onclick=Rc4() value=RC4加密>
+<input id=btn4 type=button onclick=Bases() value=BASE64加密>
+<input id=btn10 type=button onclick=ABases() value=ABASE64加密>
+<input id=btn5 type=button onclick=ansiusc2() value=ansi转usc2>
+<input id=btn6 type=button onclick=GB2312() value=GB2312转UTF8>
+<input id=btn7 type=button onclick=AnsiUnicode() value=Ansi转Unicode>
+<input id=btn8 type=button onclick=AnsiUnicode_str() value=Ansi转Unicode_str>
+<input id=btn9 type=button onclick=UnicodeUtf8() value=Unicode转Utf8>
+<!-- <textarea id=code2 cols=80 rows=20>
+</textarea>
+<input type=button onclick=enp() value=反编>
+</body> -->
+<script>
+function ABases(){
+	var b = new Base64();
+	var result =  document.getElementById('code').value == '' && document.getElementById('code1').value == ''
+	if(result){
+		alert('请输入需要解码或编码的内容');
+	}else {
+		if(document.getElementById('btn10').value == 'ABASE64加密'){
+			document.getElementById('btn10').value = 'ABASE64解密';
+			document.getElementById('code1').value = b.encode(document.getElementById('code').value);
+		}else {
+			document.getElementById('btn10').value = 'ABASE64加密';
+			document.getElementById('code').value = decodes64(document.getElementById('code1').value);
+		}
+	}
+}
+function Urlutf8(){
+    var result =  document.getElementById('code').value == '' && document.getElementById('code1').value == ''
+	if(result){
+		alert('请输入需要解码或编码的内容');
+	}else {
+		if(document.getElementById('btn1').value == 'URL加密(UTF-8)'){
+			document.getElementById('btn1').value = 'URL解密(UTF-8)';
+		}else {
+			document.getElementById('btn1').value = 'URL加密(UTF-8)';
+		}
+	}
+}
+function Urlgbk(){
+    var result =  document.getElementById('code').value == '' && document.getElementById('code1').value == ''
+	if(result){
+		alert('请输入需要解码或编码的内容');
+	}else {
+		if(document.getElementById('btn2').value == 'URL加密(GBK)'){
+			document.getElementById('btn2').value = 'URL解密(GBK)';
+		}else {
+			document.getElementById('btn2').value = 'URL加密(GBK)';
+		}
+	}
+}
+function Rc4(){
+    var result =  document.getElementById('code').value == '' && document.getElementById('code1').value == ''
+	if(result){
+		alert('请输入需要解码或编码的内容');
+	}else {
+		if(document.getElementById('btn3').value == 'RC4加密'){
+			document.getElementById('btn3').value = 'RC4解密';
+		}else {
+			document.getElementById('btn3').value = 'RC4加密';
+		}
+	}
+}
+function Bases(){
+    var result =  document.getElementById('code').value == '' && document.getElementById('code1').value == ''
+	if(result){
+		alert('请输入需要解码或编码的内容');
+	}else {
+		if(document.getElementById('btn4').value == 'BASE64加密'){
+			document.getElementById('btn4').value = 'BASE64解密';
+		}else {
+			document.getElementById('btn4').value = 'BASE64加密';
+		}
+	}
+}
+function ansiusc2(){
+    var result =  document.getElementById('code').value == '' && document.getElementById('code1').value == ''
+	if(result){
+		alert('请输入需要解码或编码的内容');
+	}else {
+		if(document.getElementById('btn5').value == 'ansi转usc2'){
+			document.getElementById('btn5').value = 'usc2转ansi';
+		}else {
+			document.getElementById('btn5').value = 'ansi转usc2';
+		}
+	}
+}
+function GB2312(){
+    var result =  document.getElementById('code').value == '' && document.getElementById('code1').value == ''
+	if(result){
+		alert('请输入需要解码或编码的内容');
+	}else {
+		if(document.getElementById('btn6').value == 'GB2312转UTF8'){
+			document.getElementById('btn6').value = 'UTF8转GB2312';
+		}else {
+			document.getElementById('btn6').value = 'GB2312转UTF8';
+		}
+	}
+}
+function AnsiUnicode(){
+    var result =  document.getElementById('code').value == '' && document.getElementById('code1').value == ''
+	if(result){
+		alert('请输入需要解码或编码的内容');
+	}else {
+		if(document.getElementById('btn7').value == 'Ansi转Unicode'){
+			document.getElementById('btn7').value = 'Unicode转Ansi';
+		}else {
+			document.getElementById('btn7').value = 'Ansi转Unicode';
+		}
+	}
+}
+function AnsiUnicode_str(){
+    var result =  document.getElementById('code').value == '' && document.getElementById('code1').value == ''
+	if(result){
+		alert('请输入需要解码或编码的内容');
+	}else {
+		if(document.getElementById('btn8').value == 'Ansi转Unicode_str'){
+			document.getElementById('btn8').value = 'Unicode_str转Ansi';
+		}else {
+			document.getElementById('btn8').value = 'Ansi转Unicode_str';
+		}
+	}
+}
+function UnicodeUtf8(){
+    var result =  document.getElementById('code').value == '' && document.getElementById('code1').value == ''
+	if(result){
+		alert('请输入需要解码或编码的内容');
+	}else {
+		if(document.getElementById('btn9').value == 'Unicode转Utf8'){
+			document.getElementById('btn9').value = 'Utf8转Unicode';
+		}else {
+			document.getElementById('btn9').value = 'Unicode转Utf8';
+		}
+	}
+}
+
+function decode() {
+document.getElementById('code').value = a;
+}
+var keyStr1 = "ABCDEFGHIJKLMNOP" + "QRSTUVWXYZabcdef" + "ghijklmnopqrstuv" + "wxyz0123456789+/" + "=";
+var _keyStr = "ABCDEFGHIJKLMNOP" + "QRSTUVWXYZabcdef" + "ghijklmnopqrstuv" + "wxyz0123456789+/-/*" + "=";
+var b = new Base64();
+function app(){
+document.getElementById('code').value = decode64(https1);
+}
+function apd(){
+document.getElementById('code1').value = b.encode(document.getElementById('code').value);
+}
+function enp(){
+document.getElementById('code2').value = b.decode(document.getElementById('code1').value);
+}
+function enp2(){
+document.getElementById('code3').value = decodes64(document.getElementById('code1').value);
+}
+function decode64(input) {
+    var output = "";
+    var chr1, chr2, chr3 = "";
+    var enc1, enc2, enc3, enc4 = "";
+    var i = 0;
+    var base64test = /[^A-Za-z0-9\+\/\=]/g;
+    if (base64test.exec(input)) {
+        alert("There were invalid base64 characters in the input text.\n" + "Valid base64 characters are A-Z, a-z, 0-9, '+', '/', and '='\n" + "Expect errors in decoding.");
+    }
+    input = input.replace(/[^A-Za-z0-9\+\/\=]/g, "");
+    do {
+        enc1 = keyStr1.indexOf(input.charAt(i++));
+        enc2 = keyStr1.indexOf(input.charAt(i++));
+        enc3 = keyStr1.indexOf(input.charAt(i++));
+        enc4 = keyStr1.indexOf(input.charAt(i++));
+        chr1 = (enc1 << 2) | (enc2 >> 4);
+        chr2 = ((enc2 & 15) << 4) | (enc3 >> 2);
+        chr3 = ((enc3 & 3) << 6) | enc4;
+        output = output + String.fromCharCode(chr1);
+        if (enc3 != 64) {
+            output = output + String.fromCharCode(chr2);
+        }
+        if (enc4 != 64) {
+            output = output + String.fromCharCode(chr3);
+        }
+        chr1 = chr2 = chr3 = "";
+        enc1 = enc2 = enc3 = enc4 = "";
+    } while ( i < input . length );
+    return unescape(output);
+}
+
+function decodes64(input) {
+		var output = "";
+		var chr1, chr2, chr3;
+		var enc1, enc2, enc3, enc4;
+		var i = 0;
+		input = input.replace(/[^A-Za-z0-9\+\/\=]/g, "");
+		while (i < input.length) {
+			enc1 = _keyStr.indexOf(input.charAt(i++));
+			enc2 = _keyStr.indexOf(input.charAt(i++));
+			enc3 = _keyStr.indexOf(input.charAt(i++));
+			enc4 = _keyStr.indexOf(input.charAt(i++));
+			chr1 = (enc1 << 2) | (enc2 >> 4);
+			chr2 = ((enc2 & 15) << 4) | (enc3 >> 2);
+			chr3 = ((enc3 & 3) << 6) | enc4;
+			output = output + String.fromCharCode(chr1);
+			if (enc3 != 64) {
+				output = output + String.fromCharCode(chr2);
+			}
+			if (enc4 != 64) {
+				output = output + String.fromCharCode(chr3);
+			}
+		}
+		output = _utf8_decode(output);
+		return output;
+	}
+function _utf8_decode(utftext) {
+		var string = "";
+		var i = 0;
+		var c = c1 = c2 = 0;
+		while ( i < utftext.length ) {
+			c = utftext.charCodeAt(i);
+			if (c < 128) {
+				string += String.fromCharCode(c);
+				i++;
+			} else if((c > 191) && (c < 224)) {
+				c2 = utftext.charCodeAt(i+1);
+				string += String.fromCharCode(((c & 31) << 6) | (c2 & 63));
+				i += 2;
+			} else {
+				c2 = utftext.charCodeAt(i+1);
+				c3 = utftext.charCodeAt(i+2);
+				string += String.fromCharCode(((c & 15) << 12) | ((c2 & 63) << 6) | (c3 & 63));
+				i += 3;
+			}
+		}
+		return string;
+	}
+</script>
+<script>auto="open";random="open";name="Sunkejava's Musiclist";geci="open";user="317483295";welcome="open";tips="欢迎访问我的网站【sunkejava's Blog】";</script>
+<script type="text/javascript" src="js/music.js"></script>  
+</html>
