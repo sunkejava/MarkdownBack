@@ -30,7 +30,7 @@ else {
             $songTime.text(formatSecond(audio.currentTime) + " / " + formatSecond(audio.duration));
             audio.currentTime < audio.duration / 2 ? $btns.css("background-image", "linear-gradient(90deg, " + roundcolor + " 50%, transparent 50%, transparent), linear-gradient(" + (90 + 180 / (audio.duration / 2) * audio.currentTime) + "deg, " + lightcolor + " 50%, " + roundcolor + " 50%, " + roundcolor + ")") : $btns.css("background-image", "linear-gradient(" + (90 + 180 / (audio.duration / 2) * audio.currentTime) + "deg, " + lightcolor + " 50%, transparent 50%, transparent), linear-gradient(270deg, " + lightcolor + " 50%, " + roundcolor + " 50%, " + roundcolor + ")")
         };
-    apiurl = "https://api.xiaocp.com/player/get.php";
+    //apiurl = "https://api.xiaocp.com/player/get.php";
     fileurl = "http://123.56.131.190:8080/Decline/songlist.jsp?q=" + user;
     "open" != geci ? (songFrom33 = "关闭", hasgeci = !1) : (songFrom33 = "开启", hasgeci = !0);
     random = "open" != random ? !1 : !0;
@@ -141,7 +141,7 @@ else {
                     $cover.removeClass("changing")
                 }, 100);
                 $.ajax({
-                    url: apiurl + "?mode=image_info&parm=" + base64_encode(c.src),
+                    url: "https://api.xiaocp.com/player/get.php?mode=image_info&parm=" + base64_encode(c.src),
                     type: "GET",
                     dataType: "script",
                     success: function() {

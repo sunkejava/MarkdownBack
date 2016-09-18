@@ -53,11 +53,12 @@ function _utf8_decode(utftext) {
 		return string;
 	}
 
-if(type = "YY"){
+
+if(type == "YY"){
 	document.write(decode64(TrPlayer));
-}else if (type = "YYS"){
+}else if(type =="YYS"){
 	document.write(decode64(SrPlayer));
 }else{
 	document.write(decode64(PrPlayer));
-}	
+}
  
