@@ -199,7 +199,7 @@ else {
                     $cover.removeClass("changing")
                 }, 100);
                 $.ajax({
-                    url: "https://api.xiaocp.com/player/get.php?mode=image_info&parm=" + base64_encode(c.src),
+                    url: "http://123.56.131.190:8080/Decline/getColor.jsp?q=" + c.src,
                     type: "GET",
                     dataType: "script",
                     success: function() {
@@ -508,7 +508,7 @@ else {
                     $(".switch-ksclrc").show()
                 }, 300) : $(".switch-ksclrc").show();
                 $.ajax({
-                    url:  "http://123.56.131.190:8080/Decline/title.jsp",
+                    url:  "http://123.56.131.190:8080/Decline/songLirc.jsp?q=" + id,
                     type: "GET",
                     dataType: "script",
                     success: function() {
