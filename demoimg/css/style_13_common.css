@@ -1,0 +1,7739 @@
+
+* {
+    overflow-wrap: break-word;
+}
+body {
+}
+body, input, button, select, textarea {
+    color: #666666;
+    font: 12px/1.5 "Microsoft Yahei","Simsun";
+}
+textarea {
+    resize: none;
+}
+body, ul, ol, li, dl, dd, p, h1, h2, h3, h4, h5, h6, form, fieldset, .pr, .pc {
+    margin: 0;
+    padding: 0;
+}
+table {
+    border-collapse: collapse;
+    empty-cells: show;
+}
+caption, th {
+    font-weight: 400;
+    text-align: left;
+}
+ul li, .xl li {
+    list-style: outside none none;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: 14px;
+}
+em, cite, i {
+    font-style: normal;
+}
+a {
+    color: #333333;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a img {
+    border: medium none;
+    margin: 2px 2px 0 0;
+}
+label {
+    cursor: pointer;
+}
+.z {
+    float: left;
+}
+.y {
+    float: right;
+}
+.cl::after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.cl {
+}
+.hidefocus {
+    outline: medium none;
+}
+hr {
+    clear: both;
+    display: block;
+}
+.mn hr, .sd hr {
+    margin: 0 10px;
+}
+.area hr {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+hr.l {
+    background: #cdcdcd none repeat scroll 0 0;
+    border: medium none;
+    color: #cdcdcd;
+    height: 1px;
+}
+hr.l2 {
+    height: 2px;
+}
+hr.l3 {
+    height: 3px;
+}
+hr.da {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: transparent none repeat scroll 0 0;
+    border-color: #cdcdcd -moz-use-text-color -moz-use-text-color;
+    border-image: none;
+    border-style: dashed none none;
+    border-width: 1px medium medium;
+    color: transparent;
+    height: 0;
+}
+hr.bk {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: transparent none repeat scroll 0 0;
+    border-color: #fff -moz-use-text-color -moz-use-text-color;
+    border-image: none;
+    border-style: solid none none;
+    border-width: 1px medium medium;
+    color: transparent;
+    height: 0;
+    margin-bottom: 10px !important;
+}
+.n .sd hr.bk {
+    border-top-color: #f9f9f9;
+}
+hr.m0 {
+    margin-left: 0;
+    margin-right: 0;
+}
+.wx, .ph {
+    font-family: "Microsoft YaHei","Hiragino Sans GB","STHeiti",Tahoma,"SimHei",sans-serif;
+    font-weight: 100;
+}
+.ph {
+    font-size: 20px;
+}
+.mt {
+    font-size: 16px;
+    padding: 10px 0;
+}
+.pipe {
+    color: #ccc;
+    margin: 0 5px;
+}
+.xs0 {
+    -moz-text-size-adjust: none;
+    font-family: Arial;
+    font-size: 0.83em;
+}
+.xs1 {
+    font-size: 12px !important;
+}
+.xs2 {
+    font-size: 14px !important;
+}
+.xs3 {
+    font-size: 16px !important;
+}
+.xg1, .xg1 a {
+    color: #999999 !important;
+}
+.xg1 .xi2 {
+    color: #333333 !important;
+}
+.xg2 {
+    color: #888888;
+}
+.xi1, .onerror {
+    color: #f26c4f;
+}
+.xi2, .xi2 a, .xi3 a {
+    color: #333333;
+}
+.xw0 {
+    font-weight: 400;
+}
+.xw1 {
+    font-weight: 700;
+}
+.bbda {
+    border-bottom: 1px dashed #cdcdcd;
+}
+.btda {
+    border-top: 1px dashed #cdcdcd;
+}
+.bbs {
+    border-bottom: 1px solid #cdcdcd !important;
+}
+.bts {
+    border-top: 1px dashed #cdcdcd !important;
+}
+.bw0 {
+    border: medium none !important;
+}
+.bw0_all, .bw0_all th, .bw0_all td {
+    border: medium none !important;
+}
+.bg0_c {
+    background-color: transparent !important;
+}
+.bg0_i {
+    background-image: none !important;
+}
+.bg0_all {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;
+}
+.ntc_l {
+    background: #fefee9 none repeat scroll 0 0;
+    padding: 5px 10px;
+}
+.ntc_l .d {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/static/image/common/op.png") no-repeat scroll 0 0;
+    height: 20px;
+    line-height: 9999px;
+    overflow: hidden;
+    width: 20px;
+}
+.ntc_l .d:hover {
+    background-position: 0 -20px;
+}
+.brs, .avt img, .oshr {
+    border-radius: 5px;
+}
+.brm {
+    border-radius: 10px;
+}
+.brw {
+    border-radius: 20px;
+}
+.mtn {
+    margin-top: 5px !important;
+}
+.mbn {
+    margin-bottom: 5px !important;
+}
+.mtm {
+    margin-top: 10px !important;
+}
+.mbm {
+    margin-bottom: 10px !important;
+}
+.mtw {
+    margin-top: 20px !important;
+}
+.mbw {
+    margin-bottom: 20px !important;
+}
+.ptn {
+    padding-top: 5px !important;
+}
+.pbn {
+    padding-bottom: 5px !important;
+}
+.ptm {
+    padding-top: 10px !important;
+}
+.pbm {
+    padding-bottom: 10px !important;
+}
+.ptw {
+    padding-top: 20px !important;
+}
+.pbw {
+    padding-bottom: 20px !important;
+}
+.avt img {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: #fff none repeat scroll 0 0;
+    border-color: #f5f5f5 #cdcdcd #cdcdcd #f5f5f5;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px;
+    height: 48px;
+    padding: 2px;
+    width: 48px;
+}
+.avtm img {
+    height: auto;
+    width: 120px;
+}
+.avts img {
+    height: 24px;
+    vertical-align: middle;
+    width: 24px;
+}
+.emp {
+    padding: 20px 10px;
+}
+.emp a {
+    color: #333333;
+    text-decoration: underline !important;
+}
+.vm {
+    vertical-align: middle;
+}
+.vm * {
+    vertical-align: middle;
+}
+.hm {
+    text-align: center;
+}
+.alt, .alt th, .alt td {
+    background-color: #f5f5f5;
+}
+.notice {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/static/image/common/notice.gif") no-repeat scroll 2px 6px;
+    clear: both;
+    margin: 5px 0;
+    padding: 3px 5px 3px 20px;
+}
+#ajaxwaitid {
+    background: #d00 none repeat scroll 0 0;
+    color: #fff;
+    display: none;
+    padding: 0 5px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+.showmenu {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/static/image/common/arrwd.gif") no-repeat scroll 100% 50%;
+    cursor: pointer;
+    padding-right: 16px;
+    white-space: nowrap;
+}
+#um .showmenu {
+    margin-right: -5px;
+}
+.cur1 {
+    cursor: pointer;
+}
+.ie6 .sec .p_pop {
+}
+.rq {
+    color: red;
+}
+.px, .pt, .ps, select {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: #fff url("http://bbs.dsqnw.net/static/image/common/px.png") repeat-x scroll 0 0;
+    border-color: #848484 #e0e0e0 #e0e0e0 #848484;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px;
+}
+.px, .pt {
+    line-height: 17px;
+    padding: 2px 4px;
+}
+.px {
+    height: 17px;
+}
+.pxs {
+    width: 30px !important;
+}
+.fdiy .tfm .px, .fdiy .tfm .pt {
+    width: auto;
+}
+.p_fre {
+    width: auto !important;
+}
+.er {
+    background-color: #fdf4f4;
+    background-image: url("http://bbs.dsqnw.net/static/image/common/px_e.png");
+    border-color: #f66 #ffbdb9 #ffbdb9 #f66;
+}
+.pt {
+    overflow-y: auto;
+}
+div.pt {
+    height: 100px;
+    line-height: 100px;
+}
+.ps, select {
+    padding: 2px 2px 2px 1px;
+}
+.pts {
+    overflow: hidden;
+    vertical-align: top;
+}
+.cmt .pts {
+    width: 60%;
+}
+button::-moz-focus-inner {
+    border: 0 none;
+    padding: 0;
+}
+.pn {
+    background: #e5e5e5 url("http://bbs.dsqnw.net/static/image/common/pn.png") repeat-x scroll 0 0;
+    border: 1px solid #999;
+    box-shadow: 0 1px 0 #e5e5e5;
+    cursor: pointer;
+    height: 23px;
+    margin-right: 3px;
+    overflow: hidden;
+    padding: 0;
+    vertical-align: middle;
+}
+.pn:active {
+    background-position: 0 -23px;
+}
+.ie6 .pn {
+    overflow-x: visible;
+    width: 0;
+}
+.pn em, .pn span, .pn strong {
+    line-height: 21px;
+    padding: 0 10px;
+}
+.pn em, .pn strong {
+    font-weight: 700;
+}
+.ie7 .pn em, .ie7 .pn span, .ie7 .pn strong {
+    line-height: 18px;
+    padding: 0 5px;
+}
+a.pn {
+    color: #666666 !important;
+    height: 21px;
+    line-height: 21px;
+}
+a.pn:hover {
+    text-decoration: none;
+}
+.ie6 a.pn {
+    width: auto;
+}
+.ie6 a.pn em, .ie6 a.pn span, .ie6 a.pn strong {
+    display: block;
+}
+.ie7 a.pn em, .ie7 a.pn span, .ie7 a.pn strong {
+    line-height: 21px;
+}
+.pnc, a.pnc {
+    background-color: #06c;
+    background-position: 0 -48px;
+    border-color: #235994;
+    color: #fff !important;
+}
+.pnc:active {
+    background-position: 0 -71px;
+}
+.pnpost .pn {
+    height: 26px;
+}
+.pr, .pc {
+    margin: 0 5px 1px 0;
+    padding: 0;
+    vertical-align: middle;
+}
+.ie6 .pr, .ie6 .pc, .ie7 .pr, .ie7 .pc {
+    margin-right: 2px;
+}
+.lb {
+    margin-right: 20px;
+}
+.pns .px {
+}
+.pns .pn {
+}
+.ftid {
+    float: left;
+    margin-right: 6px;
+}
+.ftid select {
+    float: left;
+    height: 23px;
+}
+.ftid a {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: #fff url("http://bbs.dsqnw.net/static/image/common/newarow.gif") no-repeat scroll 100% 0;
+    border-color: #848484 #e0e0e0 #e0e0e0 #848484;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px;
+    color: #666666 !important;
+    display: block;
+    font-size: 12px;
+    font-weight: 400;
+    height: 21px;
+    line-height: 21px;
+    overflow: hidden;
+    padding: 0 17px 0 4px;
+    text-decoration: none !important;
+}
+.ftid a:hover, .ftid a:focus {
+    background-position: 100% -23px;
+}
+.ftid select {
+    width: 94px;
+}
+.sslt a {
+    width: 54px;
+}
+.sslt select {
+    width: 60px;
+}
+.sltm {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 5px 11px 5px 10px;
+    text-align: left;
+}
+.sltm li {
+    color: #888888;
+    cursor: pointer;
+    padding: 2px 0;
+}
+.sltm li:hover {
+    color: #333333;
+}
+.sltm li.current {
+    color: #f26c4f;
+}
+.oshr {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: #fff url("http://bbs.dsqnw.net/static/image/common/oshr.png") no-repeat scroll 5px 50%;
+    border-color: #ccc #a9a9a9 #a9a9a9 #ccc;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px;
+    float: right;
+    margin-left: 5px;
+    padding: 0 5px 0 22px;
+}
+.oshr:hover {
+    text-decoration: none;
+}
+.ofav {
+    background-image: url("http://bbs.dsqnw.net/static/image/common/fav.gif");
+}
+.oivt {
+    background-image: url("http://bbs.dsqnw.net/static/image/common/activitysmall.gif");
+}
+.tfm {
+    width: 100%;
+}
+.tfm caption, .tfm th, .tfm td {
+    padding: 7px 0;
+    vertical-align: top;
+}
+.tfm caption h2 {
+    font-size: 16px;
+}
+.vt th, .vt td {
+    vertical-align: top;
+}
+.tfm th {
+    padding-right: 5px;
+    padding-top: 9px;
+    width: 130px;
+}
+.tfm th .rq {
+    float: right;
+    font-size: 14px;
+}
+.tfm .pt, .tfm .px {
+    margin-right: 3px;
+    width: 330px;
+}
+.tfm .c, .tfm .tedt, .m_c .tfm .tedt {
+    width: 338px;
+}
+.tfm .d {
+    clear: both;
+    color: #999999;
+    margin: 5px 0;
+}
+.tfm .d em {
+    color: red;
+    margin-left: 5px;
+}
+.tfm .d strong {
+    margin-left: 5px;
+}
+.tfm .d a {
+    color: #333333;
+}
+.tfm .p {
+    text-align: right;
+}
+.tfm .pcl label {
+    display: block;
+    padding: 0 2px 5px;
+}
+.tfm .pcl .pc {
+    margin-right: 5px;
+    padding: 0;
+}
+.tfm .l th, .tfm .l td {
+    padding-bottom: 0;
+    padding-top: 0;
+}
+.bn .tfm caption, .bn .tfm th, .bn .tfm td {
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.pbt {
+    margin-bottom: 10px;
+}
+.ie6 .pbt .ftid a, .ie7 .pbt .ftid a {
+    margin-top: 1px;
+}
+#custominfo.mtn {
+    margin-bottom: -5px;
+}
+.altw {
+    width: 350px;
+}
+.altw .fltc {
+    margin-bottom: 0;
+    padding: 8px;
+}
+.alert_right, .alert_error, .alert_info {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/static/image/common/right.gif") no-repeat scroll 8px 8px;
+    font-size: 14px;
+    height: auto !important;
+    line-height: 160%;
+    min-height: 40px;
+    padding: 6px 0 6px 58px;
+}
+.alert_error {
+    background-image: url("http://bbs.dsqnw.net/static/image/common/error.gif");
+}
+.alert_error a {
+    color: #333333;
+    font-weight: 700;
+}
+.alert_info {
+    background-image: url("http://bbs.dsqnw.net/static/image/common/info.gif");
+}
+.alert_btnleft {
+    margin-top: 8px;
+}
+.alert_btn {
+    margin-top: 20px;
+    text-align: center;
+}
+.alert_act {
+    margin-top: 20px;
+    padding-left: 58px;
+}
+.pbnv {
+    float: left;
+    overflow: hidden;
+    padding: 7px 0;
+    white-space: nowrap;
+    width: 400px;
+}
+.pbl {
+    background: #fff none repeat scroll 0 0;
+    border-color: #ccc;
+    border-style: solid;
+    border-width: 1px 0 1px 1px;
+    margin: 9px 0;
+    overflow: hidden;
+    width: 621px;
+}
+.pbl li {
+    border-right: 1px solid #ccc;
+    float: left;
+    height: 300px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 5px;
+    width: 196px;
+}
+.pbl p {
+    height: 25px;
+    line-height: 25px;
+}
+.pbl a {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #fff;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px 0;
+    color: #333333;
+    display: block;
+    overflow: hidden;
+    padding: 0 4px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+.pbl a:hover {
+    background-color: #f3f3f3;
+    text-decoration: none;
+}
+.pbl .highlightlink {
+    color: #08c;
+}
+.pbls a, .pbls a:hover {
+    background-color: #eee;
+    color: #888888;
+    font-weight: 700;
+}
+.pbsb {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/static/image/common/arrow.gif") no-repeat scroll right -33px;
+}
+.wp {
+    margin: 0 auto;
+    width: 960px;
+}
+#wp .wp {
+    width: auto;
+}
+#toptb {
+    background: #f5f5f5 none repeat scroll 0 0;
+    border-bottom: 1px solid #cdcdcd;
+    line-height: 28px;
+    min-width: 960px;
+}
+#toptb a {
+    float: left;
+    height: 28px;
+    padding: 0 4px;
+}
+#toptb a.showmenu {
+    padding-right: 15px;
+}
+#toptb a.hover {
+    background-color: #fff;
+}
+#toptb .pipe {
+    display: none;
+    float: left;
+}
+#hd {
+    background: #ffffff none repeat scroll 0 0;
+    border-bottom: 0 solid #ddd;
+}
+#hd .wp {
+    padding: 10px 0 0;
+}
+.hdc {
+    min-height: 70px;
+}
+.ie6 .hdc {
+    height: 70px;
+}
+#hd h2 {
+    float: left;
+    padding: 0 20px 8px 0;
+}
+#space #hd h2 {
+    margin-top: 0;
+}
+#hd .fastlg {
+    padding-top: 10px;
+}
+#scbar {
+    background: #e8eff5 none repeat scroll 0 0;
+    border-bottom: 1px solid #e9eff5;
+    border-top: 1px solid #fff;
+    height: 42px;
+    line-height: 42px;
+    overflow: hidden;
+}
+.scbar_icon_td {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/static/image/common/search.png") no-repeat scroll 0 -50px;
+    width: 21px;
+}
+.scbar_txt_td, .scbar_type_td {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/static/image/common/search.png") repeat-x scroll 0 -93px;
+}
+#scbar_txt {
+    border: 1px solid #fff;
+    outline: medium none;
+    width: 400px;
+}
+.scbar_narrow #scbar_txt {
+    width: 260px;
+}
+.scbar_btn_td {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/static/image/common/search.png") no-repeat scroll 8px -142px;
+    width: 38px;
+}
+#scbar_btn {
+    background: transparent none repeat scroll 0 0;
+    border: medium none;
+    box-shadow: none;
+    margin: 0;
+    padding: 0;
+}
+#scbar_btn strong {
+    line-height: 84px;
+}
+.scbar_type_td {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/static/image/common/search.png") no-repeat scroll 0 -193px;
+    width: 61px;
+}
+#scbar_type {
+    display: block;
+    padding-left: 10px;
+    text-align: left;
+    text-decoration: none;
+}
+#scbar_type_menu {
+    margin-top: -8px;
+}
+#scbar_hot {
+    height: 45px;
+    overflow: hidden;
+    padding-left: 8px;
+}
+#scbar_hot strong, #scbar_hot a {
+    float: left;
+    margin-right: 8px;
+    white-space: nowrap;
+}
+#nv {
+    background: #2e2e2e none repeat scroll 0 0;
+    height: 33px;
+    overflow: hidden;
+}
+#nv li {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/static/image/common/nv_a.png") no-repeat scroll 100% 0;
+    float: left;
+    font-size: 14px;
+    font-weight: 700;
+    height: 33px;
+    line-height: 33px;
+    padding-right: 1px;
+}
+.ie_all #nv li {
+    line-height: 36px;
+}
+.ie6 #nv li {
+    line-height: 33px;
+}
+#nv li a {
+    float: left;
+    height: 33px;
+    padding: 0 15px;
+}
+#nv li a {
+    color: #fff;
+}
+#nv li span {
+    display: none;
+}
+#nv li.a {
+    background: #333333 none repeat scroll 0 0;
+    margin-left: -1px;
+}
+#nv li.a a {
+    color: #fff;
+}
+#nv li a:hover {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/static/image/common/nv_a.png") no-repeat scroll 50% -66px;
+}
+#nv li.hover a:hover, #nv li.hover a {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/static/image/common/nv_a.png") no-repeat scroll 50% -99px;
+}
+#mu {
+    position: relative;
+    z-index: 1;
+}
+.ie6 #mu, .ie7 #mu {
+    font-size: 0;
+    line-height: 0;
+}
+#mu ul {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/static/image/common/mu_bg.png") no-repeat scroll 0 100%;
+    font-size: 12px;
+    line-height: 22px;
+    z-index: 2;
+}
+#mu li {
+    float: left;
+    height: 32px;
+}
+#mu a {
+    display: inline;
+    float: left;
+    margin: 5px 6px;
+    padding: 0 10px;
+    white-space: nowrap;
+}
+#mu a:hover {
+    background: #e5edf2 none repeat scroll 0 0;
+    border: 1px solid #ddd;
+    color: #333333;
+    margin: 4px 5px;
+    text-decoration: none;
+}
+.floatmu {
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+#um {
+    line-height: 2.3;
+    padding-right: 60px;
+    padding-top: 10px;
+}
+#um, #um a {
+    color: #444;
+}
+#um p {
+    text-align: right;
+}
+#um .avt {
+    display: inline;
+    margin-right: -60px;
+}
+.vwmy {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/static/image/common/user_online.gif") no-repeat scroll 0 2px;
+    padding-left: 16px;
+}
+.vwmy.qq {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/static/image/common/connect_qq.gif") no-repeat scroll 0 0;
+    padding-left: 20px;
+}
+#um .new, .topnav .new, .sch .new, #toptb .new {
+    background-position: 0 50%;
+    background-repeat: no-repeat;
+    color: #333333;
+    font-weight: 700;
+    padding-left: 20px;
+}
+#myprompt.new {
+    background-image: url("http://bbs.dsqnw.net/static/image/common/notice.gif");
+    background-position: 3px 50%;
+}
+#pm_ntc.new {
+    background-image: url("http://bbs.dsqnw.net/static/image/common/new_pm.gif");
+}
+#task_ntc {
+    background-image: url("http://bbs.dsqnw.net/static/image/feed/task.gif");
+}
+#um .pipe {
+    margin: 0 5px 0 0;
+}
+#extcreditmenu, #g_upmine {
+    margin-right: 2px !important;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    padding-top: 3px;
+}
+#g_upmine {
+    border: 1px solid transparent;
+    margin-right: 1px !important;
+}
+.ie6 #g_upmine {
+    border: 0 none;
+}
+#extcreditmenu.a, #g_upmine.a {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #fff;
+    border-color: #ddd #ddd -moz-use-text-color;
+    border-image: none;
+    border-style: solid solid none;
+    border-width: 1px 1px medium;
+    margin-right: 1px !important;
+    position: relative;
+    z-index: 302;
+}
+#extcreditmenu_menu, #g_upmine_menu {
+    margin-top: -1px;
+    width: auto;
+}
+#extcreditmenu_menu li {
+    display: block;
+    float: none;
+    padding-left: 5px !important;
+    padding-right: 1em !important;
+}
+#g_upmine_menu li {
+    display: block;
+    float: none;
+    padding-left: 5px !important;
+}
+#g_upmine_menu ul.extg li {
+    padding-left: 0 !important;
+}
+#qmenu {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/static/image/common/qmenu.png") no-repeat scroll 0 0;
+    color: #333333;
+    display: inline;
+    float: right;
+    font-weight: 700;
+    height: 24px;
+    line-height: 24px;
+    margin: 5px 8px 0;
+    overflow: hidden;
+    padding-right: 10px;
+    text-align: center;
+    width: 103px;
+}
+#qmenu:hover {
+    text-decoration: none;
+}
+#qmenu.a {
+    background-position: 0 -27px;
+    position: relative;
+    z-index: 302;
+}
+#qmenu_menu {
+    border-color: #dce4eb;
+    margin-top: -2px;
+    padding: 20px 5px 10px;
+    width: 610px;
+}
+#qmenu_menu ul.nav li {
+    float: left;
+}
+.ie6 #qmenu_menu ul.nav li {
+    clear: none !important;
+    width: auto !important;
+}
+#qmenu_menu ul.nav a {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/static/image/common/noicon.gif") no-repeat scroll 50% 5px;
+    border: medium none;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    padding: 47px 0 0;
+    text-align: center;
+    width: 60px;
+}
+#qmenu_menu ul.nav a:hover {
+    background-color: #e5edf2;
+    color: #333333;
+    text-shadow: none;
+}
+#shortcut {
+    background-color: #3a83f1;
+    color: white;
+    display: none;
+    height: 30px;
+    line-height: 30px;
+    position: relative;
+    text-align: center;
+}
+#shortcuttip {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/static/image/common/search.gif") repeat-x scroll 0 -1px;
+    border-radius: 3px;
+    color: #3a83f1;
+    font-weight: 700;
+    padding: 2px 8px;
+}
+#shortcutcloseid {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/static/image/common/close.gif") no-repeat scroll 0 -12px;
+    display: block;
+    height: 12px;
+    position: absolute;
+    right: 8px;
+    text-indent: -999em;
+    top: 8px;
+    width: 12px;
+}
+#mn_userapp .icon_down {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/static/image/common/arr_w.gif") no-repeat scroll 50% 50%;
+    display: inline-block;
+    height: 12px;
+    margin-left: 3px;
+    overflow: hidden;
+    width: 12px;
+}
+.ie6 #mn_userapp .icon_down {
+    height: 24px;
+    vertical-align: middle;
+}
+#nv li.a .icon_down {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/static/image/common/arr_w.gif") no-repeat scroll 50% 50%;
+    display: inline-block;
+    height: 12px;
+    margin-left: 3px;
+    overflow: hidden;
+    width: 12px;
+}
+.ie6 #nv li.a .icon_down {
+    height: 24px;
+    vertical-align: middle;
+}
+#mn_userapp_menu {
+    clear: left;
+    min-height: 210px;
+    min-width: 630px;
+}
+.ie6 #mn_userapp_menu {
+    height: 210px;
+    width: 630px;
+}
+#mn_userapp_menu ul.mrec {
+    border-right: 1px dotted #ddd;
+    float: left;
+    padding-right: 5px;
+    width: 182px;
+}
+#mn_userapp_menu ul.uused {
+    float: left;
+    width: 273px;
+}
+.ie6 #mn_userapp_menu ul.mrec, .ie7 #mn_userapp_menu ul.mrec {
+    padding: 0 5px 0 0;
+    width: 182px;
+}
+#mn_userapp_menu ul.mrec li, #mn_userapp_menu ul.uused li {
+    display: inline;
+    float: left;
+    overflow: hidden;
+    padding: 3px;
+    text-align: center;
+    width: 85px;
+}
+.ie6 #mn_userapp_menu ul.mrec li, .ie6 #mn_userapp_menu ul.uused li {
+    clear: none;
+    float: left !important;
+}
+#mn_userapp_menu ul.mrec li img, #mn_userapp_menu ul.uused li img {
+    height: 75px;
+    width: 75px;
+}
+#mn_userapp_menu ul.mrec li a, #mn_userapp_menu ul.uused li a {
+    border-bottom: 0 none;
+}
+#mn_userapp_menu ul.adv {
+    background: #f5f5f5 none repeat scroll 0 0;
+    border-left: 1px solid #ebebeb;
+    height: 198px;
+    padding: 10px;
+    position: absolute;
+    right: 0;
+    text-align: left;
+    top: 0;
+    width: 140px;
+}
+#mn_userapp_menu ul.mrec li {
+    position: relative;
+}
+.ie6 #mn_userapp_menu ul.adv li {
+    clear: none;
+}
+#mn_userapp_menu .icon_hotapp {
+    background: #f00 none repeat scroll 0 0;
+    bottom: 25px;
+    color: #fff;
+    display: inline-block;
+    height: 16px;
+    position: absolute;
+    right: 8px;
+    width: 16px;
+}
+#mn_userapp_menu .icon_myapp a {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/static/image/common/app.png") no-repeat scroll 0 0;
+    border-bottom: 0 none;
+    clear: none;
+    display: inline-block;
+    float: left;
+    height: 51px;
+    line-height: 2000px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    padding: 0;
+    width: 66px;
+}
+#mn_userapp_menu .icon_appcenter a {
+    background-position: 0 -51px;
+    float: right;
+    margin-left: 7px;
+}
+.ie6 #mn_userapp_menu .icon_myapp a {
+    margin-bottom: 0;
+}
+.ie6 #mn_userapp_menu .icon_myapp, .ie6 #mn_userapp_menu .icon_appcenter {
+    float: left;
+    width: 66px;
+}
+#mn_userapp_menu .ad_img img {
+    height: 100px;
+    width: 140px;
+}
+#mn_userapp_menu .ad_img a {
+    border-bottom: 0 none;
+    line-height: 26px;
+    padding: 0;
+}
+#mn_userapp_menu .ad_img a:hover {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+}
+#ct {
+    min-height: 300px;
+}
+.ie6 #ct {
+    height: 300px;
+}
+.mn {
+    overflow: hidden;
+}
+.ct1 {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: -moz-use-text-color #ccc #ccc;
+    border-image: none;
+    border-style: none solid solid;
+    border-width: medium 1px 1px;
+}
+.ct2 .mn {
+    float: left;
+    margin-bottom: 1em;
+    width: 730px;
+}
+.ct2 .sd {
+    float: right;
+    overflow: hidden;
+    width: 220px;
+}
+.appl {
+    float: left;
+    margin-bottom: 10px;
+    overflow: hidden;
+    padding: 6px 10px;
+    width: 117px;
+}
+.ct2_a, .ct3_a {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/template/time_9th_sweets/src/vlineb.png") repeat-y scroll 0 0;
+    border: 1px solid #ccc;
+}
+.ct2_a_r {
+    background-image: none;
+    border: medium none;
+}
+.ct2_a h1.mt {
+    display: none;
+}
+.ct2_a .tb {
+    margin-top: 3px;
+}
+.ct2_a .mn {
+    float: right;
+    width: 810px;
+}
+.ct2_a .mn {
+    display: inline;
+    margin-right: 10px;
+    padding-top: 10px;
+    width: 800px;
+}
+#nv_userapp .ct2_a .mn, .ct2_a_r .mn {
+    margin-right: 0;
+    width: 810px;
+}
+.ct3_a .mn {
+    float: left;
+    margin-left: 20px;
+    width: 565px;
+}
+.ct3_a .sd {
+    float: right;
+    width: 220px;
+}
+#nv_home .ct3_a .sd .bm {
+    border: medium none;
+    margin-right: 10px;
+}
+#nv_home .ct3_a .sd .bm_c {
+    padding: 10px 0;
+}
+.mw {
+    float: none;
+    width: 100%;
+}
+.mnw {
+    border-top: 1px solid #ccc;
+    clear: both;
+}
+.mnh {
+    background: #f5f5f5 none repeat scroll 0 0;
+    margin-bottom: 0;
+    width: 643px;
+}
+#ft {
+    border-top: 1px solid #cdcdcd;
+    color: #666;
+    line-height: 1.8;
+    padding: 10px 0 50px;
+}
+#flk {
+    text-align: right;
+}
+#flk img {
+    vertical-align: middle;
+}
+#scrolltop {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: #f4f4f4 none repeat scroll 0 0;
+    border-color: -moz-use-text-color #cdcdcd #cdcdcd;
+    border-image: none;
+    border-radius: 3px;
+    border-style: none solid solid;
+    border-width: 0 1px 1px;
+    bottom: 100px;
+    cursor: pointer;
+    display: block;
+    margin: -30px 0 0 2px;
+    position: fixed;
+    visibility: hidden;
+    width: 40px;
+}
+#scrolltop:hover {
+    text-decoration: none;
+}
+.ie6 #scrolltop {
+    bottom: auto;
+    position: absolute;
+}
+#scrolltop a {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/static/image/common/scrolltop.png") no-repeat scroll 0 0;
+    border-top: 1px solid #cdcdcd;
+    color: #787878;
+    display: block;
+    height: 24px;
+    line-height: 12px;
+    padding: 3px 5px;
+    text-align: center;
+    text-decoration: none;
+    width: 30px;
+}
+a.scrolltopa:hover {
+    background-position: -40px 0 !important;
+}
+a.replyfast {
+    background-position: 0 -30px !important;
+}
+a.replyfast:hover {
+    background-position: -40px -30px !important;
+}
+a.returnlist, a.returnboard {
+    background-position: 0 -60px !important;
+}
+a.returnlist:hover, a.returnboard:hover {
+    background-position: -40px -60px !important;
+}
+#scrolltop a b {
+    font-weight: normal;
+    visibility: hidden;
+}
+#nv_home #ft, .pg_announcement #ft, .pg_modcp #ft, .pg_portalcp #ft, .pg_ranklist #ft, #nv_userapp #ft {
+    border-top: medium none;
+}
+.bm, .bn {
+    margin-bottom: 10px;
+}
+.bm {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #cdcdcd;
+}
+.bm_c {
+    padding: 10px;
+}
+.drag {
+}
+.bm_h .o {
+    float: right;
+    width: 30px;
+}
+.bm_h .o img {
+    cursor: pointer;
+    float: right;
+    margin-top: 8px;
+}
+.bm_h .i {
+    padding-left: 10px;
+}
+.bm_h .pn {
+    margin-top: 4px;
+}
+.bm_h {
+    background: #f5f5f5 none repeat scroll 0 0;
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #fff;
+    height: 31px;
+    line-height: 31px;
+    overflow: hidden;
+    padding: 0 10px;
+    white-space: nowrap;
+}
+.bmw {
+    border: 1px solid #cdcdcd;
+}
+.bmw .bm_h {
+    background: #e5edf2 none repeat scroll 0 0;
+    border-color: #fff #fff #ddd;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff;
+}
+.bmw .bm_h a {
+    color: #333333;
+}
+.bml .bm_h {
+    background: transparent none repeat scroll 0 0;
+    border: medium none;
+    padding-top: 5px;
+}
+.bml .bm_c {
+    padding-top: 0;
+}
+.bmn {
+    background: #e5edf2 none repeat scroll 0 0;
+    border-color: #ddd;
+    padding: 7px 10px;
+}
+.fl {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: #fff none repeat scroll 0 0;
+    border-color: -moz-use-text-color #cdcdcd #cdcdcd;
+    border-image: none;
+    border-style: none solid solid;
+    border-width: medium 1px 1px;
+}
+.fl .bm {
+    border: medium none;
+    margin-bottom: 0;
+}
+.fl .bm_h {
+    border-color: #ddd;
+    border-width: 1px 0;
+}
+.fl .bm_c, #online .bm_c, .lk .bm_c {
+    padding-bottom: 0;
+    padding-top: 0;
+}
+.bm2 .bm2_b {
+    border: 1px solid #cdcdcd;
+    float: left;
+    width: 49%;
+}
+.bm2 .bm2_b_y {
+    float: right;
+}
+.bw0 {
+    background: transparent none repeat scroll 0 0;
+}
+.bw {
+    padding: 0 15px;
+}
+#pt {
+    background: transparent none repeat scroll 0 0;
+    border: medium none;
+    height: 29px;
+    line-height: 29px;
+    margin: 2px 0;
+}
+#pt .z {
+    padding-right: 10px;
+}
+#pt .z a, #pt .z em, #pt .z span {
+    float: left;
+    height: 29px;
+}
+#pt .z em {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/static/image/common/pt_item.png") no-repeat scroll 3px 10px;
+    line-height: 200px;
+    overflow: hidden;
+    width: 20px;
+}
+.nvhm {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/static/image/common/search.png") no-repeat scroll 0 0;
+    line-height: 200px;
+    overflow: hidden;
+    width: 16px;
+}
+.ie_all #pt .z em {
+    background-position: 3px 9px;
+}
+.ie_all .nvhm {
+    background-position: 0 -1px;
+}
+#uhd {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: #e5edf2 none repeat scroll 0 0;
+    border-color: #ccc #ccc -moz-use-text-color;
+    border-image: none;
+    border-style: solid solid none;
+    border-width: 1px 1px medium;
+    padding-top: 10px;
+}
+#uhd .tb a {
+    border-bottom-color: #ccc;
+    border-top-color: #e5edf2;
+    border-width: 1px 0;
+}
+#uhd .tb .a a {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #ccc #ccc #fff;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px;
+}
+.ie6 #uhd .tb .a {
+    position: relative;
+}
+#uhd .mn {
+    float: right;
+    line-height: 28px;
+    margin-bottom: -30px;
+    margin-right: 15px;
+}
+#uhd .mn a {
+    background: rgba(0, 0, 0, 0) none no-repeat scroll 0 50%;
+    color: #888888;
+    padding: 2px 0 2px 20px;
+}
+#uhd .mn a:hover {
+    color: #333333;
+}
+#uhd .mn .addflw a {
+    background-image: url("http://bbs.dsqnw.net/static/image/common/flw_ico.png");
+}
+#uhd .mn .addf a {
+    background-image: url("http://bbs.dsqnw.net/static/image/feed/friend.gif");
+}
+#uhd .mn .pm2 a {
+    background-image: url("http://bbs.dsqnw.net/static/image/common/pmto.gif");
+}
+#uhd .h {
+    padding-left: 75px;
+}
+#uhd .avt {
+    display: inline;
+    float: left;
+    margin-left: -65px;
+}
+#uhd .mt {
+    padding-bottom: 0;
+}
+#uhd .flw_hd {
+    float: right;
+    margin-bottom: -30px;
+    margin-right: 10px;
+    width: 260px;
+}
+#uhd .tns th, #uhd .tns td {
+    padding-left: 20px;
+    text-align: left;
+}
+#uhd .flw_hd .o {
+    padding-left: 20px;
+}
+.tns {
+    padding: 10px 0;
+}
+.tns table {
+    width: 100%;
+}
+.tns th, .tns td {
+    font-size: 12px;
+    text-align: center;
+}
+.sd .tns th, .sd .tns td {
+    width: 110px !important;
+}
+.tns th {
+    border-right: 1px solid #ccc;
+}
+.tns th p, .tns td p {
+    font-size: 14px;
+    margin: 0;
+}
+.pls .tns {
+    padding: 0 10px 10px;
+}
+.pls .tns th p, .pls .tns td p {
+    font-size: 12px;
+    margin: 0;
+}
+.ih .icn {
+    float: left;
+    width: 60px;
+}
+.ih dl {
+    margin-left: 60px;
+}
+.ih dt {
+    font-size: 14px;
+    font-weight: 700;
+}
+.ih dd {
+    padding-bottom: 1em;
+}
+.ih dd strong {
+    color: #c00;
+    margin: 0 2em 0 4px;
+}
+.tb {
+    border-bottom: 1px solid #cdcdcd;
+    line-height: 30px;
+    margin-top: 10px;
+    padding-left: 5px;
+}
+.tb li {
+    float: left;
+    margin: 0 3px -1px 0;
+}
+.ie6 .tb .a, .ie6 .tb .current {
+    position: relative;
+}
+.tb a {
+    background: #e5edf2 none repeat scroll 0 0;
+    border: 1px solid #cdcdcd;
+    display: block;
+    padding: 0 10px;
+}
+.tb .a a, .tb .current a {
+    background: #fff none repeat scroll 0 0;
+    border-bottom-color: #fff;
+    font-weight: 700;
+}
+.tb a:hover {
+    text-decoration: none;
+}
+.tb .y {
+    float: right;
+    margin-right: 0;
+}
+.tb .y a {
+    background: transparent none repeat scroll 0 0;
+    border: medium none;
+}
+.tb .o {
+    border: 1px solid #235994;
+    margin: 1px 4px 0 2px;
+}
+.tb .o, .tb .o a {
+    background: #06c url("http://bbs.dsqnw.net/static/image/common/pn.png") repeat-x scroll 0 -48px;
+    height: 23px;
+    line-height: 23px;
+}
+.tb .o a {
+    border: medium none;
+    color: #fff;
+    font-weight: 700;
+    padding: 0 15px;
+}
+.ie6 .tb .o a {
+    float: left;
+}
+.tb_h {
+    background-color: #e5edf2;
+    margin: 0;
+    padding: 0;
+}
+.tb_h li {
+    margin-right: 0;
+}
+.tb_h a {
+    border-left: medium none;
+    border-top: medium none;
+}
+.tb_h .o {
+    margin-top: 2px;
+}
+.tb_s {
+    line-height: 26px;
+    margin-top: 0;
+}
+.tbmu {
+    border-bottom: 1px dashed #cdcdcd;
+    padding: 8px 10px 8px 0;
+}
+.tbmu a {
+    color: #333333;
+}
+.tbmu .a {
+    color: #333333;
+    font-weight: 700;
+}
+.tbms {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/static/image/common/notice.gif") no-repeat scroll 10px 50%;
+    border: 1px dashed #ff9a9a;
+    padding: 10px 10px 10px 26px;
+}
+.tbms_r {
+    background-image: url("http://bbs.dsqnw.net/static/image/common/data_valid.gif");
+}
+.tbx {
+    margin: 10px 0;
+}
+.tbx span {
+    cursor: pointer;
+    margin-right: 10px;
+}
+.tbx .a {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: #f5f5f5 url("http://bbs.dsqnw.net/static/image/common/thead.png") repeat-x scroll 0 -20px;
+    border-color: #999;
+    border-image: none;
+    border-style: solid;
+    border-width: 0 1px 1px 0;
+    padding: 3px 5px;
+}
+.tbx strong {
+    color: #f26c4f;
+}
+.obn {
+    border-bottom: 1px solid #cdcdcd;
+}
+.obn select {
+    margin-bottom: 5px;
+    width: 100%;
+}
+.a_h {
+    padding-top: 5px;
+}
+.a_mu {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: #f5f5f5 none repeat scroll 0 0;
+    border-color: #cdcdcd;
+    border-image: none;
+    border-style: solid;
+    border-width: 0 1px 1px;
+}
+.a_f {
+    margin: 5px auto;
+}
+.a_b {
+    float: right;
+    margin: 0 0 5px 5px;
+}
+.a_t {
+    margin-bottom: 10px;
+}
+.a_t table {
+    width: 100%;
+}
+.a_t td {
+    border: 1px solid #cdcdcd;
+    padding: 4px 15px;
+}
+.a_pr {
+    float: right;
+    overflow: hidden;
+}
+.a_pt, .a_pb {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/static/image/common/ad.gif") no-repeat scroll 0 50%;
+    margin-bottom: 6px;
+    padding-left: 20px;
+}
+.a_fl, .a_fr {
+    float: right;
+    position: fixed;
+    top: 350px;
+    z-index: 100;
+}
+.a_fl {
+    left: 0;
+}
+.a_fr {
+    right: 0;
+    text-align: right;
+}
+* html .a_fl, * html .a_fr {
+    position: absolute;
+}
+.a_cb {
+    top: 20px;
+}
+* html .a_cb {
+}
+.a_af {
+    float: left;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.a_cn {
+    bottom: 10px;
+    position: fixed;
+    right: 10px;
+    z-index: 300;
+}
+* html .a_cn {
+    position: absolute;
+}
+.a_cn .close {
+    text-align: right;
+}
+.a_h, .a_mu, .a_c, .a_p, .a_f, .a_t {
+    text-align: center;
+}
+.xl li {
+    margin: 2px 0;
+}
+.xl em {
+    float: right;
+    padding-left: 5px;
+}
+.xl em, .xl em a {
+    color: #999999;
+}
+.xl label, .xl label a {
+    color: #c00;
+}
+.xl1 li {
+    height: 1.5em;
+    overflow: hidden;
+}
+.xl1_elp {
+    float: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+}
+.xl2 li {
+    float: left;
+    height: 1.5em;
+    margin: 2px 0;
+    overflow: hidden;
+    padding: 0;
+    width: 50%;
+}
+.xl ol, ol.xl {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/static/image/common/sortnum.png") no-repeat scroll 0 3px;
+    line-height: 21px;
+}
+.xl ol li, ol.xl li {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    padding-left: 20px;
+}
+.xl ol li, ol.xl li {
+    height: 21px;
+}
+.xld dt {
+    font-weight: 700;
+    padding: 8px 0 5px;
+}
+.xld dd {
+    margin-bottom: 8px;
+}
+.xld .m {
+    float: left;
+    margin: 8px 8px 10px 0;
+}
+.xld .atc {
+    float: right;
+    margin-left: 20px;
+}
+.ie8 .xld .atc {
+    max-width: 86px;
+}
+.xld .atc img {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #ccc;
+    max-height: 80px;
+    max-width: 80px;
+    padding: 2px;
+}
+.ie6 .xld .atc img {
+}
+.xld a.d, .xl a.d, .attc a.d, .c a.d, .sinf a.d {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/static/image/common/op.png") no-repeat scroll 0 -2px;
+    float: right;
+    height: 20px;
+    line-height: 100px;
+    overflow: hidden;
+    width: 20px;
+}
+.attc a.d {
+    float: left;
+}
+.xld a.d:hover, .xl a.d:hover, .attc a.d:hover, .c a.d:hover, .sinf a.d:hover {
+    background-position: 0 -22px;
+}
+.xld a.b {
+    background-position: 0 -40px;
+}
+.xld a.b:hover {
+    background-position: 0 -60px;
+}
+.xlda dl {
+    padding-left: 65px;
+}
+.xlda .m {
+    display: inline;
+    margin: 8px 0 8px -65px;
+}
+.xlda .avt img {
+    display: block;
+}
+.xlda dd img {
+    max-width: 550px;
+}
+* html .xlda dd img {
+}
+.xlda dd a {
+    color: #333333;
+}
+.xlda dd .hot {
+    color: #f26c4f;
+}
+.ml {
+}
+.ml li {
+    float: left;
+    overflow: hidden;
+    padding: 0 5px 5px;
+    text-align: center;
+}
+.ml img {
+    display: block;
+    margin: 0 auto;
+}
+.ml p, .ml span {
+    display: block;
+    height: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+}
+.ml span, .ml span a {
+    color: #999999;
+}
+.mls li {
+    padding: 0 0 5px;
+    width: 66px;
+}
+.mls .avt {
+    display: block;
+    margin: 0 auto;
+    width: 54px;
+}
+.mls img {
+    height: 48px;
+    width: 48px;
+}
+.mls p {
+    margin-top: 5px;
+}
+.mlm li {
+    padding: 0 0 5px;
+    width: 150px;
+}
+.mlm img {
+    height: 120px;
+    width: 120px;
+}
+.mla li {
+    height: 224px;
+    width: 140px;
+}
+.mla1 li {
+    height: 150px;
+}
+.mla .c {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/static/image/common/gb.gif") no-repeat scroll 0 0;
+    height: 150px;
+    margin: 0 auto;
+    text-align: left;
+    width: 136px;
+}
+.mla .a {
+    background-position: 0 100%;
+}
+.mla .c a {
+    display: block;
+    height: 120px;
+    overflow: hidden;
+    padding: 14px 4px 3px 8px;
+    width: 120px;
+}
+.mla img {
+    max-height: 120px;
+    max-width: 120px;
+}
+.mlp li {
+    height: 140px;
+    width: 140px;
+}
+.mlp .d {
+    height: 180px;
+    padding: 0 0 5px;
+    width: 150px;
+}
+.mlp img {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #ccc;
+    max-height: 120px;
+    max-width: 120px;
+    padding: 2px;
+}
+* html .mlp img {
+}
+.gm, .gs, .gol, .god {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/static/image/common/gst.gif") no-repeat scroll 0 0;
+    display: block;
+    height: 18px;
+    margin: -3px 0 0 -3px;
+    overflow: hidden;
+    position: absolute;
+    width: 60px;
+}
+.gs {
+    background-position: 0 -18px;
+}
+.gol {
+    background-position: 0 -36px;
+}
+.god {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/static/image/common/access_disallow.gif") no-repeat scroll 0 0;
+    margin: -5px 0 0 45px;
+}
+.appl ul {
+    margin: 3px 0;
+}
+.appl li {
+    display: block;
+    font-size: 14px;
+    height: 28px;
+    line-height: 28px;
+    overflow: hidden;
+    overflow-wrap: normal;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.appl li a {
+    text-decoration: none !important;
+}
+.appl img {
+    margin: 5px 5px -3px 0;
+}
+.appl span {
+    float: right;
+    font-size: 12px;
+}
+.appl span a {
+    color: #999999;
+}
+.appl span a:hover {
+    color: #333333;
+}
+.myo li {
+    height: auto;
+    line-height: 1.5;
+}
+.myo img {
+    margin-bottom: -1px;
+}
+.myo a {
+    color: #333333;
+}
+.tbn {
+    margin: -6px -10px 0;
+}
+.tbn ul {
+    margin: 0;
+}
+.tbn li {
+    border-bottom: 1px dashed #ccc;
+    height: 33px;
+    margin: 0 10px;
+}
+.tbn li.a {
+    background: #fff none repeat scroll 0 0;
+    border-bottom-style: solid;
+    border-top: 1px solid #cdcdcd;
+    margin: -1px 0 0;
+    padding: 0 10px 0 9px;
+}
+.tbn ul a {
+    display: block;
+    height: 33px;
+    line-height: 33px;
+}
+.tbn .mt {
+    padding: 10px;
+}
+.notice_pm, .notice_mypost, .notice_interactive, .notice_system, .notice_manage, .notice_app {
+    background-image: url("http://bbs.dsqnw.net/static/image/common/ico_notice.png");
+    float: left;
+    height: 14px;
+    margin: 11px 5px 5px 0;
+    width: 18px;
+}
+.notice_pm {
+    background-position: 0 0;
+}
+.notice_mypost {
+    background-position: 0 -33px;
+}
+.notice_interactive {
+    background-position: 0 -68px;
+}
+.notice_system {
+    background-position: 0 -101px;
+}
+.notice_manage {
+    background-position: 0 -135px;
+}
+.notice_app {
+    background-position: 0 -169px;
+}
+.mg_img {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/static/image/common/magic_imgbg.gif") no-repeat scroll 0 0;
+    height: 76px;
+    padding: 10px;
+    width: 76px;
+}
+.lk img {
+    float: left;
+    height: 31px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    width: 88px;
+}
+.lk p {
+    color: #888888;
+}
+.lk .m li {
+    clear: left;
+    padding: 0 0 10px 98px;
+}
+.lk .m img {
+    display: inline;
+    margin-left: -98px;
+    margin-top: 4px;
+}
+.lk .x li {
+    float: left;
+    height: 1.5em;
+    margin-right: 5px;
+    overflow: hidden;
+    width: 88px;
+}
+.lk_logo .lk_content {
+    float: left;
+}
+.tedt {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #999 #ccc #ccc #999;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px;
+    width: 98%;
+}
+.tedt .bar {
+    background: #f5f5f5 none repeat scroll 0 0;
+    border-bottom: 1px solid #cdcdcd;
+    height: 25px;
+    line-height: 25px;
+    padding: 0 10px 0 0;
+}
+.fpd a {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/static/image/editor/editor.gif") no-repeat scroll 0 0;
+    float: left;
+    height: 20px;
+    line-height: 20px;
+    margin: 2px 5px 0 0;
+    overflow: hidden;
+    text-indent: -9999px;
+    width: 20px;
+}
+.fpd a.fbld {
+    background-position: 0 0;
+}
+.fpd a.fclr {
+    background-position: -60px 0;
+}
+.fpd a.fmg {
+    background-position: 0 -20px;
+}
+.fpd a.flnk {
+    background-position: -40px -20px;
+}
+.fpd a.fqt {
+    background-position: -140px -20px;
+}
+.fpd a.fcd {
+    background-position: -120px -20px;
+}
+.fpd a.fsml {
+    background-position: -20px -20px;
+}
+.fpd a.fat {
+    background-position: -140px 0;
+}
+.tedt .area {
+    background: #fff none repeat scroll 0 0;
+    padding: 4px;
+}
+.tedt .pt {
+    background: #fff none repeat scroll 0 0;
+    border: medium none;
+    margin-right: 0;
+    padding: 0 !important;
+    width: 100%;
+}
+.tedt .pt:focus {
+    outline: medium none;
+}
+.m_c .tedt {
+    width: 600px;
+}
+.sllt {
+    padding: 10px 5px 5px !important;
+}
+.sllt td {
+    border: medium none;
+    cursor: pointer;
+    padding: 8px;
+}
+.sllt_p {
+    text-align: right;
+}
+.sllt_p a {
+    color: #069;
+    margin-right: 5px;
+    text-decoration: underline;
+}
+.sl_pv {
+    background: #fafafa none repeat scroll 0 0;
+    border: 1px solid #ccc;
+    margin-top: 5px;
+    padding: 8px;
+}
+.ie6 .slg, .ie7 .slg {
+}
+#diy-tg {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/static/image/diy/panel-toggle.png") no-repeat scroll 100% 4px;
+    float: right;
+    overflow: hidden;
+    padding: 0 !important;
+    text-indent: -9999px;
+    width: 56px;
+}
+#diy-tg_menu {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/static/image/diy/panel-toggle-drop.png") no-repeat scroll 0 0;
+    height: 48px;
+    line-height: 24px;
+    margin: -2px 0 0 -1px;
+    padding: 6px 0;
+    position: absolute;
+    text-align: center;
+    width: 72px;
+}
+#diy-tg_menu a {
+    float: none !important;
+}
+#toptb #diy-tg_menu {
+    margin: -7px 0 0 -17px;
+}
+#toptb a#sslct, .switchwidth, #toptb a.switchblind {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/static/image/common/switch_style.png") no-repeat scroll 100% 0;
+    height: 18px !important;
+    margin-top: 5px;
+    overflow: hidden;
+    padding: 0 !important;
+    text-indent: -9999px;
+    width: 23px;
+}
+.switchwidth {
+    background-image: url("http://bbs.dsqnw.net/static/image/common/switch_width.png");
+}
+.switchwidth:hover {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/static/image/common/switch_width.png") no-repeat scroll 100% -36px;
+}
+#sslct_menu {
+    padding: 6px 10px 10px;
+}
+.sslct_btn {
+    border: 1px solid #cdcdcd;
+    cursor: pointer;
+    float: left;
+    height: 12px;
+    margin: 4px 4px 0 0;
+    width: 12px;
+}
+.sslct_btn i {
+    background: #2e80d1 none repeat scroll 0 0;
+    display: inline;
+    float: left;
+    font-style: normal;
+    height: 10px;
+    margin: 1px;
+    overflow: hidden;
+    width: 10px;
+}
+#toptb a.switchblind {
+    background-image: none;
+    width: 10px;
+}
+.p_pop, .p_pof, .sllt {
+    background: #fefefe none repeat scroll 0 0;
+    border: 1px solid #ddd;
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.3);
+    min-width: 60px;
+    padding: 4px;
+}
+.ie6 .p_pop {
+    width: 100px;
+}
+.p_pof .p_pop {
+    border: medium none;
+    box-shadow: none;
+    padding: 0;
+}
+.p_pof {
+    width: 500px;
+}
+.p_opt {
+    padding: 10px;
+}
+.p_pop li {
+    display: inline;
+}
+.p_pop a {
+    border-bottom: 1px solid #e5edf2;
+    display: block;
+    padding: 3px 5px;
+    white-space: nowrap;
+}
+.p_pop li:last-child a {
+    border: medium none;
+}
+.ie6 .p_pop li {
+    clear: both;
+    width: 100%;
+}
+.ie6 .p_pop a {
+    position: relative;
+}
+.p_pop a:hover, .p_pop a.a, #sctype_menu .sca {
+    background-color: #e5edf2;
+    color: #333333;
+    text-decoration: none;
+}
+.prompt_news, .prompt_follower, .prompt_news_0, .prompt_follower_0, .ignore_notice, .prompt_concern {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/static/image/common/ico_notice.png") no-repeat scroll 0 0;
+    display: inline;
+    float: left;
+    height: 14px;
+    margin: 3px 3px 5px 0;
+    width: 18px;
+}
+.prompt_follower_0 {
+    background-position: 0 -225px;
+}
+.prompt_news {
+    background-image: url("http://bbs.dsqnw.net/static/image/common/new_pm.gif");
+}
+.prompt_follower {
+    background-position: 0 -191px;
+}
+.prompt_concern {
+    background-position: 0 -258px;
+}
+.ignore_notice {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/static/image/common/close.gif") no-repeat scroll 0 0;
+    height: 12px;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 12px;
+}
+.p_pop .ignore_noticeli a, .p_pop .ignore_noticeli a:hover, .p_pop .ignore_noticeli a.a {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border-bottom: 0 none;
+}
+.p_pop .notice_interactive, .p_pop .notice_system, .p_pop .notice_manage, .p_pop .notice_app, .p_pop .notice_mypost {
+    margin: 3px 2px 5px 0;
+}
+.ie6 .ignore_notice {
+    display: none;
+}
+.blk a, .inlinelist a {
+    border: medium none;
+    display: inline;
+    padding: 0;
+}
+.blk a:hover {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    color: #333333;
+    text-decoration: underline;
+    text-shadow: none;
+}
+.inlinelist {
+    padding: 5px;
+}
+.inlinelist a {
+    float: left;
+    height: 2em;
+    line-height: 2em;
+    overflow: hidden;
+    text-align: center;
+    width: 5em;
+}
+.h_pop {
+    border-top: medium none;
+    min-width: 120px;
+}
+.p_opt .txt, .p_opt .txtarea {
+    margin: 5px 0;
+}
+.p_pop .flbc, .p_pof .flbc {
+    margin-right: 8px;
+    margin-top: 4px;
+}
+.t_l, .t_c, .t_r, .m_l, .m_r, .b_l, .b_c, .b_r {
+    background: #000 none repeat scroll 0 0;
+    opacity: 0.2;
+    overflow: hidden;
+}
+.t_l, .t_r, .b_l, .b_r {
+    height: 8px;
+    width: 8px;
+}
+.t_c, .b_c {
+    height: 8px;
+}
+.m_l, .m_r {
+    width: 8px;
+}
+.t_l {
+    border-radius: 8px 0 0;
+}
+.t_r {
+    border-radius: 0 8px 0 0;
+}
+.b_l {
+    border-radius: 0 0 0 8px;
+}
+.b_r {
+    border-radius: 0 0 8px;
+}
+.m_c {
+    background: #fff none repeat scroll 0 0;
+}
+.m_c .tb {
+    margin: 0 0 10px;
+    padding: 0 10px;
+}
+.m_c .c {
+    padding: 0 10px 10px;
+}
+.m_c .o {
+    background: #f5f5f5 none repeat scroll 0 0;
+    border-top: 1px solid #ccc;
+    height: 26px;
+    padding: 8px 10px;
+    text-align: right;
+}
+.m_c .el {
+    width: 420px;
+}
+.m_c .el li {
+    border: medium none;
+    padding: 0;
+}
+.flb {
+    height: 20px;
+    line-height: 20px;
+    padding: 10px 10px 8px;
+}
+.flb em {
+    color: #333333;
+    float: left;
+    font-size: 14px;
+    font-weight: 700;
+}
+.flb em a {
+    text-decoration: none;
+}
+.flb .needverify {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/static/image/common/re_unsolved.gif") no-repeat scroll 0 0;
+    color: #999999;
+    float: left;
+    font-size: 12px;
+    font-weight: 400;
+    height: 21px;
+    line-height: 21px;
+    margin-left: 8px;
+    padding-left: 13px;
+    width: 45px;
+}
+.flb .onerror, .flb .onright {
+    font-size: 12px;
+    font-weight: 400;
+    height: auto;
+    line-height: 140%;
+    padding-left: 20px;
+    white-space: nowrap;
+}
+.flb .onerror {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/static/image/common/check_error.gif") no-repeat scroll 0 50%;
+}
+.flb .onright {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/static/image/common/check_right.gif") no-repeat scroll 0 50%;
+    color: #888888;
+}
+.flb span {
+    color: #999999;
+    float: right;
+}
+.flb span a, .flb strong {
+    color: #333333;
+    float: left;
+    font-weight: 400;
+    margin-left: 8px;
+    text-decoration: none;
+}
+.flb span a:hover {
+    color: #999999;
+}
+.flbc {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/static/image/common/cls.gif") no-repeat scroll 0 0;
+    cursor: pointer;
+    float: left;
+    height: 20px;
+    overflow: hidden;
+    text-indent: -9999px;
+    width: 20px;
+}
+.flbc:hover {
+    background-position: 0 -20px;
+}
+.floatwrap {
+    height: 280px;
+    margin-bottom: 10px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.f_c {
+}
+.f_c li {
+    list-style: outside none none;
+}
+.f_c hr.l {
+    margin: 0;
+}
+.f_c a {
+    color: #333333;
+}
+.f_c .list {
+    border-top: 3px solid #cdcdcd;
+    margin: 0 auto 10px;
+    width: 570px;
+}
+.f_c .list th, .f_c .list td {
+    border-bottom: 1px dashed #cdcdcd;
+    height: auto;
+    padding: 5px 2px;
+}
+.f_c .list .btns th, .f_c .list .btns td {
+    border-bottom: medium none;
+}
+.f_c .th th, .f_c .th td {
+    padding: 10px 0;
+}
+.f_c .list th {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+}
+.nfl {
+    height: auto !important;
+    min-height: 320px;
+}
+.nfl .f_c {
+    background: #fff none repeat scroll 0 0;
+    border: 3px solid #f5f5f5;
+    margin: 60px auto;
+    padding: 20px;
+    width: 580px;
+}
+.nfl .loginform {
+    height: auto;
+}
+.nfl .clause {
+    height: auto;
+    width: auto;
+}
+.hasd {
+}
+.hasd input {
+    float: left;
+    width: 121px;
+}
+.hasd input.crl {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border-color: #848484 #e0e0e0 #e0e0e0 #848484;
+    border-style: solid;
+    border-width: 1px 0 1px 1px;
+    height: 20px;
+    padding: 0;
+    width: 20px;
+}
+.hasd .spmediuminput {
+    width: 115px;
+}
+.dpbtn {
+    background: #fff url("http://bbs.dsqnw.net/static/image/common/newarow.gif") no-repeat scroll 100% 0;
+    border-color: #848484 #e0e0e0 #e0e0e0 #848484;
+    border-style: solid;
+    border-width: 1px 1px 1px 0;
+    float: left;
+    height: 21px;
+    overflow: hidden;
+    text-indent: -9999px;
+    width: 21px;
+}
+.dpbtn:hover {
+    background-position: 100% -23px;
+}
+.hasd label {
+    float: left;
+}
+.tpclg h4 a.dpbtn {
+    border-width: 1px;
+    float: right;
+}
+.tpclg h4 {
+    font-weight: 400;
+}
+.tpclg .pt {
+    margin: 5px 0;
+    overflow: hidden;
+    width: 212px;
+}
+.mark .dt, .mark .tpclg h4 {
+    width: 270px;
+}
+.mark .tpclg .pt {
+    width: 260px;
+}
+#postbox dd.hasd input {
+    margin-right: 0;
+    width: 99px;
+}
+.colorbox {
+    width: 130px !important;
+}
+.colorbox input {
+    border: 0 none;
+    cursor: pointer;
+    float: left;
+    height: 12px;
+    margin: 2px;
+    padding: 0;
+    width: 12px;
+}
+.hrbox {
+    width: 500px !important;
+}
+.hrbox input {
+    background: #ffffff none repeat scroll 0 0;
+    border: 0 none;
+    cursor: pointer;
+    float: left;
+    height: 25px;
+    margin: 2px;
+    padding: 0;
+    width: 495px;
+}
+.postbgbox {
+    width: 325px !important;
+}
+.postbgbox input {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: #ffffff none repeat scroll 0 0;
+    border-color: #f7f7f7 #efefef #efefef #f7f7f7;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px;
+    cursor: pointer;
+    float: left;
+    height: 50px;
+    margin: 2px;
+    padding: 0;
+    width: 50px;
+}
+.pm {
+    overflow: hidden;
+    width: 400px;
+}
+.pm .flb {
+    background: #ccc url("http://bbs.dsqnw.net/static/image/common/pm.png") repeat-x scroll 0 -101px;
+    margin-bottom: 0;
+    padding: 1px 5px 4px;
+}
+* html .pm .flb {
+    padding: 4px 5px 1px;
+}
+.pm .flb em {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/static/image/common/pm.png") no-repeat scroll 0 -65px;
+    color: #333333;
+    font-size: 12px;
+    padding-left: 15px;
+    text-shadow: 1px 1px 1px #fff;
+}
+.pm .flbc {
+    background-image: url("http://bbs.dsqnw.net/static/image/common/pm.png");
+}
+.pm_tac {
+    background: #f5f5f5 none repeat scroll 0 0;
+    padding: 5px 10px;
+}
+.pm .c {
+    background: #f5f5f5 none repeat scroll 0 0;
+    padding: 0;
+}
+.pmb {
+    height: 280px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 20px 20px 0;
+    position: relative;
+    width: 360px;
+}
+.pmb li {
+    margin-bottom: 10px;
+    position: relative;
+}
+.pmt {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/static/image/common/pm.png") no-repeat scroll -13px -40px;
+    bottom: 0;
+    height: 7px;
+    left: -6px;
+    overflow: hidden;
+    position: absolute;
+    text-indent: -999px;
+    width: 7px;
+}
+.pmd {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: #f0f0f0 url("http://bbs.dsqnw.net/static/image/common/pm-bg1.png") repeat-x scroll 0 0;
+    border-color: #e7e7e7 #bbb #999 #e7e7e7;
+    border-image: none;
+    border-radius: 10px 10px 10px 0;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 2px 2px 4px #ddd;
+    float: left;
+    overflow-wrap: break-word;
+    padding: 5px 8px;
+}
+.pmd, .pmd img {
+    max-width: 292px;
+}
+* html .pmd {
+}
+* html .pmd img {
+}
+.pmd .quote {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/static/image/common/qa.gif") no-repeat scroll 0 0;
+    color: #888888;
+    margin: 0;
+    overflow: hidden;
+    padding-left: 16px;
+}
+.pmd .quote blockquote {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/static/image/common/qz.gif") no-repeat scroll 100% 100%;
+    display: inline;
+    margin: 0;
+    padding-right: 16px;
+}
+.pmd .blockcode {
+    background: transparent none repeat scroll 0 0;
+    color: #888888;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+}
+.pmd .blockcode code {
+    font-family: Monaco,Consolas,"Lucida Console","Courier New",serif;
+    font-size: 12px;
+    line-height: 1.8em;
+}
+* html .pmd .blockcode code {
+    font-family: "Courier New",serif;
+}
+.pmm .pmt {
+    background-position: 0 -47px;
+    left: auto;
+    right: -6px;
+}
+.pmm .pmd {
+    background: #fef5e7 url("http://bbs.dsqnw.net/static/image/common/pm-bg2.png") repeat-x scroll 0 0;
+    border-color: #ffc68c #f9d4a7 #f3bb65 #ddc4a9;
+    border-radius: 10px 10px 0;
+    box-shadow: -2px 2px 4px #ddd;
+    float: right;
+}
+.pmb h4 {
+    text-align: center;
+}
+.pmfm {
+    padding: 0 15px 15px;
+}
+.pmfm .tedt {
+    width: 365px;
+}
+.pmfm .pt {
+    height: 65px;
+}
+.pmfm .pn {
+    float: right;
+}
+.pma a {
+    margin-right: 5px;
+}
+.pmo {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/static/image/common/pn.png") repeat-x scroll 0 -320px;
+    height: 31px;
+    line-height: 24px;
+    overflow: hidden;
+    padding-left: 10px;
+    position: absolute;
+    right: 10px;
+    text-shadow: 1px 1px 1px #fff;
+    top: 8px;
+    width: 130px;
+}
+.pmo em {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/static/image/common/pn.png") no-repeat scroll 100% -360px;
+    display: block;
+    padding: 3px 5px 4px 0;
+}
+.pmo a {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/static/image/common/pm.png") no-repeat scroll 100% -222px;
+    display: block;
+    outline: medium none;
+    overflow: hidden;
+    padding-right: 10px;
+    white-space: nowrap;
+}
+.pmo .b {
+    background-position: 100% -278px;
+}
+.pmfl {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: #fff none repeat scroll 0 0;
+    border-color: #ccc;
+    border-image: none;
+    border-style: solid;
+    border-width: 0 1px 1px;
+    position: absolute;
+    right: 10px;
+    top: 35px;
+    width: 138px;
+    z-index: 200;
+}
+.pmfl .s, .pmfl .o {
+    background: #f5f5f5 none repeat scroll 0 0;
+    border-bottom: 1px solid #ccc;
+    padding: 5px;
+}
+.pmfl .o {
+    border-bottom-color: #fff;
+}
+.pmfl .s .px {
+    background: #fff url("http://bbs.dsqnw.net/static/image/common/pm.png") no-repeat scroll 0 -160px;
+    padding-left: 20px;
+    width: 101px;
+}
+.pmfl .o .ps {
+    width: 100%;
+}
+.pmfl ul {
+    height: 306px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 138px;
+}
+.pmfl li {
+    height: 24px;
+    padding: 5px;
+}
+.pmfl .avt {
+    float: left;
+    height: 29px;
+    width: 29px;
+}
+.pmfl .avt img {
+    border: medium none;
+    height: 24px;
+    padding: 0;
+    width: 24px;
+}
+.pmfl .newpm img {
+    margin: 1px 0 0 1px;
+}
+.pmfl p {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 78px;
+}
+.pmfl p .a {
+    color: red;
+}
+.pmfl p .ol {
+    color: #333333;
+}
+.pmfl strong {
+    color: #000;
+}
+.rfm {
+    border-bottom: 1px dotted #cdcdcd;
+    margin: 0 auto;
+    width: 760px;
+}
+.rfm a {
+    color: #333333;
+}
+.rfm .rq {
+}
+.rfm th, .rfm td {
+    line-height: 24px;
+    padding: 10px 2px;
+    vertical-align: top;
+}
+.rfm .tipwide {
+    padding-top: 0;
+}
+.rfm th {
+    padding-right: 10px;
+    text-align: right;
+    width: 10em;
+}
+.rfm .px {
+    width: 220px;
+}
+.rfm .px:focus {
+    background: #fff none repeat scroll 0 0;
+    border-color: #333333;
+}
+.rfm .p_tip {
+    background: #fff none repeat scroll 0 0;
+    color: #888888;
+    display: none;
+    font-style: normal;
+    padding-left: 10px;
+    position: absolute;
+    width: 390px;
+    z-index: 2;
+}
+.rfm .p_chk {
+    color: red;
+    font-family: "Microsoft Yahei","Simsun";
+    font-weight: 700;
+    padding-left: 10px;
+    position: absolute;
+    width: 390px;
+    z-index: 1;
+}
+.rfm #emailmore {
+    position: absolute;
+}
+.p_right {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/static/image/common/check_right.gif") no-repeat scroll 10px 12px;
+    width: 30px;
+}
+#returnmessage4 {
+    background: #ffe none repeat scroll 0 0;
+    border-bottom: 1px solid #cdcdcd;
+    display: none;
+    font-weight: 700;
+    padding: 10px 0;
+    text-align: center;
+}
+#returnmessage4.onerror {
+    display: block;
+}
+.rfm .l {
+    margin: 0;
+}
+.blr .c {
+    padding: 0 10px 10px;
+}
+.login_slct a {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/static/image/common/arrwd.gif") no-repeat scroll 100% 50%;
+    margin-right: -8px;
+    padding-right: 16px;
+}
+.fwin .rfm, .nfl .f_c .rfm {
+    width: 500px;
+}
+.fwin .rfm th, .fwin .rfm td, .nfl .f_c .rfm th, .nfl .f_c .rfm td {
+    padding: 6px 2px;
+}
+.fwin .loginb button {
+    margin-left: 11.3em;
+}
+.nfl .f_c .loginb button {
+    margin-left: 12em;
+}
+.passlevel {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/static/image/common/passlevel.png") no-repeat scroll 0 5px;
+    padding-left: 70px;
+}
+.passlevel1 {
+    background-position: 0 -35px;
+}
+.passlevel2 {
+    background-position: 0 -75px;
+}
+.passlevel3 {
+    background-position: 0 -115px;
+}
+.blr {
+    margin: 20px auto 30px;
+    width: 580px;
+}
+.m_c .blr {
+    margin: 0 auto;
+}
+.lgfm {
+    border-right: 1px solid #ccc;
+    float: left;
+    font: 12px/1.5 "Microsoft Yahei","Simsun";
+    margin-bottom: 10px;
+    padding: 20px 0;
+    width: 280px;
+}
+.rgs {
+    margin-bottom: 10px;
+}
+.lgfm label, .lgfm p, .reginfo {
+    clear: both;
+    display: block;
+    line-height: 22px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.reginfo label {
+    display: inline;
+}
+.reg_c {
+    float: left;
+    width: 200px;
+}
+.lgfm .txt, .lgfm .px {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-image: none;
+    border-color: #848484 #e0e0e0 #e0e0e0 #848484;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px;
+    height: 16px;
+    padding: 2px 4px;
+}
+.lgfm .txt, .lgfm .px, .lgfm .pt {
+    width: 170px;
+}
+.lgfm .ftid a, .lgfm .ftid a:hover {
+    background-position: 100% -1px;
+    border-color: #848484 #e0e0e0 #e0e0e0 #848484;
+    height: 20px;
+}
+.fsb {
+    clear: both;
+    margin-top: 8px;
+    padding: 10px;
+}
+.fsb .z {
+    padding-top: 5px;
+}
+.m_c .fsb {
+    background: #f5f5f5 none repeat scroll 0 0;
+    border-top: 1px solid #ccc;
+}
+.fsb .pns {
+    margin-right: 8px;
+}
+.lgfm em, .fsb em {
+    float: left;
+    width: 60px;
+}
+.fsb .pnr {
+}
+.nlf .txt {
+    width: 230px;
+}
+.brls {
+    height: 240px;
+    margin-bottom: 10px;
+    overflow: auto;
+    width: 470px;
+}
+.sipt {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #fff;
+    border-color: #848484 #e0e0e0 #e0e0e0 #848484;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px;
+    clear: left;
+    float: none;
+    height: 20px;
+    margin: 0 0 10px;
+    width: 234px;
+}
+.sipt a {
+    border: medium none;
+    float: left;
+    width: 54px;
+}
+.sipt a:hover, .sipt a:focus {
+    border: medium none;
+}
+.sipt .txt {
+    background: #fff none repeat scroll 0 0;
+    border: medium none;
+    float: left;
+    outline: medium none;
+    width: 154px;
+}
+.sltp {
+    clear: both;
+    float: none;
+    margin: 10px 0;
+}
+.sltp a, .sltp a:hover, .sltp a:focus {
+    background-color: transparent;
+    background-position: 100% -1px;
+    border-color: #eee;
+    color: #069 !important;
+    height: 20px;
+    line-height: 20px;
+}
+.sltp a:hover, .sltp a:focus {
+    background-position: 100% -24px;
+}
+.lpsw label {
+    float: left;
+    line-height: 150%;
+    padding-left: 4px;
+    width: 61px;
+}
+.clck, .sipt .clck {
+    background: #fff url("http://bbs.dsqnw.net/static/image/common/clck.gif") no-repeat scroll 98% 50%;
+}
+.lgf {
+    float: left;
+    margin: 47px 25px 10px 40px;
+    overflow: visible;
+}
+.lgf h4 {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.lgf a {
+    color: #333333;
+}
+.minf {
+    margin-top: 23px;
+}
+#messagelogin {
+    border-top: 1px solid #cdcdcd;
+    margin-top: 5px;
+}
+#messagelogin .flb {
+    padding-left: 0;
+}
+#messagelogin .blr {
+    margin: 0;
+}
+#messagelogin .lgfm {
+    padding-top: 0;
+}
+#messagelogin .minf {
+    margin-top: 0;
+}
+#messagelogin .fsb {
+    padding: 0;
+}
+.fastlg {
+    line-height: 24px;
+}
+.fastlg td {
+    padding: 2px 0 2px 4px;
+}
+.fastlg_fm {
+    border-right: 1px solid #cdcdcd;
+    margin-right: 5px;
+    padding-right: 5px;
+}
+#ls_fastloginfield_ctrl {
+    background-color: transparent;
+    background-position: 100% -1px;
+    border: medium none;
+    line-height: 20px;
+}
+#ls_fastloginfield_ctrl:hover {
+    background-position: 100% -24px;
+}
+.psw_w {
+    padding-left: 5px;
+}
+.fastlg_l {
+    border-right: 1px solid #e5edf2;
+    padding-right: 4px !important;
+}
+.poke {
+    margin-bottom: 10px;
+}
+.poke li {
+    float: left;
+    height: 22px;
+    margin: 0 1% 5px 0;
+    width: 32%;
+}
+.poke img {
+    vertical-align: middle;
+}
+.dt {
+    border-top: 1px solid #cdcdcd;
+    width: 100%;
+}
+.dt th {
+    background: #f5f5f5 none repeat scroll 0 0;
+}
+.dt td, .dt th {
+    border-bottom: 1px solid #cdcdcd;
+    padding: 7px 4px;
+}
+.dt .c {
+    width: 50px;
+}
+.tdat {
+    border: 1px solid #cdcdcd;
+    width: 100%;
+}
+.tdat th, .tdat td {
+    border: 1px solid #cdcdcd;
+    padding: 4px 5px;
+}
+.um {
+    border-bottom: 1px dashed #cdcdcd;
+    clear: left;
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+}
+.umh {
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.umh h2, .umh h3 {
+    background: #fff url("http://bbs.dsqnw.net/static/image/common/arrow.gif") no-repeat scroll right 6px;
+    clear: left;
+    cursor: pointer;
+    float: left;
+    font-size: 14px;
+    padding-right: 14px;
+}
+.schfaq h3 {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    cursor: default;
+}
+.umh h3 a {
+    color: #888888;
+}
+.umh h3 span {
+    color: #888888;
+    font-size: 12px;
+    font-weight: 400;
+}
+.umh h2 em, .umh h3 em {
+    color: #999999;
+    font-size: 12px;
+    font-weight: 400;
+    margin-left: 8px;
+}
+.umh_act {
+    float: right;
+}
+.umh .umh_cb {
+    display: none;
+}
+.umh .umh_ext {
+    display: block;
+}
+.umn {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/static/image/common/dash.gif") repeat-x scroll 0 10px;
+    clear: left;
+}
+.umn h3 {
+    background: #fff url("http://bbs.dsqnw.net/static/image/common/arrow.gif") no-repeat scroll right -35px;
+    font-size: 14px;
+}
+.umn .umh_cb {
+    background-color: #fff;
+    color: #888888;
+    cursor: pointer;
+    display: block;
+}
+.umn .umh_ext {
+    display: none;
+}
+.lum {
+}
+.lum h2 {
+    font-size: 14px;
+}
+.lum ul {
+    border-bottom: 1px dashed #cdcdcd;
+    margin-bottom: 1em;
+    padding: 1em 0 1em 2em;
+}
+.lum ul li {
+    padding: 0.2em 0;
+}
+.pgs {
+}
+.pgs #newspecial, .pgs #newspecialtmp, .pgs #post_reply, .pgs #post_replytmp {
+    float: left;
+    margin-right: 5px;
+}
+.pg {
+    float: right;
+}
+.pg, .pgb {
+    line-height: 26px;
+}
+.pg a, .pg strong, .pgb a, .pg label {
+    background-color: #fff;
+    background-repeat: no-repeat;
+    border: 1px solid #ddd;
+    color: #333333;
+    display: inline;
+    float: left;
+    height: 26px;
+    margin-left: 4px;
+    overflow: hidden;
+    padding: 0 8px;
+    text-decoration: none;
+}
+.pg a.nxt, .pgb a {
+    padding: 0 10px;
+}
+.pg a:hover, .pgb a:hover {
+    border-color: #333333;
+    color: #333333;
+}
+.pg a.nxt {
+    background-image: url("http://bbs.dsqnw.net/static/image/common/arw_r.gif");
+    background-position: 90% 50%;
+    padding-right: 25px;
+}
+.pg a.prev {
+    background-image: url("http://bbs.dsqnw.net/static/image/common/arw_l.gif");
+    background-position: 50% 50%;
+}
+.pg strong {
+    background-color: #e5edf2;
+}
+.pgb a {
+    background-image: url("http://bbs.dsqnw.net/static/image/common/arw_l.gif");
+    background-position: 10px 50%;
+    padding-left: 25px;
+}
+.pg label {
+    cursor: text;
+}
+.ie6 .pg label {
+    height: 23px;
+    padding-top: 3px;
+}
+.pg label .px {
+    height: 16px;
+    line-height: 16px;
+    padding: 0;
+    width: 25px;
+}
+#pgt .pg, #pgt .pgb {
+    margin-top: 5px;
+}
+.bac {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/static/image/common/pg_arw.png") no-repeat scroll 0 0;
+    color: #333333;
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    text-align: center;
+    text-decoration: none;
+    text-indent: -7px;
+    width: 70px;
+}
+#psd .bn .mbn input, #postbox input {
+    margin-right: 4px;
+}
+#postbox .mbn, #psd .mbn {
+    height: 1.6em;
+    line-height: 1.6em;
+}
+.popupcredit {
+}
+.pc_l, .pc_c, .pc_inner, .pc_r {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/static/image/common/popupcredit_bg.gif") no-repeat scroll 0 0;
+    height: 56px;
+    line-height: 56px;
+    width: 29px;
+}
+.pc_c {
+    background-position: 0 -56px;
+    background-repeat: repeat-x;
+    width: 200px;
+}
+.pc_inner {
+    background-position: 50% -112px;
+    text-align: center;
+    white-space: nowrap;
+    width: auto;
+}
+.pc_inner i {
+    color: #fff;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    margin-right: 10px;
+}
+.pc_inner span {
+    color: #ffea97;
+    font-size: 14px;
+    font-weight: 700;
+    margin-right: 15px;
+}
+* html .pc_inner span {
+    display: inline-block;
+}
+.pc_inner span a {
+    color: #ffea97;
+    text-decoration: underline;
+}
+.pc_inner span em {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+}
+.pc_inner span u {
+    font-size: 10px;
+    text-decoration: none;
+}
+.pc_inner span em.desc {
+    color: #930;
+}
+.pc_btn img {
+    opacity: 0.5;
+}
+.pc_btn:hover img {
+    opacity: 1;
+}
+.pc_r {
+    background-position: -30px 0;
+}
+.popuptext .pc_l, .popuptext .pc_c, .popuptext .pc_inner, .popuptext .pc_r {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/static/image/common/popuptext_bg.gif") no-repeat scroll 0 0;
+}
+.popuptext .pc_c {
+    background-position: 0 -56px;
+    background-repeat: repeat-x;
+    width: 200px;
+}
+.popuptext .pc_inner {
+    background-position: 50% -112px;
+    text-align: center;
+    white-space: nowrap;
+    width: auto;
+}
+.popuptext .pc_r {
+    background-position: -30px 0;
+}
+#fjump_menu {
+    padding: 7px 0 10px 10px;
+}
+#fjump_menu .sch {
+    position: absolute;
+    right: 10px;
+    top: 6px;
+}
+.jump_bdl {
+    overflow: hidden;
+}
+.jump_bdl li {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #ccc;
+    float: left;
+    height: 300px;
+    margin-right: 10px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 5px;
+    width: 178px;
+}
+.ie6 .jump_bdl li {
+    clear: none !important;
+    float: left !important;
+    width: 178px !important;
+}
+.bdl_title li {
+    float: left;
+    font-weight: 700;
+    height: 33px;
+    line-height: 23px;
+    margin-right: 9px;
+    padding: 0 1px;
+    width: 189px;
+}
+.bdl_title .px {
+    width: 80px;
+}
+.jump_bdl p {
+    height: 25px;
+    line-height: 25px;
+    overflow: hidden;
+}
+.jump_bdl .sub {
+    text-indent: 1em;
+}
+.jump_bdl .child {
+    text-indent: 2em;
+}
+.jump_bdl a {
+    color: #666666;
+    display: block;
+    padding: 0 4px;
+    position: static !important;
+    text-decoration: none;
+}
+.jump_bdl .a a, .jump_bdl .a a:hover {
+    background-color: #e5edf2;
+}
+.mgcmn {
+    width: 100px;
+}
+.mgcmn a {
+    line-height: 16px !important;
+    padding-left: 25px;
+}
+.mgcmn img {
+    margin-left: -20px;
+    position: absolute;
+}
+.cmen {
+    overflow: hidden;
+    width: 63px;
+}
+.cmen a {
+    float: left;
+    height: 20px;
+    overflow: hidden;
+    width: 20px;
+}
+.focus {
+    background: #fff none repeat scroll 0 0;
+    bottom: 0;
+    overflow: hidden;
+    position: fixed;
+    right: 10px;
+    width: 270px;
+    z-index: 300;
+}
+* html .focus {
+    position: absolute;
+}
+.fctrl {
+    font-weight: 400;
+    margin-left: 10px;
+}
+.fctrl img {
+    margin-bottom: -4px;
+}
+.fctrl em {
+    display: inline-block;
+}
+.focus .m img {
+    height: 60px;
+    width: 60px;
+}
+.focus dt {
+    padding-top: 0;
+}
+.m_c .sec .secq {
+    display: block;
+    margin: 5px 0 10px;
+}
+.reason_slct {
+}
+.reason_slct .reasonselect {
+    height: 4.3em;
+    overflow-x: auto !important;
+    overflow-y: scroll !important;
+}
+.reason_slct .reasonselect li {
+    white-space: nowrap;
+}
+.reason_slct .pt, .reason_slct .px {
+    width: 25.2em !important;
+}
+.reasonarea {
+    height: 5.8em;
+}
+.reason_slct .reasonselect:hover {
+    height: auto;
+}
+.filebtn {
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    width: 60px;
+}
+.filebtn .pf {
+    height: 23px;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+}
+.upfile {
+    width: 220px;
+}
+.uploadform {
+    background: #f5f5f5 none repeat scroll 0 0;
+    border: 1px dashed #cdcdcd;
+    padding: 0 10px;
+}
+.progressWrapper {
+    overflow: hidden;
+    width: 100%;
+}
+.progressContainer {
+    background-color: #f7f7f7;
+    border: 1px solid #e8e8e8;
+    margin: 5px;
+    overflow: hidden;
+    padding: 4px;
+}
+.message {
+    background-color: #ffc;
+    border: 1px solid #fd9;
+    margin: 1em 0;
+    overflow: hidden;
+    padding: 10px 20px;
+}
+.red {
+    background-color: #ffebeb;
+    border: 1px solid #b50000;
+}
+.green {
+    background-color: #ebffeb;
+    border: 1px solid #ddf0dd;
+}
+.blue {
+    background-color: #f0f5ff;
+    border: 1px solid #cee2f2;
+}
+.progressName {
+    color: #555;
+    font-weight: 700;
+    height: 18px;
+    overflow: hidden;
+    text-align: left;
+    white-space: nowrap;
+    width: 323px;
+}
+.progressBarInProgress, .progressBarComplete, .progressBarError {
+    background-color: blue;
+    clear: both;
+    font-size: 0;
+    height: 2px;
+    margin-top: 2px;
+    width: 0;
+}
+.progressBarComplete {
+    background-color: green;
+    visibility: hidden;
+    width: 100%;
+}
+.progressBarError {
+    background-color: red;
+    visibility: hidden;
+    width: 100%;
+}
+.progressBarStatus {
+    margin-top: 2px;
+    text-align: left;
+    white-space: nowrap;
+    width: 337px;
+}
+a.progressCancel {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/static/image/common/cancelbutton.gif") no-repeat scroll -14px 0;
+    display: block;
+    float: right;
+    font-size: 0;
+    height: 14px;
+    width: 14px;
+}
+a.progressCancel:hover {
+    background-position: 0 0;
+}
+.swfupload {
+    vertical-align: top;
+}
+.frame, .frame-tab {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+}
+.title {
+    font-size: 14px;
+    font-weight: 700;
+    height: 32px;
+    line-height: 32px;
+    overflow: hidden;
+    padding: 0 10px;
+}
+.frame-title, .frametitle, .tab-title {
+    background: #f5f5f5 url("http://bbs.dsqnw.net/static/image/common/title.png") repeat-x scroll 0 100%;
+}
+.frame-1-1-l, .frame-1-1-1-l, .frame-1-1-1-c, .frame-2-1-l, .frame-1-2-l, .frame-3-1-l, .frame-1-3-l {
+    float: left;
+}
+.frame-1-1-r, .frame-1-1-1-r, .frame-2-1-r, .frame-1-2-r, .frame-3-1-r, .frame-1-3-r {
+    float: right;
+}
+.frame-1-1-l, .frame-1-1-r {
+    width: 49.9%;
+}
+.frame-1-1-1-l, .frame-1-1-1-c, .frame-1-1-1-r, .frame-2-1-r, .frame-1-2-l {
+    width: 33.3%;
+}
+.frame-2-1-l, .frame-1-2-r {
+    width: 66.6%;
+}
+.frame-3-1-l, .frame-1-3-r {
+    width: 74.9%;
+}
+.frame-3-1-r, .frame-1-3-l {
+    width: 24.9%;
+}
+.frame .mn {
+    margin-bottom: 0;
+}
+.frame .sd {
+    min-height: 0;
+}
+.frame-1-1 .col-r {
+    float: right;
+    width: 49.9%;
+}
+.frame-1-1 .col-l {
+    float: left;
+    width: 49.9%;
+}
+.frame-1-2 .mn, .frame-1-2 .col-r, .frame .frame-1-2 .mn, .frame .frame-1-2 .col-r {
+    float: right;
+    width: 66.6%;
+}
+.frame-1-2 .sd, .frame-1-2 .col-l, .frame .frame-1-2 .sd, .frame .frame-1-2 .col-l {
+    float: left;
+    width: 33.3%;
+}
+.frame-2-1 .mn, .frame-2-1 .col-l, .frame .frame-2-1 .mn, .frame .frame-2-1 .col-l {
+    float: left;
+    width: 66.6%;
+}
+.frame-2-1 .sd, .frame-2-1 .col-r, .frame .frame-2-1 .sd, .frame .frame-2-1 .col-r {
+    float: right;
+    width: 33.3%;
+}
+.frame-1-3 .mn, .frame-1-3 .col-r, .frame .frame-1-3 .mn, .frame .frame-1-3 .col-r {
+    float: right;
+    width: 74.9%;
+}
+.frame-1-3 .sd, .frame-1-3 .col-l, .frame .frame-1-3 .sd, .frame .frame-1-3 .col-l {
+    float: left;
+    width: 24.9%;
+}
+.frame-3-1 .mn, .frame-3-1 .col-l, .frame .frame-3-1 .mn, .frame .frame-3-1 .col-l {
+    float: left;
+    width: 74.9%;
+}
+.frame-3-1 .sd, .frame-3-1 .col-r, .frame .frame-3-1 .sd, .frame .frame-3-1 .col-r {
+    float: right;
+    width: 24.9%;
+}
+.frame-1-1-1 .col-l {
+    float: left;
+    width: 33.3%;
+}
+.frame-1-1-1 .col-c {
+    float: left;
+    width: 33.3%;
+}
+.frame-1-1-1 .col-r {
+    float: right;
+    width: 33.3%;
+}
+.frame .frame-1-1-1 .col-l, .frame .frame-1-1-1 .col-c, .frame .frame-1-1-1 .col-r {
+    padding: 0;
+    width: 33%;
+}
+.frame .frame-1-1 .col-l, .frame .frame-1-1 .col-r {
+    width: 49.9%;
+}
+.frame .title .titletext, .block .title .titletext {
+    float: left;
+}
+.frame-tab .tab-title .titletext {
+    float: left;
+    margin: 0 10px;
+}
+.tab-title {
+    border: medium none;
+    padding: 0;
+    width: 100% !important;
+}
+.frame-tab .tb {
+    border: medium none;
+    line-height: 32px;
+    margin-top: 0;
+    padding-left: 15px;
+}
+.frame-tab .tb li {
+    font-weight: 400;
+    margin: 0 0 0 -1px;
+}
+.frame-tab .tb li, .frame-tab .tb li a {
+    background: transparent none repeat scroll 0 0;
+    border-radius: 0;
+    border-top: medium none;
+}
+* html .frame-tab .tb li a {
+    float: left;
+}
+.frame-tab .tb .a a {
+    background: #fff none repeat scroll 0 0;
+    font-weight: 700;
+}
+.frame-tab .tb-c {
+    padding: 10px 16px;
+}
+.block {
+    margin: 10px 10px 0;
+}
+.frame-1-2 .sd .block, .col-l .block, .frame-2-1 .mn .block, .frame-1-1-1 .col-c .block, .frame-1-3 .sd .block, .frame-3-1 .mn .block {
+    margin-right: 10px;
+}
+.frame-1-2 .mn .block, .col-r .block, .frame-2-1 .sd .block, .frame-1-1-1 .col-c .block, .frame-1-3 .mn .block, .frame-3-1 .sd .block {
+    margin-left: 10px;
+}
+body#space .block {
+    margin: 0 5px 10px;
+}
+.temp {
+    margin: 1px;
+}
+#ct .frame {
+    border: medium none;
+    margin: 0;
+}
+.bx {
+    border: medium none;
+}
+.bx .frame-1-1-1 {
+    background: transparent url("http://bbs.dsqnw.net/static/image/common/vline2.png") repeat-y scroll 320px 0;
+}
+.bx .frame-2-1 {
+    background: transparent url("http://bbs.dsqnw.net/static/image/common/vline.png") repeat-y scroll 645px 0;
+}
+.drag .block .title {
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+#ct .sd .block {
+    margin: 0;
+}
+.block .xl1 ul li {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/static/image/common/dot.gif") no-repeat scroll 0 50%;
+    padding-left: 10px;
+}
+.ie_all .block .xl1 ul li {
+    background-position: 0 6px;
+}
+.xfs {
+    border-top: medium none;
+}
+.xfs .frame-title, .xfs .frametitle, .xfs .tab-title {
+    background: transparent url("http://bbs.dsqnw.net/static/image/common/mu.png") repeat-x scroll 0 0;
+    border: medium none;
+}
+.xfs .frame-title, .xfs .frametitle, .xfs .tab-title, .xfs .frame-title a, .xfs .frametitle a, .xfs .tab-title a {
+    color: #fff !important;
+}
+.xfs .tb li a {
+    border: medium none !important;
+    height: 32px;
+}
+.xfs .tb .a a {
+    background: transparent url("http://bbs.dsqnw.net/static/image/common/mu.png") no-repeat scroll 50% -165px;
+}
+.xfs_1 {
+    border-color: #2267b5;
+}
+.xfs_1 .frame-title, .xfs_1 .frametitle, .xfs_1 .tab-title {
+    background-color: #2267b5;
+    background-position: 0 0;
+}
+.xfs_1 .tb .a a {
+    background-position: 50% -66px;
+}
+.xfs_2 {
+    border-color: #a90000;
+}
+.xfs_2 .frame-title, .xfs_2 .frametitle, .xfs_2 .tab-title {
+    background-color: #a90000;
+    background-position: 0 -99px;
+}
+.xfs_2 .tb .a a {
+    background-position: 50% -165px;
+}
+.xfs_3 {
+    border-color: #006c6c;
+}
+.xfs_3 .frame-title, .xfs_3 .frametitle, .xfs_3 .tab-title {
+    background-color: #006c6c;
+    background-position: 0 -198px;
+}
+.xfs_3 .tb .a a {
+    background-position: 50% -264px;
+}
+.xfs_4 {
+    border-color: #ec5a00;
+}
+.xfs_4 .frame-title, .xfs_4 .frametitle, .xfs_4 .tab-title {
+    background-color: #ec5a00;
+    background-position: 0 -297px;
+}
+.xfs_4 .tb .a a {
+    background-position: 50% -363px;
+}
+.xfs_5 {
+    border-color: #6f099e;
+}
+.xfs_5 .frame-title, .xfs_5 .frametitle, .xfs_5 .tab-title {
+    background-color: #6f099e;
+    background-position: 0 -396px;
+}
+.xfs_5 .tb .a a {
+    background-position: 50% -462px;
+}
+.xfs_nbd {
+    border: medium none;
+}
+.xfs_nbd .block {
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+.xfs_nbd .col-l .block, .xfs_nbd .frame-1-1-l .block, .xfs_nbd .frame-2-1-l .block, .xfs_nbd .frame-1-2-l .block, .xfs_nbd .frame-3-1-l .block, .xfs_nbd .frame-1-3-l .block, .xfs_nbd .frame-1-1-1-l .block {
+    margin-left: 0;
+}
+.xfs_nbd .sd .block, .xfs_nbd .col-r .block, .xfs_nbd .frame-1-1-r .block, .xfs_nbd .frame-2-1-r .block, .xfs_nbd .frame-1-2-r .block, .xfs_nbd .frame-3-1-r .block, .xfs_nbd .frame-1-3-r .block, .xfs_nbd .frame-1-1-1-r .block {
+    margin-right: 0;
+}
+.xbs {
+    background: rgba(0, 0, 0, 0) none no-repeat scroll 0 100%;
+}
+.xbs .title {
+    background: rgba(0, 0, 0, 0) none no-repeat scroll 100% 0;
+    padding-left: 0;
+    padding-right: 10px;
+}
+.xbs .titletext {
+    background: rgba(0, 0, 0, 0) none no-repeat scroll 0 0;
+    float: left;
+    padding-left: 10px;
+}
+.xbs .dxb_bc {
+    background: transparent none no-repeat scroll 100% 100%;
+    padding-bottom: 6px;
+}
+.xbs .module, .xbs .portal_block_summary {
+    border-style: solid;
+    border-width: 0 1px;
+    padding: 10px 10px 4px;
+}
+.xbs_1 {
+    border: 1px solid #ccc;
+}
+.xbs_1 .title {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/static/image/common/thead.png") repeat-x scroll 0 0;
+    border-bottom: 1px solid #ccc;
+    height: 31px;
+    line-height: 31px;
+    padding: 0 10px;
+}
+.xbs_1 .title, .xbs_1 .title a {
+    color: #666 !important;
+}
+.xbs_1 .dxb_bc {
+    padding: 9px 10px;
+}
+.xbs_2 {
+    background-image: url("http://bbs.dsqnw.net/static/image/diy/bs_2_ft.png");
+}
+.xbs_2 .title, .xbs_2 .titletext {
+    background-image: url("http://bbs.dsqnw.net/static/image/diy/bs_2_hd.png");
+}
+.xbs_2 .title, .xbs_2 .title a {
+    color: #f60 !important;
+}
+.xbs_2 .dxb_bc {
+    background-image: url("http://bbs.dsqnw.net/static/image/diy/bs_2_ft_r.png");
+}
+.xbs_2 .module, .xbs_2 .portal_block_summary {
+    border-color: #e0e0e0;
+}
+.xbs_3 {
+    background-image: url("http://bbs.dsqnw.net/static/image/diy/bs_3_ft.png");
+}
+.xbs_3 .title, .xbs_3 .titletext {
+    background-image: url("http://bbs.dsqnw.net/static/image/diy/bs_3_hd.png");
+}
+.xbs_3 .title, .xbs_3 .title a {
+    color: #fff !important;
+}
+.xbs_3 .dxb_bc {
+    background-image: url("http://bbs.dsqnw.net/static/image/diy/bs_3_ft_r.png");
+}
+.xbs_3 .module, .xbs_3 .portal_block_summary {
+    background-color: #f1f1f1;
+    border-color: #b2b2b2;
+}
+.xbs_4 {
+    background-image: url("http://bbs.dsqnw.net/static/image/diy/bs_4_ft.png");
+}
+.xbs_4 .title, .xbs_4 .titletext {
+    background-image: url("http://bbs.dsqnw.net/static/image/diy/bs_4_hd.png");
+}
+.xbs_4 .title, .xbs_4 .title a {
+    color: #fff !important;
+}
+.xbs_4 .dxb_bc {
+    background-image: url("http://bbs.dsqnw.net/static/image/diy/bs_4_ft_r.png");
+}
+.xbs_4 .module, .xbs_4 .portal_block_summary {
+    border-color: #b2b2b2;
+}
+.xbs_5 {
+    background-image: url("http://bbs.dsqnw.net/static/image/diy/bs_5_ft.png");
+}
+.xbs_5 .title {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/static/image/diy/bs_5_hd.png") repeat-x scroll 0 0;
+    border-color: #f08c3b #f08c3b #ddd;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+}
+.xbs_5 .title, .xbs_5 .title a {
+    color: #bc4a2d !important;
+}
+.xbs_5 .dxb_bc {
+    background-image: url("http://bbs.dsqnw.net/static/image/diy/bs_5_ft_r.png");
+    padding-bottom: 10px;
+}
+.xbs_5 .module, .xbs_5 .portal_block_summary {
+    border-color: #f08c3b;
+    padding: 10px 10px 0;
+}
+.xbs_6 {
+    background-image: url("http://bbs.dsqnw.net/static/image/diy/bs_6_ft.png");
+}
+.xbs_6 .title, .xbs_6 .titletext {
+    background-image: url("http://bbs.dsqnw.net/static/image/diy/bs_6_hd.png");
+    line-height: 24px;
+}
+.xbs_6 .titletext {
+    height: 32px;
+}
+.xbs_6 .title, .xbs_6 .title a {
+    color: #fff !important;
+}
+.xbs_6 .dxb_bc {
+    background-image: url("http://bbs.dsqnw.net/static/image/diy/bs_6_ft_r.png");
+}
+.xbs_6 .module, .xbs_6 .portal_block_summary {
+    border-color: #4b85a0;
+}
+.xbs_7 {
+    background-image: url("http://bbs.dsqnw.net/static/image/diy/bs_7_ft.png");
+}
+.xbs_7 .title, .xbs_7 .titletext {
+    background-image: url("http://bbs.dsqnw.net/static/image/diy/bs_7_hd.png");
+}
+.xbs_7 .title, .xbs_7 .title a {
+    color: #444 !important;
+}
+.xbs_7 .dxb_bc {
+    background-image: url("http://bbs.dsqnw.net/static/image/diy/bs_7_ft_r.png");
+}
+.xbs_7 .module, .xbs_7 .portal_block_summary {
+    border-color: #e5e5e5;
+}
+.fcs {
+    font-size: 12px;
+}
+.fcs dt, .fcs dd {
+    margin: 0;
+    padding: 0;
+}
+.fcs dt {
+    font-size: 18px;
+    font-weight: 100;
+}
+.fcs dd, .fcs dd a {
+    color: #888888;
+}
+.slideblock {
+    position: relative;
+}
+.slideshow {
+    clear: both;
+}
+.slideshow li {
+    overflow: hidden;
+    position: relative;
+}
+.slideshow span.title {
+    bottom: 0;
+    font-size: 14px;
+    height: 32px;
+    left: 0;
+    line-height: 32px;
+    margin-bottom: 0;
+    position: absolute;
+    text-indent: 10px;
+    width: 100%;
+}
+.slideshow span.title, .slidebar li {
+    background: rgba(0, 0, 0, 0.3) none repeat scroll 0 0;
+    color: #fff;
+    overflow: hidden;
+}
+.slidebar li {
+    cursor: pointer;
+    float: left;
+    font-size: 10px;
+    height: 20px;
+    line-height: 20px;
+    margin-right: 1px;
+    text-align: center;
+    width: 20px;
+}
+.slidebar li.on {
+    background: rgba(255, 255, 255, 0.5) none repeat scroll 0 0;
+    color: #000;
+    font-weight: 700;
+}
+.cl_frame_bm {
+    border: 0 none !important;
+    margin: 0 !important;
+}
+.cl_block_bm {
+    border: 0 none !important;
+    margin: 0 !important;
+}
+.cl_block_bm .dxb_bc {
+    margin: 0 !important;
+}
+.b_poll dt {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/static/image/common/pollsmall.gif") no-repeat scroll 0 9px;
+    padding-left: 20px;
+}
+.b_poll dd li {
+    padding: 0 0 4px 20px;
+}
+.b_poll dd li .pc {
+    float: left;
+    margin: 4px 0 0 -20px;
+}
+.b_debate {
+}
+.b_debate dt {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/static/image/common/debatesmall.gif") no-repeat scroll 0 10px;
+    padding-left: 20px;
+}
+.b_debate .chart {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/static/image/common/p_debate_chart.png") no-repeat scroll 0 0;
+    height: 78px;
+    margin: 8px auto;
+    padding: 0;
+    position: relative;
+    width: 279px;
+}
+.b_debate .chart strong {
+    font-size: 14px;
+    position: absolute;
+    text-align: center;
+    top: 25px;
+    width: 80px;
+}
+.b_debate .chart .debater2 {
+    right: 0;
+}
+.b_debate .chart1, .b_debate .chart2 {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/static/image/common/p_debate_chart.png") no-repeat scroll 0 -78px;
+    bottom: 0;
+    left: 80px;
+    position: absolute;
+    width: 40px;
+}
+.b_debate .chart2 {
+    background-position: 100% -78px;
+    left: 159px;
+}
+.b_debate p {
+    height: 1.5em;
+    overflow: hidden;
+}
+.b_hstab td {
+    border-bottom: 1px solid #cdcdcd;
+    padding: 5px 0;
+}
+.tip {
+    background: #fefee9 none repeat scroll 0 0;
+    border: 1px solid #b1b1b1;
+    padding: 10px;
+    position: absolute;
+    width: 260px;
+}
+.tip_1, .tip_2 {
+    margin-top: 8px;
+}
+.tip_3, .tip_4 {
+    margin-top: -8px;
+}
+.tip_horn {
+    height: 6px;
+    overflow: hidden;
+    position: absolute;
+    width: 11px;
+}
+.tip_1 .tip_horn {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/static/image/common/tip_top.png") repeat scroll 0 0;
+    left: 5px;
+    top: -6px;
+}
+.tip_2 .tip_horn {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/static/image/common/tip_top.png") repeat scroll 0 0;
+    right: 5px;
+    top: -6px;
+}
+.tip_3 .tip_horn {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/static/image/common/tip_bottom.png") repeat scroll 0 0;
+    bottom: -6px;
+    right: 5px;
+}
+.tip_4 .tip_horn {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/static/image/common/tip_bottom.png") repeat scroll 0 0;
+    bottom: -6px;
+    left: 5px;
+}
+.tip_js .tip_horn {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/static/image/common/tip_bottom.png") repeat scroll 0 0;
+    bottom: -6px;
+    right: 61px;
+}
+.aimg_tip {
+    margin-top: 0;
+}
+em.hot {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/static/image/common/hot.png") no-repeat scroll 0 0;
+    left: -2px;
+    overflow: hidden;
+    position: absolute;
+    text-indent: -9999px;
+    top: -2px;
+}
+.gsh {
+    text-align: center;
+}
+.gsh h1 {
+    font-size: 16px;
+    font-weight: 100;
+    margin: 1em 0 0.5em -60px;
+}
+.gsh .px {
+    width: 272px;
+}
+.gsh .pns .px {
+    margin-right: 3px;
+    width: 190px;
+}
+.card {
+    background: #fdfeff none repeat scroll 0 0;
+    border-color: #ddd;
+    padding: 0;
+    width: 295px !important;
+}
+.card .p_opt {
+    padding: 0;
+}
+.card .avt {
+    display: inline;
+    margin-left: -70px;
+    position: absolute;
+    width: 70px;
+}
+.card_mn, .card_info {
+    padding: 10px 10px 10px 80px;
+}
+.card_mn {
+    min-height: 56px;
+}
+.ie6 .card_mn {
+    height: 56px;
+}
+.card_info {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #cdcdcd;
+    border-image: none;
+    border-style: dashed;
+    border-width: 1px 0;
+}
+.card_msg {
+    height: 4em;
+    width: 95%;
+}
+.card a {
+    border-bottom: medium none;
+    display: inline !important;
+    padding: 0;
+    white-space: normal;
+}
+.card a:hover {
+    background-color: transparent !important;
+    color: #666666;
+    text-shadow: none;
+}
+.card .o {
+    clear: both;
+    padding: 5px 10px;
+}
+.card .o a {
+    background: #e5edf2 url("http://bbs.dsqnw.net/static/image/common/card_btn.png") repeat-x scroll 0 100%;
+    border: 1px solid #ddd;
+    float: left;
+    line-height: 14px;
+    margin: 3px 5px 3px 0;
+    padding: 2px 0;
+    text-align: center;
+    width: 5em;
+}
+.ie_all .card .o a {
+    padding: 3px 0 0;
+}
+.card .mgc, .card .f {
+    padding: 0 10px 5px;
+}
+.card .f li {
+    display: block;
+}
+.card_gender_0 {
+    background: #efefef url("http://bbs.dsqnw.net/static/image/common/nosexbg.png") no-repeat scroll right bottom;
+}
+.card_gender_1 {
+    background: #bbebf9 url("http://bbs.dsqnw.net/static/image/common/gentlemanbg.png") no-repeat scroll right bottom;
+}
+.card_gender_2 {
+    background: #fce0df url("http://bbs.dsqnw.net/static/image/common/ladybg.png") no-repeat scroll right bottom;
+}
+.ss em {
+    background: #eee none repeat scroll 0 0;
+    cursor: pointer;
+    display: block;
+    float: left;
+    line-height: 23px;
+    margin-right: 2px;
+    padding-left: 7px;
+    width: 16px;
+}
+.ss em.a {
+    background: #09f none repeat scroll 0 0;
+    color: #fff;
+}
+.dopt a {
+    float: left;
+    height: 21px;
+    line-height: 21px;
+    margin-right: 3px;
+    text-align: center;
+    width: 21px !important;
+}
+.dopt_b, .dopt_i, .dopt_l {
+    border: 1px solid #f1f5fa;
+    outline: medium none;
+}
+.dopt .cnt {
+    background-color: #fff;
+    border: 1px solid #999;
+}
+.colorwd {
+    background-color: #888888;
+    background-image: url("http://bbs.dsqnw.net/static/image/common/pn_color.png") !important;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    margin-left: 3px;
+    width: 23px !important;
+}
+.colorwd:active {
+    background-position: 0 0;
+}
+.ie6 .colorwd, .ie7 .colorwd {
+    background-position: -1px -1px;
+}
+.ie6 a.colorwd, .ie7 a.colorwd {
+    background-position: 0 0;
+}
+.colorpx {
+    border-right: medium none;
+    margin: 0 -3px 0 3px;
+}
+.slidebox, .block-name {
+    display: none;
+}
+.imgzoom_title {
+    color: #666;
+    padding: 10px 0 0;
+}
+.imgzoom_exif {
+    background: rgba(0, 0, 0, 0.6) none repeat scroll 0 0;
+    bottom: 24px;
+    color: white;
+    height: 18px;
+    left: 10px;
+    line-height: 1.5;
+    overflow: hidden;
+    padding: 0 6px;
+    position: absolute;
+    text-align: left;
+}
+.imgzoom_exif_hover {
+    height: auto;
+}
+.ie_all .imgzoom_exif, .imgzoom_exif_hover {
+    background: #000 none repeat scroll 0 0;
+}
+.ie6 .imgzoom_exif {
+    bottom: 39px;
+}
+.patch {
+    width: 300px;
+}
+.patch .bm {
+    background: #fff none repeat scroll 0 0;
+    border-color: #f26c4f;
+}
+.patch .allfixed {
+    border-color: #6c3;
+}
+.patch .bm_h {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: #f26c4f none repeat scroll 0 0;
+    border-color: #fff;
+    border-image: none;
+    border-style: solid;
+    border-width: 1px 1px 0;
+}
+.patch .allfixed .bm_h {
+    background: #6c3 none repeat scroll 0 0;
+}
+.patch h2, .patch .bm_h .y {
+    color: #fff;
+}
+.patch table {
+    table-layout: fixed;
+}
+.patch th, .patch td {
+    border-bottom: 1px dotted #cdcdcd;
+    padding: 2px;
+}
+.patchdate {
+    width: 70px;
+}
+.patchstat {
+    width: 55px;
+}
+.unfixed {
+    color: #f26c4f;
+}
+.plugin {
+    width: 270px;
+}
+.plugin .bm_h {
+    background: #f5f5f5 none repeat scroll 0 0;
+    border-color: #cdcdcd;
+    color: #666666;
+}
+.waterfall {
+    margin-top: 15px;
+    position: relative;
+}
+.waterfall li {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/static/image/common/bg_waterfall.png") no-repeat scroll 100% 100%;
+    border-top: 1px solid #eaeaea;
+    border-width: 1px 0 0;
+    margin: 0 10px 10px 0;
+    padding: 0 0 3px;
+    text-align: left;
+}
+.waterfall .c, .waterfall h3 {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #f8f8f8;
+    border-color: #eaeaea;
+    border-image: none;
+    border-style: solid;
+    border-width: 0 1px;
+    padding: 10px;
+}
+.waterfall .c {
+    max-height: 800px;
+    overflow: hidden;
+    padding-bottom: 0;
+}
+.waterfall .c .nopic {
+    background: #fff url("http://bbs.dsqnw.net/static/image/common/nophototiny.png") no-repeat scroll 50% 50%;
+    cursor: pointer;
+    display: block;
+}
+.waterfall .auth {
+    background: #f8f8f8 none repeat scroll 0 0;
+    border-color: transparent #eaeaea #b9b9b9;
+    border-style: solid;
+    border-width: 0 1px 1px;
+    padding: 0 10px 10px;
+}
+.waterfall .auth img {
+    display: inline-block;
+    margin: 0 1px;
+}
+.pgbtn {
+    margin: 5px 0 10px;
+}
+.pgbtn a {
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    box-shadow: 0 1px 0 #f5f5f5;
+    display: block;
+    font-size: 14px;
+    height: 40px;
+    letter-spacing: 5px;
+    line-height: 40px;
+    outline: medium none;
+    text-align: center;
+}
+.pgbtn a:hover {
+    border-color: #bababa;
+    text-decoration: none;
+}
+.pgbtn a:active {
+    background: #eee none repeat scroll 0 0;
+    border-color: #d0d0d0;
+    box-shadow: none;
+}
+.a_h {
+    border: 0 none !important;
+    padding: 0;
+}
+.a_mu {
+    border: 0 none !important;
+    margin: 15px auto 0 !important;
+}
+.pg_portalcp .bm {
+    padding: 12px 15px;
+}
+.fa_fav_0, .fa_fav, .fa_rss, .fa_achv, .fa_bin, .fa_ivt {
+    padding: 3px 0;
+}
+.btm {
+    background: #ffffff none repeat scroll 0 0;
+    height: 40px;
+    line-height: 40px;
+    padding-top: 0;
+}
+.btm ul li {
+    background: transparent url("http://bbs.dsqnw.net/template/time_9th_sweets/src/top-border.jpg") no-repeat scroll right center;
+    float: left;
+}
+.btm ul li.last {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+}
+.btm ul li a {
+    color: #666666;
+    float: left;
+    font-family: "Microsoft Yahei";
+    font-size: 12px;
+    padding: 0 12px;
+}
+.works-tit-wp {
+    background-color: #ffffff;
+    height: 64px;
+    min-width: 1180px;
+    width: 100%;
+    z-index: 1;
+}
+.works-tit {
+    margin: 0 auto;
+    width: 1200px;
+}
+.screen {
+    float: left;
+}
+.screen .screen-item {
+    border-left: 1px solid #eff2f5;
+    border-right: 1px solid #eff2f5;
+    float: left;
+    margin-left: -1px;
+    position: relative;
+}
+#nv_group .tl .th {
+    padding: 0;
+}
+#nv_group .tb {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: #f6f6f6 none repeat scroll 0 0;
+    border-color: -moz-use-text-color -moz-use-text-color #eeeeee;
+    border-image: none;
+    border-style: none none solid;
+    border-width: 0 0 1px;
+    margin-top: 0;
+}
+#gh {
+    border: 0 none !important;
+}
+#nv_group .bm_h {
+    background: #f6f6f6 none repeat scroll 0 0;
+    border-bottom: 1px solid #eeeeee;
+    padding: 0 10px;
+}
+#nv_group .bm_h h2 {
+    font-size: 14px;
+}
+#nv_group .bm_c {
+    padding: 10px;
+}
+#nv_group .tl .th td, #nv_group .tl .th th, .pg_guide .tl .th {
+    background: #f6f6f6 none repeat scroll 0 0;
+    border-bottom: 1px solid #eeeeee;
+    margin-top: 0;
+}
+#pgt.bm, .pgs {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;
+    box-shadow: none !important;
+}
+#nv_group .pgb a, .pg_guide .pgb a, #nv_group .pg a {
+    margin-right: 1px;
+}
+#nv_group .tb li {
+    margin: 0;
+}
+#nv_group .tb a {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border-color: -moz-use-text-color #eeeeee -moz-use-text-color -moz-use-text-color;
+    border-image: none;
+    border-style: none solid none none;
+    border-width: 0 1px 0 0;
+}
+.tb li.a a {
+    background: #ffffff none repeat scroll 0 0 !important;
+}
+#nv_group .tl td.num em {
+    padding: 0 0 0 6px;
+}
+#nv_group .px {
+    color: #888888;
+}
+.hot-list li {
+    margin: 0 -20px;
+}
+.hot-list li:hover {
+    background: #f9f9f9 none repeat scroll 0 0;
+}
+.hot-list li a {
+    color: #666666;
+    display: block;
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    padding: 6px 20px 6px 40px;
+    position: relative;
+}
+.hot-list li a:hover {
+    text-decoration: none;
+}
+.hot-list li a span.hot-num {
+    color: #1b8ec2;
+    font-family: "Georgia";
+    font-size: 16px;
+    font-weight: bold;
+    left: 20px;
+    line-height: 20px;
+    position: absolute;
+    top: 4px;
+}
+.post-hots {
+    margin-left: -20px;
+    margin-top: -20px;
+    width: 300px;
+}
+.post-hots li {
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 120px;
+}
+.post-hots .img {
+    display: block;
+    height: 80px;
+    margin-bottom: 8px;
+    position: relative;
+    width: 120px;
+}
+.post-hots img:hover {
+    opacity: 0.8;
+}
+.post-hots .tits {
+    color: #666666;
+    display: block;
+    font-family: "Microsoft Yahei",Helvetica,Arial,sans-serif;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.categorys li {
+    width: auto;
+}
+.categorys li a {
+    background: #f1f1f1 none repeat scroll 0 0;
+    border-radius: 2px;
+    color: #555555;
+    display: block;
+    height: 26px;
+    line-height: 26px;
+    overflow: hidden;
+    padding: 0 12px;
+    text-align: center;
+    width: auto;
+}
+.categorys li a:hover {
+    background: #666666 none repeat scroll 0 0;
+    color: #ffffff;
+    text-decoration: none;
+}
+.time_commend .xld {
+    margin: 15px 8% 0 0 !important;
+    position: relative;
+    width: 38% !important;
+}
+.entering {
+    background: #555555 none repeat scroll 0 0;
+    height: 22px;
+    line-height: 22px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 10px;
+    width: 55px;
+}
+.entering:hover {
+    background: #666666 none repeat scroll 0 0;
+}
+.entering a {
+    color: #ffffff !important;
+}
+.entering a:hover {
+    text-decoration: none;
+}
+#g_guide li {
+    border-bottom: 1px dashed #e6e6e6 !important;
+}
+a#create_group_btn {
+    background: #555555 url("http://bbs.dsqnw.net/template/time_9th_sweets/src/create.png") no-repeat scroll center center;
+    display: block;
+    height: 40px;
+    margin: 0 0 10px 3px;
+    width: 255px;
+}
+a#create_group_btn:hover {
+    background: #666666 url("http://bbs.dsqnw.net/template/time_9th_sweets/src/create.png") no-repeat scroll center center;
+}
+#create_group_btn img {
+    display: none;
+}
+#nv_group .tl td.num em {
+    bottom: 0 !important;
+    margin-left: 0 !important;
+}
+#editorbox {
+    border: 1px solid #e5e5e5 !important;
+    margin-bottom: 0;
+    padding: 20px;
+}
+#modmenu {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: #f5f5f5 none repeat scroll 0 0;
+    border-color: -moz-use-text-color -moz-use-text-color #eeeeee;
+    border-image: none;
+    border-style: none none solid;
+    border-width: 0 0 1px;
+    padding: 10px 15px;
+}
+#modmenu a {
+    color: #666666;
+}
+.titx {
+    border-bottom: 1px solid #f0f0f0;
+    height: 30px;
+    margin-bottom: 20px;
+    padding-bottom: 8px;
+}
+.titx h3 {
+    background: #ffffff none repeat scroll 0 0;
+    border-bottom: 1px solid #1b8ec2;
+    border-top: 0 none;
+    color: #3e4142;
+    display: inline-block;
+    float: left;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 0 0 8px;
+}
+.newsx li {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;
+    float: left;
+    height: 1.5em;
+    margin: 2px 0;
+    overflow: hidden;
+    padding: 0 !important;
+    width: 315px;
+}
+.newsfr {
+    height: 230px;
+    width: 100%;
+}
+.newsfr .frame-1-1-1-l {
+    width: 32%;
+}
+.newsfr .frame-1-1-1-c {
+    margin: 0 0 0 25px;
+    overflow: hidden;
+    width: 30%;
+}
+.newsfr .frame-1-1-1-r {
+    overflow: hidden;
+    width: 30%;
+}
+.slidebar {
+    left: 0 !important;
+    top: 183px !important;
+}
+.slidebar li {
+    background-color: #fcfcfc;
+    border-right: 1px solid #f0f3f4;
+    border-top: 1px solid #f0f3f4;
+    color: #3e3e3e;
+    cursor: pointer;
+    float: left;
+    font-size: 9px;
+    font-weight: bold;
+    height: 17px;
+    line-height: 17px;
+    margin: 0;
+    opacity: 0.7;
+    overflow: hidden;
+    text-align: center;
+    width: 17px;
+}
+.slidebar li.on {
+    background-color: #f0f3f4;
+    border-right: 1px solid #f0f3f4;
+    border-top: 1px solid #f0f3f4;
+    color: #3e3e3e;
+    cursor: pointer;
+    float: left;
+    font-size: 9px;
+    font-weight: bold;
+    height: 17px;
+    opacity: 0.7;
+    overflow: hidden;
+    text-align: center;
+    width: 17px;
+}
+.bdl {
+    background: #ffffff none repeat scroll 0 0 !important;
+    border: 1px solid #e5e5e5 !important;
+    box-shadow: 0 0 4px #ececec;
+    margin: 0;
+}
+.bdl dl.a {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;
+}
+.bdl dt {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;
+    border: 0 none !important;
+}
+.bdl dt a {
+}
+.bdl dd a {
+    border-left: 3px solid #ffffff;
+    color: #999999;
+    margin: 0 !important;
+}
+.bdl dd.bdl_a a {
+    background: #f9f9f9 none repeat scroll 0 0 !important;
+    border-left: 3px solid #1b8ec2;
+    color: #1b8ec2 !important;
+}
+.waterfall li {
+    -moz-border-bottom-colors: none !important;
+    -moz-border-left-colors: none !important;
+    -moz-border-right-colors: none !important;
+    -moz-border-top-colors: none !important;
+    background: #f6f6f6 none no-repeat scroll 0 0 !important;
+    border-color: -moz-use-text-color -moz-use-text-color #ffffff !important;
+    border-image: none !important;
+    border-style: none none solid !important;
+    border-width: 0 0 5px !important;
+    padding: 0 !important;
+}
+.waterfall .c {
+    border: 0 none !important;
+    padding: 0 0 10px;
+}
+.waterfall h3 {
+    background: #f6f6f6 none repeat scroll 0 0;
+    border: 0 none !important;
+}
+.waterfall .auth {
+    background: #f6f6f6 none repeat scroll 0 0;
+    border: 0 none !important;
+}
+.auth .love {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/template/time_9th_sweets/src/love.png") no-repeat scroll left center;
+    color: #cccccc !important;
+    float: left;
+    padding-left: 20px;
+}
+.auth .reply {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/template/time_9th_sweets/src/reply.png") no-repeat scroll left 4px;
+    color: #cccccc !important;
+    float: left;
+    margin: 0 0 0 15px;
+    padding-left: 20px;
+}
+.auth .reply a {
+    color: #cccccc !important;
+}
+a.arvtx {
+    float: left;
+}
+.arvtx img {
+    border-radius: 50%;
+    height: 30px;
+    opacity: 0.8;
+    width: 30px;
+}
+.arvtx img:hover {
+    opacity: 1;
+}
+.waterfall {
+    margin: 15px 0 0 6px;
+}
+.container_box {
+    background: #ffffff none repeat scroll 0 0;
+    border: 1px solid #e6e6e6;
+}
+#thread_types {
+    background: #ffffff none repeat scroll 0 0;
+    margin: 0 !important;
+    padding: 0 10px 10px 15px !important;
+}
+#atarget {
+    float: none !important;
+}
+#atarget, .unchk, .chked {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/template/time_9th_sweets/src/atarget.png") no-repeat scroll 0 3px !important;
+    color: #666666 !important;
+}
+#atarget.atarget_1, .chked {
+    background-position: 0 -37px !important;
+}
+#atarget:hover, .unchk:hover, .chked:hover {
+    color: #1b8ec2 !important;
+}
+.tl .menubox {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: #f6f6f6 none repeat scroll 0 0 !important;
+    border-bottom: 1px solid #eeeeee !important;
+    border-image: none;
+    border-left: 0 none;
+    border-right: 0 none;
+    border-top: 1px solid #eeeeee !important;
+    height: 22px;
+    line-height: 22px;
+    margin: 0 !important;
+    padding: 12px 8px !important;
+}
+.ie6 .tl .menubox .y a {
+    margin: 5px 0 0;
+}
+.ie7 .tl .menubox .y a {
+    margin: 3px 0 0;
+}
+.tl .showmenu_outer {
+    background: #f7f7f7 none repeat scroll 0 0;
+    border: 1px solid #d8d8d8;
+    border-radius: 2px;
+    display: inline-block;
+    height: 22px;
+    line-height: 22px;
+    margin-right: 8px;
+    overflow: hidden;
+    vertical-align: middle;
+    width: 80px;
+}
+.tl .showmenu {
+    color: #333333;
+    display: block;
+    padding: 0 0 0 10px;
+}
+.tl .pipe {
+    border-right: 1px dotted #cccccc;
+    color: #cccccc;
+    display: inline-block;
+    height: 9px;
+    margin: 0 5px;
+    overflow: hidden;
+    text-indent: -999em;
+}
+.ie6 .tl .pipe, .ie7 .tl .pipe {
+    border-right: 0 none;
+    margin: 0 3px;
+}
+.frame, .frame-tab {
+    border: 0 none;
+}
+#autopbn, .pgbtn a {
+    border: 0 none !important;
+    box-shadow: none;
+    color: #333333;
+}
+#autopbn:hover, .pgbtn a:hover {
+    color: #1b8ec2 !important;
+}
+.tb {
+    border-bottom: 1px solid #e8e8e8;
+    padding-left: 0;
+}
+#scrolldiv {
+    float: left;
+    height: 28px;
+    line-height: 28px;
+    margin: 0;
+    width: 800px;
+}
+#scrolldiv .bd {
+    float: left;
+    height: 28px;
+    line-height: 28px;
+    width: 600px;
+}
+#scrolldiv li {
+    height: 28px;
+    line-height: 28px;
+}
+#scrolldiv a {
+    color: #999999 !important;
+    font-size: 13px;
+    padding: 0 !important;
+    text-decoration: none;
+}
+#scrolldiv a:hover {
+    color: #333333;
+    text-decoration: underline;
+}
+.bdsharebuttonbox3 a {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;
+    margin: 0 0 0 4px !important;
+}
+.bdsharebuttonbox3 .RSS {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/template/time_9th_sweets/src/1rss.png") no-repeat scroll 0 0 !important;
+}
+.bdsharebuttonbox3 .bds_douban {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/template/time_9th_sweets/src/1douban.png") no-repeat scroll 0 0 !important;
+}
+.bdsharebuttonbox3 .bds_renren {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/template/time_9th_sweets/src/1renren.png") no-repeat scroll 0 0 !important;
+}
+.bdsharebuttonbox3 .bds_qzone {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/template/time_9th_sweets/src/1qzone.png") no-repeat scroll 0 0 !important;
+}
+.bdsharebuttonbox3 .bds_tqq {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/template/time_9th_sweets/src/1qqweibo.png") no-repeat scroll 0 0 !important;
+}
+.bdsharebuttonbox3 .bds_tsina {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/template/time_9th_sweets/src/1weibo.png") no-repeat scroll 0 0 !important;
+}
+.vw-menu-additional-logo {
+    display: inline-block;
+    float: left;
+    list-style: outside none none;
+    opacity: 0;
+    overflow: hidden;
+    position: relative;
+    width: 0;
+}
+.ie6 .vw-menu-additional-logo {
+    display: none;
+}
+.vw-menu-additional-logo em {
+    overflow-wrap: initial;
+}
+.vw-menu-additional-logo img {
+    height: 36px;
+    width: 66px;
+}
+.vw-menu-additional-logo img {
+    margin: 5px 15px 0 0;
+}
+.headboxfixed .vw-menu-additional-logo {
+    opacity: 1;
+    padding: 1px 0 0 12px;
+    width: 66px;
+}
+body {
+    background: #f1f2f3 none repeat scroll 0 0;
+    font-family: "Microsoft Yahei","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+html, body, div, h1, h2, h3, h4, h5, h6, p, img, dl, dt, dd, ol, ul, li, form, table, tr, th, td {
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.frame, .block, .temp {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    margin: 0;
+    padding: 0;
+}
+.wp, .time_con {
+    margin: 0 auto;
+    width: 1200px;
+}
+.wp1020 {
+    margin: 0 auto;
+    width: 1200px;
+}
+.time_wp {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    margin: 0 auto;
+    padding: 0;
+}
+#pt {
+    box-shadow: none !important;
+    margin: 5px 0;
+}
+.bm {
+    background: #ffffff none repeat scroll 0 0;
+    border: 0 none;
+    margin: 0 !important;
+}
+.post-right-item {
+    background: #ffffff none repeat scroll 0 0;
+    border: 1px solid #e6e6e6;
+    margin-bottom: 20px;
+    padding: 15px 20px 20px;
+}
+.post-right-item h2 {
+    border-left: 0 none;
+    color: #555555;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    margin-left: -19px;
+    padding: 5px 0 5px 18px;
+    text-align: left;
+}
+.ct2_a .mn {
+    width: 1020px;
+}
+.ct3_a .mn {
+    width: 780px;
+}
+.ct2 .mn {
+    background: #ffffff none repeat scroll 0 0;
+    border: 1px solid #e6e6e6;
+    margin: 0 !important;
+    width: 878px;
+}
+.ct2 .sd {
+    overflow: visible;
+    width: 300px;
+}
+#nv_home .ct3_a .sd .bm_c {
+    padding: 10px;
+}
+#mood_mystatus {
+    width: 635px !important;
+}
+.ct2_a, .ct3_a {
+    background-color: #ffffff;
+    border-color: #e6e6e6 !important;
+}
+.tbn li {
+    border-bottom: 1px dashed #eeeeee;
+}
+.tbn li.a {
+    border-top: 1px solid #eeeeee;
+}
+.tl .ts th, .tl .ts td {
+    background: #f9f9f9 none repeat scroll 0 0 !important;
+}
+.link, .link a, a.link {
+    color: #515151;
+}
+a:hover, .link:hover, .link a:hover, a.link:hover {
+    color: #333333;
+}
+.blackbg {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/template/time_9th_sweets/src/black.png") repeat scroll 0 0;
+}
+.ie6 .blackbg {
+    background: #3a3a3a none repeat scroll 0 0;
+}
+.bcw {
+    background: #fff none repeat scroll 0 0;
+}
+.mt20 {
+    margin-top: 20px;
+}
+.mr20 {
+    margin-right: 20px;
+}
+.mt30 {
+    margin-top: 30px;
+}
+.mb10 {
+    margin-bottom: 10px;
+}
+.mb20 {
+    margin-bottom: 20px;
+}
+.mr30 {
+    margin-right: 30px;
+}
+.mb30 {
+    margin-bottom: 30px;
+}
+.mt10 {
+    margin-top: 10px;
+}
+.mr10 {
+    margin-right: 10px;
+}
+.ml10 {
+    margin-left: 10px;
+}
+.pb10 {
+    padding-bottom: 10px;
+}
+.p15 {
+    padding: 0 15px;
+}
+.bm_h {
+    border-bottom: 1px solid #eeeeee;
+    border-top: 0 none;
+    padding: 0;
+}
+#space .bm_h {
+    padding: 0 10px !important;
+}
+#space #toptb a {
+    color: #333333;
+}
+body#space #ft {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;
+}
+#chart {
+    background: #ffffff none repeat scroll 0 0 !important;
+    box-shadow: none !important;
+    margin-bottom: 0 !important;
+    padding: 10px 15px;
+}
+.fl {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;
+    border: 0 none;
+    box-shadow: none;
+    margin-bottom: 0;
+}
+.fl .bm {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: -moz-use-text-color -moz-use-text-color #eaeaea;
+    border-image: none;
+    border-style: none none solid;
+    border-width: 0 0 1px;
+    margin-bottom: 0;
+}
+.fl .bm_h {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: #f7f7f7 none repeat scroll 0 0 !important;
+    border-color: -moz-use-text-color -moz-use-text-color #eaeaea;
+    border-image: none;
+    border-style: none none solid;
+    border-width: 0 0 1px;
+    height: 33px !important;
+    line-height: 33px !important;
+    margin-top: 0;
+    padding: 0 15px !important;
+}
+.fl .bm_c {
+    padding: 10px 15px;
+}
+#nv_forum #threadlist {
+    border: 0 none !important;
+    margin-bottom: 0 !important;
+}
+#nv_forum #threadlist .bm_c {
+    padding: 10px 20px !important;
+}
+.bm_h h2 {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    float: left;
+    font-family: "Microsoft Yahei";
+    font-size: 15px;
+    font-weight: 400;
+    padding: 0;
+}
+.bmw .bm_h a {
+    color: #555555;
+}
+.bm_h h2 a:hover {
+    text-decoration: none;
+}
+.fl .bmw .bm_h a {
+    font-family: "Microsoft Yahei";
+    font-weight: 400;
+}
+.tit, .portal_tit {
+    border-bottom: 2px solid #eeeeee;
+    height: 34px;
+    margin-bottom: 20px;
+}
+.tit h3, .portal_tit h1, .portal_tit h2, .portal_tit h3 {
+    border-bottom: 2px solid #333333;
+    display: inline-block;
+    float: left;
+    font-size: 16px;
+    line-height: 34px;
+    padding: 0 8px 0 0;
+}
+.tit h3 em {
+    color: #888;
+    font-family: "Simsun";
+    font-weight: normal;
+    margin-left: 10px;
+}
+.tit .more {
+    color: #888;
+    display: inline;
+    float: right;
+    height: 14px;
+    padding: 15px 0 0;
+}
+.tit .sfont {
+    color: #8e8e8e;
+    display: inline-block;
+    font-size: 12px;
+    height: 35px;
+    margin-left: 15px;
+    position: relative;
+    top: 14px;
+}
+.xi2, .xi2 a, .xi3 a {
+    color: #555555;
+}
+.cover {
+    color: #9c9c9c;
+    font-size: 12px;
+    height: 30px;
+    line-height: 30px;
+}
+.cover em {
+    padding-left: 20px;
+}
+.cover .author {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/template/time_9th_sweets/src/author.png") no-repeat scroll 0 6px;
+    float: left;
+}
+.cover .replys {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/template/time_9th_sweets/src/replys.png") no-repeat scroll 0 7px;
+    float: left;
+}
+.cover .views {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/template/time_9th_sweets/src/views.png") no-repeat scroll 0 6px;
+    float: left;
+}
+.cover .date {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/template/time_9th_sweets/src/date.png") no-repeat scroll 0 6px;
+    float: left;
+}
+.cover .folder {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/template/time_9th_sweets/src/folder.png") no-repeat scroll 0 8px;
+    float: left;
+}
+.sslct_btn i {
+    background: #333333 none repeat scroll 0 0;
+}
+#samplepanel {
+    background: #fff none repeat scroll 0 0;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+.topwrap {
+    border-left: 1px solid #333333;
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 auto;
+    width: 600px;
+}
+.topwrap li {
+    border-right: 1px solid #333333;
+    float: left;
+    height: 40px;
+    line-height: 40px;
+}
+.topwrap li a {
+    color: #999999;
+    display: block;
+    font-size: 12px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 12px;
+}
+.topwrap a:hover {
+    color: #ffffff;
+}
+#topbar {
+    background: #2d3032 none repeat scroll 0 0;
+    border: 1px solid #444a4e;
+    height: 28px;
+    line-height: 28px;
+    width: 100%;
+}
+#toptb {
+    -moz-border-bottom-colors: none !important;
+    -moz-border-left-colors: none !important;
+    -moz-border-right-colors: none !important;
+    -moz-border-top-colors: none !important;
+    background: #f7f7f7 none repeat scroll 0 0 !important;
+    border-color: -moz-use-text-color -moz-use-text-color #eeeeee !important;
+    border-image: none !important;
+    border-style: none none solid !important;
+    border-width: 0 0 1px !important;
+    color: #666666;
+    padding: 5px 0;
+}
+#toptb a {
+    color: #666666;
+}
+.header {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/template/time_9th_sweets/src/bar.png") repeat-x scroll 0 0;
+    height: 68px;
+    margin: 0 0 12px;
+}
+.topleft {
+    color: #666666;
+    float: left;
+    margin: 9px 0 0 20px;
+    text-align: left;
+    width: 500px;
+}
+.text-success {
+    color: #56af45;
+}
+strong {
+    font-weight: bold;
+}
+.topleft a {
+    color: #428bd1;
+}
+.user_link i, .usernav li .png i, .userinfo .arrow, .nav_icon {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/template/time_9th_sweets/src/all_icon.png") no-repeat scroll 0 0;
+    display: block;
+}
+.nav_box {
+    background: #333333 none repeat scroll 0 0;
+    height: 40px;
+    margin-bottom: 0;
+    min-width: 1200px;
+    overflow: visible;
+    width: 100%;
+    z-index: 180;
+}
+.hd_logo {
+    display: block;
+    float: left;
+    height: 60px;
+    margin: 0;
+    overflow: hidden;
+    width: auto;
+}
+.nav {
+    float: left;
+    height: 64px;
+    margin: 0 0 0 5px;
+    overflow: hidden;
+    width: 580px;
+}
+.nav li {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    float: left;
+    height: 64px;
+    position: relative;
+}
+.nav li span {
+    display: none;
+}
+.nav li a {
+    color: #333333;
+    display: inherit;
+    float: left;
+    font-size: 15px;
+    font-weight: 400;
+    height: 64px;
+    line-height: 64px;
+    overflow: hidden;
+    padding: 0 14px;
+    text-align: center;
+    transition: all 0s ease 0s;
+}
+.nav li.a.hover a {
+    background: #ff0099 none repeat scroll 0 0;
+    color: #ffffff;
+}
+.nav li.hover a {
+    background: #ff0099 none repeat scroll 0 0;
+    color: #ffffff;
+}
+.nav li a:hover {
+    background: #ff0099 none repeat scroll 0 0;
+    color: #ffffff;
+    text-decoration: none;
+}
+.nav li.a a {
+    background: #ff0099 none repeat scroll 0 0;
+    color: #ffffff;
+}
+.nav li.a a:hover {
+}
+.pcb {
+    color: #666666;
+    font-family: "Microsoft Yahei";
+    font-size: 13px;
+}
+.pi {
+    margin-bottom: 20px !important;
+}
+#online, .lk {
+    background: #ffffff none repeat scroll 0 0;
+    border: 0 none;
+    margin: 0;
+    padding: 15px;
+}
+#online .bm_h, .lk .bm_h {
+    border-bottom: 3px solid #f3f3f3;
+    margin-bottom: 5px;
+}
+.mtn {
+    margin: 0 !important;
+}
+#online h3 strong a {
+    font-family: "Microsoft Yahei";
+    font-size: 15px;
+    font-weight: 400 !important;
+}
+#online .bbda {
+    border-bottom: 1px dashed #e3e3e3;
+}
+.p_pop, .p_pof, .sllt {
+    border: 1px solid #dddddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.sub_nav .p_pop, #scbar_type_menu {
+    background: rgba(255, 255, 255, 0.95) none repeat scroll 0 0;
+    border: 1px solid #dddddd;
+    font-size: 14px;
+    padding: 0;
+    z-index: 100;
+}
+.sub_nav .p_pop li, #scbar_type_menu li {
+}
+.sub_nav .p_pop li a, #scbar_type_menu li a {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: -moz-use-text-color -moz-use-text-color #f4f4f4;
+    border-image: none;
+    border-radius: 0 !important;
+    border-style: none none solid;
+    border-width: medium medium 1px;
+    color: #898989;
+    font-size: 12px;
+    height: 25px;
+    line-height: 25px;
+    margin: 0;
+    padding: 3px 20px;
+}
+.sub_nav .h_pop {
+    background: #ffffff none repeat scroll 0 0;
+    border: 1px solid #cccccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 0;
+    padding: 5px 0;
+    width: 150px;
+}
+.sub_nav .h_pop li a {
+    border: 0 none;
+    color: #333333;
+    display: block;
+    font-size: 14px;
+    padding: 1px 20px;
+    transition: all 0.5s ease 0s;
+}
+.sub_nav .p_pop li a:hover, #scbar_type_menu li a:hover {
+    background: #eeeeee none repeat scroll 0 0;
+    color: #333333;
+}
+.userbox {
+    float: right;
+    height: 28px;
+    line-height: 28px;
+    margin: 17px 10px 0 0;
+}
+.usernav {
+    float: left;
+    height: 28px;
+    overflow: hidden;
+}
+.usernav .user_list {
+    float: left;
+    overflow: hidden;
+    position: relative;
+}
+.usernav .menu-li span {
+    display: none;
+}
+.usernav .current, .usernav .user_list-hover {
+    background-color: #1f5583;
+}
+.usernav a:hover {
+    text-decoration: none;
+}
+.user_link {
+    color: #444444;
+    display: block;
+    height: 28px;
+    line-height: 28px;
+    padding: 0 8px;
+}
+.login, .register {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    color: #444444;
+    font-size: 14px;
+}
+.login {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    color: #444444;
+    padding: 0 10px !important;
+}
+.rss_top {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/template/time_9th_sweets/src/icon1-white.png") no-repeat scroll 0 0;
+    display: block;
+    height: 12px;
+    overflow: hidden;
+    width: 12px;
+}
+.user_link i {
+    cursor: pointer;
+    display: block;
+    height: 28px;
+    width: 32px;
+}
+.user_link:hover {
+    color: #333333;
+}
+.notification i {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/template/time_9th_sweets/src/notice.png") no-repeat scroll 2px 9px;
+}
+a.notification:hover i {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/template/time_9th_sweets/src/notice.png") no-repeat scroll 2px 9px;
+}
+.msg i {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/template/time_9th_sweets/src/mail.png") no-repeat scroll 1px 9px;
+}
+a.msg:hover i {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/template/time_9th_sweets/src/mail.png") no-repeat scroll 1px 9px;
+}
+.flo i {
+    background-position: -305px 9px;
+}
+a.flo:hover i {
+    background-position: -337px 9px;
+}
+.userinfo {
+    border: 0 none;
+    float: left;
+    height: 27px;
+    line-height: 20px;
+    margin: 4px 1px 0;
+    overflow: hidden;
+    padding: 0 3px;
+    z-index: 200;
+}
+a.userinfo:hover, .userinfo.hover {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: #ffffff none repeat scroll 0 0;
+    border-color: #dfdfdf #dfdfdf -moz-use-text-color;
+    border-image: none;
+    border-style: solid solid none;
+    border-width: 1px 1px 0;
+    margin: 3px 0 0;
+}
+.userinfo .arrow {
+    background-position: 0 -58px;
+    float: left;
+    height: 6px;
+    margin: 7px 3px 0 0;
+    width: 8px;
+}
+.userinfo.hover .arrow {
+    background-position: 0 -115px;
+}
+.userinfo .user_avt {
+    color: #444444;
+    float: left;
+    height: 20px;
+    line-height: 20px;
+    max-width: 90px;
+    overflow: hidden;
+    padding: 0 8px;
+}
+a.userinfo:hover .user_avt, .userinfo.hover .user_avt {
+    color: #333333;
+}
+.userinfo .user_avt img {
+    border-radius: 50%;
+    height: 24px;
+    margin: 0 0 0 1px;
+    width: 24px;
+}
+.userinfo .user_name {
+    color: #ffffff;
+    float: left;
+    height: 28px;
+    line-height: 28px;
+    margin-left: 8px;
+}
+.usernav li #msg_menu, .usernav li #nte_menu {
+    transition: none 0s ease 0s ;
+}
+.usernav li .unread_num {
+    background: #d14836 none repeat scroll 0 0;
+    color: #ffffff;
+    cursor: pointer;
+    font-family: "Microsoft Yahei";
+    font-size: 9px;
+    font-weight: 400;
+    margin: 0 0 0 5px;
+    overflow: hidden;
+    padding: 0 5px;
+    text-align: center;
+    z-index: 200;
+}
+.sub_menu {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: #ffffff none repeat scroll 0 0;
+    border-color: -moz-use-text-color #dfdfdf #dfdfdf;
+    border-image: none;
+    border-style: none solid solid;
+    border-width: 0 1px 1px;
+    font-size: 12px;
+    margin: 0;
+    min-width: 110px;
+}
+.sub_menu li {
+    padding: 0;
+}
+.ie7 .sub_menu li, .ie6 .sub_menu li {
+    display: inline;
+}
+.sub_menu a {
+    background-position: -200px 0;
+    background-repeat: no-repeat;
+    color: #333333;
+    display: block;
+    margin: 5px 0;
+    padding: 2px 10px;
+    width: auto;
+}
+.sub_menu a:hover {
+    background-color: #333333;
+    background-position: -200px 0;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    font-weight: normal;
+    text-decoration: none;
+}
+.sub_menu .pipe {
+    display: none;
+}
+.spliter {
+    border-left: 1px dotted #7b7c7d;
+    display: inline-block;
+    float: left;
+    height: 16px;
+    margin: 6px 3px 0;
+    vertical-align: middle;
+}
+.ie6 .spliter, .ie7 .spliter {
+    display: none;
+}
+.icons16 {
+    background-repeat: no-repeat;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: middle;
+}
+.icons16 {
+    background-image: url("http://bbs.dsqnw.net/template/time_9th_sweets/src/icons16.png");
+    height: 16px;
+    line-height: 16px;
+    margin-right: 0.3em;
+    margin-top: -1px;
+    width: 16px;
+}
+.icons16-mobile-gray {
+    background-position: 0 -97px;
+}
+.clr {
+}
+#dt-nav {
+    float: left;
+    margin-left: 22px;
+    margin-top: 18px;
+    position: relative;
+}
+.ie7 #dt-nav {
+    display: none;
+}
+#dt-nav-btn {
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 2px;
+    cursor: pointer;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    width: 68px;
+}
+#dt-nav-btn-cover {
+    border: 1px solid #000;
+    border-radius: 2px;
+    cursor: pointer;
+    height: 26px;
+    left: 0;
+    opacity: 0.12;
+    position: absolute;
+    top: 0;
+    width: 68px;
+}
+#dt-nav-btn i {
+    background-image: url("http://img5.duitang.com/uploads/people/201312/24/20131224174700_CXfn4.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 10px;
+    margin-left: 4px;
+    margin-top: 2px;
+    overflow: hidden;
+    transition: transform 0.2s ease-out 0s;
+    width: 10px;
+}
+#dt-nav:hover i {
+    transform: rotateZ(-180deg);
+}
+#dt-nav-neck {
+    background-color: #fff;
+    display: none;
+    height: 16px;
+    left: 1px;
+    position: absolute;
+    top: 35px;
+    width: 68px;
+    z-index: 999;
+}
+#dt-nav-content {
+    background-color: #fff;
+    display: none;
+    font-size: 13px;
+    height: 280px;
+    left: 1px;
+    padding: 35px 0;
+    position: absolute;
+    top: 43px;
+    width: 486px;
+    z-index: 998 !important;
+}
+#dt-nav-content-cover {
+    border: 1px solid #000;
+    display: none;
+    height: 350px;
+    opacity: 0.12;
+    position: absolute;
+    top: 42px;
+    width: 486px;
+    z-index: 990;
+}
+#dt-nav-left, #dt-nav-right, .dt-nav-group {
+    float: left;
+}
+#dt-nav-left {
+    border-right: 1px solid #ebebeb;
+    height: 284px;
+    overflow: hidden;
+    width: 121px;
+}
+#dt-nav-right {
+    overflow: hidden;
+    width: 360px;
+}
+#dt-nav-right-inner {
+    margin-left: 20px;
+    margin-top: -14px;
+    width: 304px;
+}
+.dt-nav-group {
+    height: 86px;
+    margin-left: 25px;
+    padding-bottom: 18px;
+    padding-right: 39px;
+    width: 66px;
+}
+#dt-nav-right .dt-nav-group {
+    background: rgba(0, 0, 0, 0) url("http://img5.duitang.com/uploads/people/201312/20/20131220173009_fH3Ym.png") repeat-x scroll left top;
+    height: 43px;
+    line-height: 43px;
+    margin: 0;
+    padding: 1px 0 0;
+    width: 304px;
+}
+#dt-nav-right .dt-nav-vline {
+    background-color: #ddd;
+    float: left;
+    height: 12px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+    width: 1px;
+}
+#dt-nav-right .dt-nav-line {
+    background-color: #e0e0e0;
+    float: left;
+    height: 1px;
+    margin-bottom: 33px;
+    margin-top: 15px;
+    width: 100%;
+}
+.dt-nav-group p {
+    margin-bottom: 10px;
+}
+.dt-nav-group a {
+    border-radius: 2px;
+    color: #444;
+    font-size: 13px;
+    line-height: 1.5;
+    padding: 3px 5px;
+    text-decoration: none;
+}
+.dt-nav-group a:hover {
+    text-decoration: underline;
+}
+#dt-nav-right .dt-nav-group a {
+    float: left;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+#dt-nav.show #dt-nav-btn, #dt-nav.show #dt-nav-btn-cover {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    height: 40px;
+}
+#dt-nav.show #dt-nav-content, #dt-nav.show #dt-nav-content-cover, #dt-nav.show #dt-nav-neck {
+    display: block;
+}
+#dt-nav.show #dt-nav-btn-cover, #dt-nav.show #dt-nav-content-cover {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
+}
+#scbar {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 1px solid #c5c5c5;
+    border-radius: 0;
+    float: right;
+    height: 30px;
+    line-height: 29px;
+    margin: 16px 10px 0 0;
+    overflow: visible;
+}
+.scbar_txt_td, .scbar_type_td {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    float: left;
+}
+.scbar_type_td {
+    width: 40px;
+}
+#scbar_type {
+    padding-left: 0;
+}
+.scbar_type_td #scbar_type {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 0 none;
+}
+.scbar_txt_td {
+    border: 0 none;
+}
+input#scbar_txt.xg1 {
+    color: #999999 !important;
+}
+a#scbar_type.xg1 {
+    color: #999999 !important;
+    text-align: center;
+}
+#scbar_txt {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 0 none;
+    font-size: 12px;
+    height: 30px;
+    line-height: 30px;
+    margin: 0;
+    overflow: hidden;
+    padding: 0 10px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 120px;
+}
+.ie7 #scbar_txt {
+    height: 30px;
+    line-height: 30px;
+}
+.scbar_narrow #scbar_txt {
+    width: 84px !important;
+}
+.scbar_btn_td {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/template/time_9th_sweets/src/search.png") no-repeat scroll center center;
+    display: block;
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    position: relative;
+    text-indent: -9999px;
+    width: 30px;
+}
+#scbar_btn {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    text-indent: -9999px;
+    width: 30px;
+}
+#scbar_type_menu {
+    border: 1px solid #dfdfdf;
+    margin: 3px 0 0 -10px;
+}
+.ie7 #scbar_btn {
+    margin: 0;
+}
+.m_l, .m_r, .t_l, .t_c, .t_r, .b_c, .b_l, .b_r {
+    display: none;
+}
+.m_c {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.m_c .flb {
+    background: #f7f7f7 none repeat scroll 0 0;
+    border-bottom: 1px solid #e5e5e5;
+    border-top: 1px solid #fff;
+    line-height: 18px;
+    margin-bottom: 10px;
+    padding: 9px 9px 8px 15px;
+}
+.m_c .flbc {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/template/time_9th_sweets/src/sprite.png") no-repeat scroll 10px 5px;
+}
+.m_c .flbc:hover {
+    background-position: -11px 5px;
+}
+.m_c .flb em {
+    color: #4c4c4c;
+    text-shadow: 0 1px 1px #fff;
+}
+.m_c .o {
+    background: #f3f3f3 none repeat scroll 0 0;
+    border: medium none;
+}
+.card {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 4px solid rgba(0, 0, 0, 0.05);
+    box-shadow: none;
+}
+.card .p_opt {
+    border: 1px solid #eeeeee;
+}
+.card_mn {
+    background: #fff none repeat scroll 0 0;
+}
+.card .o a {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #eee;
+    color: #555;
+}
+.card a:hover {
+    background-color: gainsboro !important;
+}
+#f_pst .tedt {
+    border: 1px solid #dddddd;
+}
+.tedt .bar {
+    background: #f9f9f9 none repeat scroll 0 0;
+    border-bottom: 1px solid #eeeeee;
+}
+.tedt .area {
+    padding: 0;
+}
+#block_style .pt, .tedt .pt {
+    overflow: auto;
+    resize: vertical;
+    vertical-align: middle;
+}
+.px, .pt, .ps, select {
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 2px #f0f0f0 inset;
+    color: #333;
+    font-family: inherit;
+    line-height: 18px;
+    margin: 0;
+    padding: 4px;
+    vertical-align: middle;
+}
+.rfm {
+    border: medium none;
+}
+.pn {
+    background: #4a4a4a none repeat scroll 0 0;
+    border: 0 none;
+    color: #ffffff;
+    height: 26px;
+    line-height: 26px;
+}
+.pn em, .pn span, .pn strong {
+    font-weight: 400;
+    line-height: 26px;
+    padding: 0 15px;
+}
+.pr, .pc {
+    margin: 0 3px 3px 0;
+}
+#postbtn.pn.xg1 {
+    background: #e5e5e5 none repeat scroll 0 0;
+}
+.pg, .pgb {
+    line-height: 31px;
+}
+.pg a, .pg strong, .pgb a, .pg label {
+    background: #f8f8f8 none repeat scroll 0 0;
+    border: 1px solid #e5e5e5;
+    float: left;
+    height: 24px;
+    line-height: 24px;
+    margin: 0 6px 0 0;
+    overflow: hidden;
+    padding: 0 8px;
+}
+.pg strong {
+    background-color: #ffffff;
+    border: 1px solid #e3e3e3;
+    color: #1b8ec2;
+    font-weight: 400;
+}
+.pg a:hover, .pgb a:hover {
+    background-color: #ffffff;
+    border: 1px solid #e3e3e3;
+    color: #1b8ec2;
+    text-decoration: none;
+}
+.pg a.nxt {
+    background: #f8f8f8 none no-repeat scroll 0 0;
+    padding-right: 10px;
+}
+.pg a.nxt:hover {
+    background: #ffffff none repeat scroll 0 0;
+    color: #1b8ec2;
+}
+.pg a.prev {
+    background-repeat: no-repeat;
+}
+.pgb a {
+    background: #f8f8f8 none repeat scroll 0 0;
+    border: 1px solid #e5e5e5;
+    padding-left: 12px;
+}
+.dopt a {
+    padding: 0;
+}
+.px {
+    border: 1px solid #dddddd;
+    border-radius: 0;
+}
+#newspecial, #newspecialtmp {
+    background: #4a4a4a url("http://bbs.dsqnw.net/template/time_9th_sweets/src/pn_post.png") no-repeat scroll 0 0;
+    float: left;
+    height: 32px;
+    margin-right: 5px;
+    width: 90px;
+}
+#post_reply, #post_replytmp {
+    background: #4a4a4a url("http://bbs.dsqnw.net/template/time_9th_sweets/src/pn_reply.png") no-repeat scroll 0 0;
+    float: left;
+    height: 32px;
+    width: 55px;
+}
+#newspecial img, #newspecialtmp img, #post_reply img, #post_replytmp img {
+    display: none;
+    opacity: 0;
+}
+#newspecial_menu {
+    min-width: 102px !important;
+}
+#newspecial_menu .p_pop li a {
+    margin: 0 auto;
+}
+#v_forums a {
+    background: #ffffff none repeat scroll 0 0;
+    color: #333333;
+    line-height: 21px;
+    margin: 0;
+    padding: 0;
+}
+#footer {
+    margin: 30px auto 0;
+    overflow: hidden;
+}
+#ft {
+    border: 0 none !important;
+    padding: 0 !important;
+}
+.footer .footct {
+    margin: 0 auto;
+    padding: 16px 0 32px;
+    width: 960px;
+}
+.footer .frdlk {
+    float: right;
+    overflow: hidden;
+    padding: 2px 0 0;
+    width: 400px;
+}
+.footer .frdlk a {
+    border-right: 1px solid #cfd0d1;
+    color: #666 !important;
+    float: right;
+    line-height: 1.2;
+    margin-right: -1px;
+    padding: 0 8px;
+}
+.duitang-copy {
+    background-position: 0 -1130px;
+    background-repeat: no-repeat;
+    height: 16px;
+    text-indent: -9999px;
+    width: 20px;
+}
+.duitang-slogo {
+    height: 18px;
+    width: 34px;
+}
+#footer.footeridx {
+    background-color: #e1e2e3;
+    border-top: 1px solid #d8d9da;
+    height: 225px;
+    padding: 22px 0;
+}
+#footer .dt-span-list {
+    width: 1222px;
+}
+.dt-footer-span {
+    border-left: 1px solid #cfd0d1;
+    float: left;
+    height: 142px;
+    padding: 9px 32px;
+    width: 179px;
+}
+.dt-footer-span-inner {
+    width: 202px;
+}
+.dt-footer-center .dt-footer-span-inner {
+    width: 179px;
+}
+.dt-footer-span-title {
+    color: #444;
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+.dt-footer-span-items a {
+    color: #666;
+    float: left;
+    font-size: 13px;
+    height: 30px;
+    width: 100px;
+}
+.dt-footer-span-items a.long {
+    width: 200px;
+}
+.dt-tcode {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/template/time_9th_sweets/src/weixin.png") no-repeat scroll 0 0;
+    height: 130px;
+    margin: 5px auto;
+    width: 130px;
+}
+.dt-footer-span p {
+    color: #666;
+    font-size: 13px;
+}
+.dt-footer-bottom {
+    color: #888;
+    font-size: 13px;
+    height: 47px;
+    line-height: 47px;
+    margin: 20px auto 5px;
+    text-align: center;
+    width: 880px;
+}
+.dt-footer-bottom a {
+    color: #888888;
+}
+.tc {
+    text-align: center;
+}
+#scrolltop {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    border-radius: 3px;
+    bottom: 104px !important;
+    margin: 0 30px 0 25px;
+}
+.ie6 #scrolltop, .ie7 #scrolltop {
+    margin: 0 30px 0 1005px !important;
+}
+#scrolltop a {
+    background: #999999 url("http://bbs.dsqnw.net/template/time_9th_sweets/src/totop.png") no-repeat scroll center center;
+    border: 0 none;
+    display: block;
+    height: 40px;
+    margin: 0 0 2px;
+    overflow: hidden;
+    padding: 0;
+    text-indent: -999px;
+    transition: all 0.2s ease-in-out 0s;
+    width: 40px;
+}
+a.scrolltopa:hover {
+    background-position: center center !important;
+}
+#scrolltop a:hover {
+    background: #444444 url("http://bbs.dsqnw.net/template/time_9th_sweets/src/totop.png") no-repeat scroll center center;
+}
+a.returnlist, a.returnboard, a.replyfast {
+    display: none !important;
+}
+.fl_tb td {
+    border-top: 0 none !important;
+}
+.fl_row td {
+    border-top: 1px dashed #dddddd !important;
+}
+.fl_tb td, .fl_tb tr {
+    transition: all 0.3s ease 0s;
+}
+.fl_tb td:hover, .fl_tb tr:hover {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;
+}
+.chart {
+    background: transparent url("http://bbs.dsqnw.net/template/time_9th_sweets/src/chart.png") no-repeat scroll 1px 50% !important;
+    color: #999999;
+    padding-left: 35px !important;
+}
+.forumbox {
+    background: #ffffff none repeat scroll 0 0;
+    height: 292px;
+    margin: 0;
+    overflow: hidden;
+    padding: 10px 15px;
+}
+.forumbox .frame-1-1-l {
+    border: 0 none;
+    float: left;
+    height: 290px;
+    width: 500px;
+}
+.forumbox .frame-1-1-r {
+    border: 0 none;
+    float: right;
+    height: 290px;
+    padding: 0;
+    width: 635px;
+}
+.forumtab {
+}
+.forumtab .tb-c {
+    background: #ffffff none repeat scroll 0 0;
+    height: 260px;
+    overflow: hidden;
+    padding: 0;
+}
+.forumtab .tb {
+    float: right;
+    padding-left: 0;
+}
+.forumtab .tab-title {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0 !important;
+    border-bottom: 1px solid #eeeeee;
+    height: 36px;
+    line-height: 36px;
+    margin: 10px 0 0;
+    overflow: visible;
+    padding: 0 !important;
+    position: relative;
+}
+.forumtab .tab-title .titletext {
+    border-bottom: 1px solid #1b8ec2;
+    bottom: -1px;
+    font-size: 16px;
+    font-weight: 400;
+    left: 0;
+    line-height: 38px;
+    margin: 0;
+    position: absolute;
+}
+.forumtab .tb a {
+    border: 0 none;
+    color: #666666;
+    font-size: 15px;
+    height: 36px;
+    line-height: 38px;
+    margin: 0 2px 0 16px;
+    padding: 0;
+}
+.forumtab .tb li {
+    margin: 0;
+}
+.forumtab .tb .a a {
+    background: #ff0099 none repeat scroll 0 0;
+    color: #ff0099;
+    font-weight: 400 !important;
+}
+.new_lists {
+    padding: 18px 1px 0 0;
+}
+.new_lists li {
+    float: left;
+    font-size: 14px;
+    height: 26px;
+    line-height: 26px;
+    overflow: hidden;
+    width: 100%;
+}
+.new_lists li a {
+    color: #555555;
+}
+.new_lists li .link {
+    margin: 0 2px 0 0;
+}
+.new_lists li .link, .new_lists li .link a {
+    color: #888888;
+}
+.new_lists li .link2, .new_lists li .link2 a {
+    color: #ff0099;
+}
+.new_lists li .link:hover, .new_lists li a:hover {
+    color: #1b8ec2;
+}
+em.authors {
+    color: #999999;
+    display: block;
+    float: right;
+    font-size: 12px;
+    margin-left: 5px;
+    overflow: hidden;
+    text-align: right;
+}
+.new_lists .turn {
+    color: #acacac;
+    font-style: italic;
+    margin-right: 12px;
+}
+.new_lists .turn.top {
+    color: #1b8ec2;
+}
+#plugin_notice {
+    border: 1px solid #dddddd;
+    color: #555555;
+}
+#plugin_notice a {
+    color: #555555;
+}
+#plugin_notice .bm_c {
+    padding: 10px;
+}
+#plugin_notice .bm_h .y {
+    padding: 0 10px 0 0;
+}
+.focus_box3 {
+    float: left;
+    height: 290px;
+    margin: 10px 0 0;
+    overflow: hidden;
+    position: relative;
+    width: 500px;
+}
+.focus_box3 img {
+    display: block;
+    float: left;
+    height: 290px;
+    width: 500px;
+}
+.focus_box3 img:hover {
+    opacity: 1 !important;
+}
+.focus_box3 .bd3 {
+}
+.focus_box3 .bd3 li {
+    position: relative;
+}
+.focus_box3 .bd3 .t_box {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/template/time_9th_sweets/src/png.png") repeat scroll 0 0;
+    border-radius: 0;
+    bottom: 25px;
+    color: #888888;
+    left: 35px;
+    padding: 12px 20px;
+    position: absolute;
+    width: 390px;
+    z-index: 100;
+}
+.focus_box3 .bd3 .t_box h2 {
+    height: 20px;
+    line-height: 20px;
+    margin: 0 0 5px;
+    overflow: hidden;
+}
+.focus_box3 .bd3 .t_box h2 a {
+    color: #eeeeee;
+    font-size: 16px;
+    font-weight: 400;
+}
+.focus_box3 img {
+    display: block;
+}
+.focus_box3 .hd3 {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    bottom: 43px;
+    height: 12px;
+    overflow: hidden;
+    padding: 0 9px;
+    position: absolute;
+    right: 50px;
+    z-index: 120;
+}
+.caption_info p a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+.focus_box3 .hd3 li {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/template/time_9th_sweets/src/slide.png") no-repeat scroll -1px -3px;
+    cursor: pointer;
+    display: block;
+    float: left;
+    height: 12px;
+    margin: 0 0 0 5px;
+    text-indent: -999em;
+    width: 12px;
+}
+.focus_box3 .hd3 li.on {
+    background-position: -25px -3px;
+}
+.headline {
+    height: 100px;
+    margin-bottom: 15px;
+}
+.headline dt {
+    border-bottom: 1px dashed #eeeeee;
+    color: #333333;
+    font-size: 20px;
+    font-weight: 400;
+    height: 35px;
+    line-height: 35px;
+    margin-bottom: 8px;
+    padding-bottom: 5px;
+    text-align: left;
+}
+.headline dt a {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border-left: 3px solid #1b8ec2;
+    color: #666666;
+    padding: 0 0 0 15px;
+    transition: all 0.1s ease 0s;
+}
+.headline dt a:hover {
+    border-left: 5px solid #1b8ec2;
+    color: #1b8ec2;
+    text-decoration: none;
+}
+.headline dd {
+    color: #666666;
+    line-height: 25px;
+    text-indent: 1.5em;
+}
+.time_ftoplist {
+    background: #ffffff url("http://bbs.dsqnw.net/template/time_9th_sweets/src/toplist.gif") no-repeat scroll 5px 12px;
+    height: 255px;
+    margin-left: 5px;
+    overflow: hidden;
+    padding: 10px 15px 5px 26px;
+}
+.time_ftoplist li {
+    height: 26px;
+    line-height: 26px;
+    padding-left: 14px;
+}
+.time_ftoplist li span {
+    color: #999999;
+    float: right;
+    font-size: 12px;
+    margin-left: 6px;
+}
+.time_ftoplist li strong a {
+    color: #999999;
+}
+.time_ftoplist li strong a:hover {
+    color: #333333;
+}
+.time_ftoplist li a.time_dark {
+    color: #555555;
+    padding-right: 5px;
+}
+.time_ftoplist li a.time_bold {
+    color: #555555;
+    font-weight: 400;
+}
+.time_ftoplist li a:hover {
+    color: #1b8ec2;
+}
+.time_ftoplist li em {
+    padding-left: 8px;
+}
+.animated {
+    animation-duration: 1s;
+}
+.animated.hinge {
+    animation-duration: 2s;
+}
+@keyframes fadeInUp {
+0% {
+    opacity: 0;
+    transform: translateY(20px);
+}
+100% {
+    opacity: 1;
+    transform: translateY(0px);
+}
+}
+@keyframes fadeInUp {
+0% {
+    opacity: 0;
+    transform: translateY(20px);
+}
+100% {
+    opacity: 1;
+    transform: translateY(0px);
+}
+}
+@keyframes fadeInUp {
+0% {
+    opacity: 0;
+    transform: translateY(20px);
+}
+100% {
+    opacity: 1;
+    transform: translateY(0px);
+}
+}
+.fadeInUp {
+    animation-name: fadeInUp;
+}
+.ttp {
+    border: 0 none;
+}
+#mdly {
+    background: rgba(0, 0, 0, 0) url("http://bbs.dsqnw.net/static/image/common/mdly.png") no-repeat scroll 0 0;
+    height: 100px;
+    line-height: 32px;
+    margin-top: -16px;
+    overflow: hidden;
+    padding: 10px 25px;
+    position: absolute;
+    right: 0;
+    width: 250px;
+}
+#mdly a {
+    color: #06c;
+}
+#mdly .cp {
+    height: 32px;
+    line-height: 100px;
+    overflow: hidden;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 35px;
+}
+#mdly label {
+    position: absolute;
+    right: 50px;
+    top: 10px;
+}
+#mdly h6 {
+    line-height: 32px;
+}
+#mdly h6 strong {
+    color: #f26c4f;
+    margin: 0 3px;
+}
+#mdly.cpd {
+    background-position: 0 -128px;
+    border: medium none;
+    height: 32px;
+    margin-right: -3px;
+    margin-top: 4px;
+    padding: 0;
+    width: 35px;
+}
+#mdly.cpd h6 {
+    padding-top: 40px;
+}
+#mdly.cpd .cp {
+    display: none;
+}
+#mdly.cpd #mdct {
+    color: #f26c4f;
+    cursor: pointer;
+    display: block;
+    height: 32px;
+    left: 3px;
+    margin: 0;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 32px;
+    z-index: 999;
+}
+.pg_viewthread #mdly {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    height: auto;
+    margin: 20px 0 0 10px;
+    padding: 0;
+    width: 200px;
+}
+.cmen {
+    overflow: hidden;
+    width: 63px;
+}
+.cmen a {
+    float: left;
+    height: 20px;
+    overflow: hidden;
+    width: 20px;
+}
+.tpmh {
+    height: 200px;
+}
+.tpmh .thby {
+    margin: 5px 0 15px;
+}
+.tpmh .tah_body select {
+    width: 217px;
+}
+.tplw {
+    margin-bottom: 1em;
+}
+.tplw table {
+    width: 100%;
+}
+.tplw td {
+    padding: 0 5px;
+}
+.tplw .txt {
+    width: 100px;
+}
+.tplw .wide .txt {
+    width: 50px;
+}
+.llst li {
+    border-bottom: 1px solid #cdcdcd;
+    height: 28px;
+    padding: 4px 0;
+}
+.llst .copt {
+    height: auto;
+}
+.tm_c {
+}
+.tm_c .o {
+    background: #eeeeee none repeat scroll 0 0;
+}
+.tpclg {
+    padding: 8px 0 4px;
+}
+.tpclg h4 {
+    font-weight: 400;
+    width: 222px;
+}
+.tpclg h4 span {
+    float: left;
+}
+.tpclg h4 .dpbtn {
+    border-width: 1px;
+}
+.tpclg .pt {
+    margin: 5px 0;
+    overflow: hidden;
+    width: 212px;
+}
+.tpcl {
+    border-top: 1px solid #ddd;
+    margin: 10px 0;
+}
+.tpcl li {
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #fff;
+    height: 28px;
+    line-height: 18px;
+}
+.tpcl .copt {
+    height: auto;
+}
+#fwin_mods .dopt {
+    overflow: hidden;
+    visibility: hidden;
+    white-space: nowrap;
+}
+#fwin_mods .copt .dopt {
+    visibility: visible;
+}
+#fwin_mods .dopt p .px, .hasd .px {
+    float: left;
+    width: 100px;
+}
+#fwin_mods .dopt span .crl {
+    border-color: #707070 #cecece #cecece #ababab;
+    border-style: solid;
+    border-width: 1px 0 1px 1px;
+    height: 21px;
+    width: 21px;
+}
+.tpcl table {
+    width: 100%;
+}
+.tpcl td {
+    padding: 5px;
+    vertical-align: top;
+}
+.tpcl .labeltxt {
+    background: rgba(0, 0, 0, 0) url("../../static/image/common/arrwd.gif") no-repeat scroll 100% 8px;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+}
+.copt .labeltxt {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    color: #09c;
+    cursor: default;
+    float: left;
+    width: 45px;
+}
+.tpcl .pc {
+    margin: 3px;
+}
+.ie7 .tpcl .pc {
+    margin-top: -2px;
+}
+.tpcl img {
+    vertical-align: middle;
+}
+.tahfx {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 217px;
+}
+.tahfx select {
+    width: 160px;
+}
+#toolbarroot {
+    height: 30px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 96%;
+    z-index: 9000;
+}
+#toolbardiv {
+    background: #eeeeee none repeat scroll 0 0;
+    border-bottom: 1px solid #ccc;
+    height: 27px;
+    line-height: 27px;
+    min-width: 1200px;
+    padding: 1px;
+}
+#togglediv {
+    border: 1px solid #09f;
+    cursor: pointer;
+    height: 22px;
+    position: absolute;
+    right: 5px;
+    text-align: center;
+    top: 3px;
+    width: 22px;
+    z-index: 9998;
+}
+.pg_modcp .tl {
+    min-height: 150px;
+    overflow: visible;
+}
+.ie6 .pg_modcp .tl {
+    height: 150px;
+}
+.ie6 #plugin_notice.focus.plugin, .ie6 #ip_notice.focus.plugin {
+    display: none;
+}
+.ie7 #plugin_notice.focus.plugin, .ie7 #ip_notice.focus.plugin {
+    display: none;
+}
+.comiis_chart {
+    border-top: 1px solid #eaeaea;
+    color: #999;
+    margin-top: 20px;
+}
+.comiis_wide .comiis_chart {
+    margin-bottom: 15px;
+}
+.comiis_chart ul {
+    background: transparent none repeat scroll 0 0;
+    border-top: 30px solid #f7f7f7;
+    height: 100%;
+    overflow: hidden;
+    padding: 15px 0;
+}
+.comiis_chart li {
+    border-right: 1px solid #cfcfcf;
+    float: left;
+    height: 100%;
+    line-height: 24px;
+    text-align: center;
+    width: 235px;
+}
+.comiis_wide .comiis_chart li {
+    width: 235px;
+}
+.comiis_chart li.norx {
+    border-right: medium none;
+}
+.comiis_chart em {
+    color: #555;
+    display: block;
+    font-size: 22px;
+    line-height: 32px;
+}
+.comiis_chart em a {
+    color: #555;
+}
+.comiis_chart em a:hover {
+    color: #555;
+}
+.comiis_irbox_jctj {
+    height: 278px;
+    overflow: hidden;
+    position: relative;
+    width: 260px;
+}
+.comiis_irbox_jctj a, .comiis_irbox_jctj span {
+    display: block;
+}
+.comiis_irbox_jctj img {
+    overflow: hidden;
+    width: 300px;
+}
+.comiis_irbox_jctj a.kmjctj_tit {
+    background: rgba(0, 0, 0, 0) url("http://demo.comiis.com/dx3/nby/template/comiis_nby/img/kmjctj_titbg.png") no-repeat scroll center bottom;
+    font-size: 16px;
+    height: 46px;
+    line-height: 46px;
+    overflow: hidden;
+}
+.comiis_irbox_jctj span {
+    color: #aaa;
+    font-size: 14px;
+    padding-top: 10px;
+}
+.kmprev {
+    background: rgba(0, 0, 0, 0) url("http://demo.comiis.com/dx3/nby/template/comiis_nby/img/comiis_home_ico.gif") no-repeat scroll 0 -232px;
+    display: block;
+    float: right;
+    height: 20px;
+    margin-right: 5px;
+    margin-top: 5px;
+    overflow: hidden;
+    text-indent: -9999px;
+    width: 20px;
+}
+.kmprev:hover {
+    background: rgba(0, 0, 0, 0) url("http://demo.comiis.com/dx3/nby/template/comiis_nby/img/comiis_home_ico.gif") no-repeat scroll 0 -279px;
+}
+.kmnext {
+    background: rgba(0, 0, 0, 0) url("http://demo.comiis.com/dx3/nby/template/comiis_nby/img/comiis_home_ico.gif") no-repeat scroll 0 -137px;
+    display: block;
+    float: right;
+    height: 20px;
+    margin-top: 5px;
+    overflow: hidden;
+    text-indent: -9999px;
+    width: 20px;
+}
+.kmnext:hover {
+    background: rgba(0, 0, 0, 0) url("http://demo.comiis.com/dx3/nby/template/comiis_nby/img/comiis_home_ico.gif") no-repeat scroll 0 -184px;
+}
+.comiis_irbox_tit {
+    height: 48px;
+    overflow: hidden;
+    position: relative;
+}
+.comiis_irbox_tit h2 {
+    color: #555555;
+    float: left;
+}
+#index-home .index-home-data {
+    font-size: 12px;
+    height: 88px;
+    line-height: 24px;
+    margin-left: 88px;
+}
+#index-home .index-home-data .index-home-pic {
+    float: left;
+    margin-left: -88px;
+    width: 72px;
+}
+#index-home .index-home-data .index-home-pic img {
+    border-radius: 36px;
+    height: 72px;
+    width: 72px;
+}
+#index-home .index-home-data .index-home-logdc {
+    color: #333;
+}
+#index-home .index-home-data a {
+    color: #f06373;
+    cursor: pointer;
+    margin-right: 5px;
+}
+#index-home .index-home-data .iht span {
+    float: right;
+}
+#index-home .index-home-data .iht span a {
+    margin-left: 10px;
+    margin-right: 0;
+}
+#index-home .index-home-data .ihd span {
+    margin: 0 12px 0 5px;
+}
+#index-home .index-home-log a {
+    background-color: #333d46;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 12px;
+    height: 32px;
+    line-height: 32px;
+    margin-right: 10px;
+    text-align: center;
+    width: 120px;
+}
+#index-home .index-home-log a:hover {
+    opacity: 0.8;
+}
+#index-home .index-home-log .midaben_con {
+    float: left;
+}
+#index-home .index-home-log .midaben_con a {
+    color: #fff;
+    line-height: 32px;
+    text-align: center;
+}
+#index-home .index-home-log .midaben_con .midaben_signpanel .nums {
+    display: none;
+}
+#index-home .index-home-log .midaben_con .visted .nums {
+    display: inline-block;
+}
+#index-home .index-home-log .index-home-logr {
+    background-color: #f06373;
+    float: right;
+    margin-right: 0;
+    position: relative;
+}
+#index-home .index-home-log #daily_signed {
+    background: #cccccc none repeat scroll 0 0;
+}
+#index-home .index-home-admin {
+    padding-top: 12px;
+}
+#index-home .index-home-admin a {
+    margin-right: 10px;
+}
+#scrolltop {
+    display: none;
+}
+.mui-mbar {
+    color: #fff;
+    font-family: "Microsoft Yahei";
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 35px;
+    z-index: 200;
+}
+.mui-mbar-tabs {
+    -moz-user-select: none;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 35px;
+    z-index: 300;
+}
+.mui-mbar-tabs-mask {
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 35px;
+}
+.mui-mbar-arr {
+    font-size: 16px;
+    height: 16px;
+    line-height: 16px;
+    position: absolute;
+    text-align: center;
+    width: 16px;
+}
+.mui-mbarp-prof {
+    position: absolute;
+}
+.mui-mbarp-prof-tip {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #fff;
+    border-color: #d1d1d1 -moz-use-text-color #d1d1d1 #d1d1d1;
+    border-image: none;
+    border-style: solid none solid solid;
+    border-width: 1px 0 1px 1px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+    cursor: default;
+    font-family: "Microsoft Yahei";
+    height: 180px;
+    position: absolute;
+    right: 0;
+    width: 235px;
+    z-index: 999999;
+}
+.mui-kf-tip {
+    top: -37px;
+}
+.mui-mbarp-prof-tip * {
+    color: #666;
+}
+.mui-mbarp-prof-arr {
+    color: #fff;
+    position: absolute;
+    right: -8px;
+    top: 10px;
+    z-index: 999999;
+}
+.mui-mbarp-prof-bd {
+    color: #333;
+    left: 17px;
+    position: absolute;
+    width: 215px;
+}
+.mui-mbarp-prof-hd {
+    height: 26px;
+    line-height: 26px;
+    margin-right: 10px;
+    text-align: right;
+}
+.mui-mbarp-prof-hd a {
+    text-decoration: none;
+}
+.mui-mbarp-prof-hd a:hover {
+    text-decoration: underline;
+}
+.mui-mbarp-prof-icon-bd {
+    border-radius: 30px;
+    height: 60px;
+    left: 5px;
+    margin-bottom: 30px;
+    position: relative;
+    top: 0;
+    width: 60px;
+}
+.mui-mbarp-prof-icon {
+    border-radius: 60px;
+    height: 60px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 60px;
+}
+.mui-mbarp-prof-ci-bd {
+    left: 87px;
+    position: absolute;
+    top: 50px;
+}
+.mui-mbarp-prof-ci {
+    border: 1px solid #e5e5e5;
+    display: block;
+    float: left;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    text-decoration: none;
+    width: 53px;
+}
+.mui-mbarp-prof-lv-bd {
+    left: 87px;
+    position: absolute;
+    top: 0;
+}
+.mui-mbarp-prof-lv-tl {
+    color: #616161;
+    font-weight: bold;
+    height: 18px;
+    line-height: 18px;
+    margin-bottom: 2px;
+    max-width: 130px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.mui-mbarp-prof-lv-tl a {
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+    width: 89px;
+}
+.mui-mbarp-prof-lv-num {
+    display: inline-block;
+    height: 18px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+    width: 59px;
+}
+.mui-mbarp-prof-sep {
+    border-bottom: 1px dotted #eee;
+    font-size: 1px;
+    height: 18px;
+    margin-bottom: 15px;
+    width: 215px;
+}
+.mui-mbarp-prof-privs a {
+    background-image: url("../../source/plugin/jz52_topqing/template/iico.png");
+    display: block;
+    float: left;
+    font-size: 16px;
+    height: 21px;
+    line-height: 21px;
+    margin: 0 3px;
+    width: 21px;
+}
+.mui-mbarp-prof-privs a.tz {
+    background-position: -21px 0;
+}
+.mui-mbarp-prof-privs a.hy {
+    background-position: -42px 0;
+}
+.mui-mbarp-prof-privs a.xz {
+    background-position: -63px 0;
+}
+.mui-mbarp-prof-privs a.rw {
+    background-position: -84px 0;
+}
+.mui-mbarp-prof-privs a.sz {
+    background-position: -105px 0;
+}
+.mui-mbarp-prof-privs a b {
+    visibility: hidden;
+}
+.mui-mbarp-prof-privsdl a {
+    background-image: url("../../source/plugin/jz52_topqing/template/dlico.png");
+    display: block;
+    float: left;
+    font-size: 16px;
+    height: 21px;
+    line-height: 21px;
+    margin: 0 3px;
+    width: 21px;
+}
+.mui-mbarp-prof-privsdl a.sing {
+    background-position: -21px 0;
+}
+.mui-mbarp-prof-privsdl a.baidu {
+    background-position: -42px 0;
+}
+.mui-mbarp-prof-privsdl a.s60 {
+    background-position: -63px 0;
+}
+.mui-mbarp-prof-privsdl a.taobao {
+    background-position: -84px 0;
+}
+.mui-mbarp-prof-privsdl a.alipay {
+    background-position: -105px 0;
+}
+.mui-mbarp-prof-privsdl a b {
+    visibility: hidden;
+}
+.mui-mbar-tab-logo a b {
+    visibility: hidden;
+}
+.mui-mbar-tab-logo b {
+    visibility: hidden;
+}
+.mui-mbarp-prof-priv-tl {
+    color: #999;
+    float: left;
+    height: 21px;
+    line-height: 21px;
+    overflow: hidden;
+}
+.mui-mbarp-tab-mms-border {
+    border-style: solid;
+    border-width: 1px 0;
+    height: 118px;
+    left: 5px;
+    position: absolute;
+    top: 0;
+    width: 25px;
+}
+.mui-mbarp-fenxiang {
+    position: absolute;
+}
+.mui-mbarp-fenxiang-arr {
+    color: #fff;
+    position: absolute;
+    right: -7px;
+    top: -25px;
+    z-index: 999999;
+}
+.mui-mbarp-fenxiang-tip {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #fff;
+    border-color: #d1d1d1 #d1d1d1 #d1d1d1 -moz-use-text-color;
+    border-image: none;
+    border-style: solid solid solid none;
+    border-width: 1px 1px 1px 0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+    cursor: default;
+    font-family: "Microsoft Yahei";
+    height: 215px;
+    position: absolute;
+    right: 0;
+    top: -216px;
+    width: 190px;
+    z-index: 999999;
+}
+.mui-mbarp-fenxiang-tip * {
+    color: #666;
+}
+.mui-mbarp-fenxiang-tip .bdsharebuttonbox a {
+    height: 16px;
+    line-height: 16px;
+    margin: 9px 0;
+    padding-left: 20px;
+    width: 38%;
+}
+.mui-mbarp-fenxiang-tip .bdsharebuttonbox {
+    padding: 10px;
+}
+.mui-mbarp-fenxiang-tip h6 {
+    background-color: #f6f6f6;
+    border-bottom: 1px solid #f2f1f1;
+    border-top: 1px solid #fbfbfb;
+    float: left;
+    font: 700 14px/22px "Microsoft Yahei";
+    margin: 0;
+    padding: 5px 0;
+    text-indent: 0.5em;
+    width: 100%;
+}
+.mui-mbarp-qrcode {
+    position: absolute;
+}
+.mui-mbarp-qrcode-tip {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #fff;
+    border-color: #d1d1d1 #d1d1d1 #d1d1d1 -moz-use-text-color;
+    border-image: none;
+    border-style: solid solid solid none;
+    border-width: 1px 1px 1px 0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+    cursor: default;
+    height: 195px;
+    position: absolute;
+    right: 0;
+    top: -196px;
+    width: 170px;
+    z-index: 999999;
+}
+.mui-mbarp-qrcode-tip * {
+    color: #666;
+}
+.mui-mbarp-qrcode-arr {
+    color: #fff;
+    position: absolute;
+    right: -7px;
+    top: -25px;
+    z-index: 999999;
+}
+.mui-mbarp-qrcode-hd img {
+    height: 140px;
+    margin: 10px 15px;
+    width: 140px;
+}
+.mui-mbarp-qrcode-bd {
+    height: 26px;
+    line-height: 26px;
+    margin-right: 10px;
+    padding-left: 15px;
+    text-align: right;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.mui-mbar-tab {
+    cursor: pointer;
+    height: 35px;
+    left: 0;
+    position: absolute;
+    width: 35px;
+}
+.mui-mbar-tab-logo {
+    height: 35px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 35px;
+}
+.mui-mbar-tab-txt {
+    font-size: 12px;
+    left: 0;
+    line-height: 14px;
+    padding: 0 3px;
+    position: absolute;
+    text-align: center;
+    top: 32px;
+    width: 29px;
+}
+.mui-mbar-tab-logo-prof-nick-bd {
+    background-color: #413c3c;
+    border-radius: 13px;
+    height: 26px;
+    left: 5px;
+    position: absolute;
+    top: 5px;
+    width: 26px;
+}
+.mui-mbar-tab-logo-prof-nick {
+    border-radius: 13px;
+    height: 26px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 26px;
+}
+.mui-mbar-tab-logo-prof {
+    background-position: -35px -64px;
+}
+.mui-mbar-tab-logo-fatie {
+    background-position: -137px -70px;
+}
+.mui-mbar-tab-logo-shoucang {
+    background-position: -105px -134px;
+}
+.mui-mbar-tab-logo-next {
+    background-position: -70px -64px;
+}
+.mui-mbar-tab-logo-fh {
+    background-position: -105px -100px;
+}
+.mui-mbar-tab-logo-hf {
+    background-position: -140px -100px;
+}
+.mui-mbar-tab-top {
+    cursor: pointer;
+}
+.mui-mbar-tab-logo-top {
+    background-position: 0 -99px;
+}
+.mui-mbar-tab-hover .mui-mbar-tab-logo-top {
+    background-position: -70px -99px;
+}
+.mui-mbar-tab-logo-qrcode {
+    background-position: -35px -99px;
+}
+.mui-mbar-tab-hover .mui-mbar-tab-logo-qrcode {
+    background-position: -137px 0;
+}
+.mui-mbar-tab-logo-fenxiang {
+    background-position: 0 0;
+}
+.mui-mbar-tab-hover .mui-mbar-tab-logo-fenxiang {
+    background-position: -35px 0;
+}
+.mui-mbar-tab-logo-mms {
+    background-position: 0 -64px;
+}
+.mui-mbar-tab-sup {
+    display: none;
+    position: absolute;
+    right: 2px;
+    text-align: center;
+    top: -5px;
+    z-index: 999999;
+}
+.mui-mbar-tab-sup-bg {
+    background-color: #55a625;
+    border-radius: 7px;
+}
+.mui-mbar-tab-sup-bd {
+    border-radius: 7px;
+    color: #fff;
+    font-size: 10px;
+    height: 14px;
+    line-height: 14px;
+    padding: 0 6px;
+}
+.mui-mbar-tab-tip {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    font-family: "Microsoft Yahei";
+    height: 35px;
+    line-height: 35px;
+    position: absolute;
+    right: 35px;
+    text-align: center;
+    top: -1px;
+    width: 90px;
+}
+.mui-mbar-tab-tip-arr {
+    color: #fff;
+    right: -8px;
+    top: 10px;
+}
+.mui-mbarp-prof-login-close {
+    background-position: -60px -50px;
+}
+.mui-mbarp-prof-login-close:hover {
+    background-position: -71px -50px;
+}
+.mui-mbar-tab-mms {
+    height: 120px;
+}
+.mui-mbar-tab-mms .mui-mbar-tab-logo {
+    top: 10px;
+}
+.mui-mbar-tab-mms .mui-mbar-tab-txt {
+    height: 33px;
+    left: 7px;
+    line-height: 16px;
+    overflow: hidden;
+    padding: 0;
+    top: 40px;
+    width: 20px;
+}
+.mui-mbar-tab-mms .mui-mbar-tab-sup {
+    display: block;
+    right: 8px;
+    text-align: center;
+    top: 80px;
+}
+.mui-mbar-tab-mms .mui-mbar-tab-sup-bg {
+    border-radius: 10px;
+}
+.mui-mbar-tab-mms .mui-mbar-tab-sup-bd {
+    border-radius: 10px;
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+    min-width: 14px;
+    padding: 0 3px;
+}
