@@ -1650,7 +1650,7 @@ a.bg-danger:hover {
 }
 
 ol,ul {
-    margin-bottom: 10px;
+     margin: auto;
 }
 
 ol ol,ol ul,ul ol,ul ul {

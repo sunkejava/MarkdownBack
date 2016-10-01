@@ -8,7 +8,7 @@
 }
 body {
     background-color:#111;
-    font: 14px "microsoft yahei","Tahoma","Arial Narrow";
+    font: 100%/1.4 'Microsoft YaHei',SimSun,SimHei;
 	text-decoration: none;
 }
 .image-box {
@@ -348,11 +348,23 @@ em, i {
 .comiis_rollpic li a img{width:385px;height:532px;}
 .comiis_rollpic li a span{width:385px;}
 .comiis_picdivm {
-	width:95%;
+	width:98%;
 	overflow:hidden;
 	position:relative;
 	text-align:center;
-	margin-left:auto;
-	margin-right:auto;
-	border:3px solid #FF99CC;
+	margin: 0 auto;
+	/* border:3px solid #FF99CC; */
+}
+.comiis_rollpic_bt .kmleft{
+	background: #588ae5;
+	display: block;
+    width: 120px;
+    height: 51px;
+	float:left;
+    margin-bottom: -1px;
+    text-align: center;
+    line-height: 52px;
+    color: #fff;
+	display: block;
+    font-size: 1.5em;
 }
