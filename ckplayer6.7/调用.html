@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gbk" />
+<title>ckplayer6.7</title>
+<script type="text/javascript" src="js/offlights.js"></script>
+<style type="text/css">
+#a1{
+	position:relative;
+	z-index: 100;
+	width:800px;
+	height:500px;
+	margin:auto;
+}
+</style>
+</head>
+<body>
+<div id="a1"></div>
+<!--
+上面一行是播放器所在的容器名称，如果只调用flash播放器，可以只用<div id="a1"></div>
+-->
+<script type="text/javascript" src="ckplayer/ckplayer.js" charset="utf-8"></script>
+<script type="text/javascript">
+	//如果你不需要某项设置，可以直接删除，注意var flashvars的最后一个值后面不能有逗号
+	function loadedHandler(){
+		if(CKobject.getObjectById('ckplayer_a1').getType()){//说明使用html5播放器
+			<!-- alert('播放器已加载，调用的是HTML5播放模块'); -->
+		}
+		else{
+			<!-- alert('播放器已加载，调用的是Flash播放模块'); -->
+		}
+	}
+	
+	var flashvars={
+		f:'http://v19-51avi.51cdn.biz/media/videos/flv/204960.flv?st=-KaYy_t1tDbI47T81pxPnw&e=1475790018',//视频地址
+		a:'',//调用时的参数，只有当s>0的时候有效
+		s:'0',//调用方式，0=普通方法（f=视频地址），1=网址形式,2=xml形式，3=swf形式(s>0时f=网址，配合a来完成对地址的组装)
+		c:'0',//是否读取文本配置,0不是，1是
+		x:'',//调用配置文件路径，只有在c=1时使用。默认为空调用的是ckplayer.xml
+		i:'http://godsong.bs2dl.yy.com/djE2NjQ3YThjN2FjZmI0YTcyYjJlYjQ4NzVjYTdkYWIwMTA2NTgyOTQ2_16.jpg',//初始图片地址
+		e:'3',//视频结束后的动作，0是调用js函数，1是循环播放，2是暂停播放并且不调用广告，3是调用视频推荐列表的插件，4是清除视频流并调用js功能和1差不多，5是暂停播放并且调用暂停广告
+		v:'50',//默认音量，0-100之间
+		p:'0',//视频默认0是暂停，1是播放，2是不加载视频
+		h:'3',//播放http视频流时采用何种拖动方法，=0不使用任意拖动，=1是使用按关键帧，=2是按时间点，=3是自动判断按什么(如果视频格式是.mp4就按关键帧，.flv就按关键时间)，=4也是自动判断(只要包含字符mp4就按mp4来，只要包含字符flv就按flv来)
+		wh:'4:3',//宽高比，可以自己定义视频的宽高或宽高比如：wh:'4:3',或wh:'1080:720'
+		lv:'0',//是否是直播流，=1则锁定进度栏
+		deft:'流畅432P,高清540P,超清720P',//配置文件里有，则不需要再设置
+		deff:'http://hc.yinyuetai.com/uploads/videos/common/12510142EC924CA55D6C5F3704CFD8DC.flv|http://hd.yinyuetai.com/uploads/videos/common/54870142EC9F1F06A0EB2E42098B07FE.flv|http://he.yinyuetai.com/uploads/videos/common/AEF80142ECA75C75BA3860D4D0D5EFFC.flv',
+		loaded:'loadedHandler',//当播放器加载完成后发送该js函数loaded
+		my_url:encodeURIComponent(window.location.href),//本页面地址
+		my_title:'可爱颂（手指乱舞）',
+		my_pic:'http://godsong.bs2dl.yy.com/djE2NjQ3YThjN2FjZmI0YTcyYjJlYjQ4NzVjYTdkYWIwMTA2NTgyOTQ2_16.jpg'
+		};
+	var params={bgcolor:'#FFF',allowFullScreen:true,allowScriptAccess:'always'};//这里定义播放器的其它参数如背景色（跟flashvars中的b不同），是否支持全屏，是否支持交互
+	var video=['http://godsong.bs2dl.yy.com/djE2NjQ3YThjN2FjZmI0YTcyYjJlYjQ4NzVjYTdkYWIwMTA2NTgyOTQ2bWI->video/mp4'];
+	CKobject.embed('ckplayer/ckplayer.swf','a1','ckplayer_a1','100%','100%',false,flashvars,video,params);
+</script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<ckplayer>
+		<style>
+        <pr_zip>{font color='#FFFFFF' face='Microsoft YaHei,微软雅黑' size='18'}已加载[$prtage]%{/font}</pr_zip>
+        <pr_load>{font color='#FFFFFF' face='Microsoft YaHei,微软雅黑' size='18'}已加载[$prtage]%{/font}</pr_load>
+        <pr_noload>{font color='#FFFFFF' face='Microsoft YaHei,微软雅黑' size='18'}加载失败,您可以尝试刷新页面或者更换不同源观看{/font}</pr_noload>
+        <pr_buffer>{font color='#FFFFFF' face='Microsoft YaHei,微软雅黑' size='16'}[$buffer]%{/font}</pr_buffer>
+        <pr_play>{font color='#FFFFFF' face='Microsoft YaHei,微软雅黑' size='18'}播放{/font}</pr_play>
+        <pr_pause>{font color='#FFFFFF' face='Microsoft YaHei,微软雅黑' size='18'}暂停{/font}</pr_pause>
+        <pr_mute>{font color='#FFFFFF' face='Microsoft YaHei,微软雅黑' size='18'}静音{/font}</pr_mute>
+        <pr_nomute>{font color='#FFFFFF' face='Microsoft YaHei,微软雅黑' size='18'}取消{/font}</pr_nomute>
+        <pr_full>{font color='#FFFFFF' face='Microsoft YaHei,微软雅黑' size='18'}全屏{/font}</pr_full>
+        <pr_nofull>{font color='#FFFFFF' face='NSimSun'}退出{/font}</pr_nofull>
+        <pr_fastf>{font color='#FFFFFF' face='NSimSun'}快进{/font}</pr_fastf>
+        <pr_fastr>{font color='#FFFFFF' face='NSimSun'}快退{/font}</pr_fastr>
+        <pr_time>{font color='#FFFFFF' face='Microsoft YaHei,微软雅黑' size='18'}[$Time]{/font}</pr_time>
+        <pr_volume>{font color='#FFFFFF' face='Microsoft YaHei,微软雅黑' size='18'}音量[$Volume]%{/font}</pr_volume>
+        <pr_clockwait>{font color='#FFFFFF' face='Arial'}00:00 | 00:00{/font}</pr_clockwait>
+        <pr_live>{font color='#FFFFFF' face='NSimSun'}视频直播中{/font}</pr_live>
+        <pr_adv>{font color='#FFFFFF' size='12'}广告剩余：{font color='#FF0000' size='15'}{b}[$Second]{/b}{/font} 秒{/font}</pr_adv>
+		</style>
+	</ckplayer>
