@@ -72,7 +72,7 @@ else {
             $songTime.text(formatSecond(audio.currentTime) + " / " + formatSecond(audio.duration));
             audio.currentTime < audio.duration / 2 ? $btns.css("background-image", "linear-gradient(90deg, " + roundcolor + " 50%, transparent 50%, transparent), linear-gradient(" + (90 + 180 / (audio.duration / 2) * audio.currentTime) + "deg, " + lightcolor + " 50%, " + roundcolor + " 50%, " + roundcolor + ")") : $btns.css("background-image", "linear-gradient(" + (90 + 180 / (audio.duration / 2) * audio.currentTime) + "deg, " + lightcolor + " 50%, transparent 50%, transparent), linear-gradient(270deg, " + lightcolor + " 50%, " + roundcolor + " 50%, " + roundcolor + ")")
         };
-    apiurl = "http://123.56.131.190:8080/Decline/mainsp.jsp";
+    apiurl = "http://api.sunkejava.com/Decline/mainsp.jsp";
     fileurl = apiurl + "?q=" + user;
     "open" != geci ? (songFrom33 = "关闭", hasgeci = !1) : (songFrom33 = "开启", hasgeci = !0);
     random = "open" != random ? !1 : !0;
@@ -182,7 +182,7 @@ else {
 				audio.pause();
 				openNew();
 			});
-            lrcurl = "http://123.56.131.190:8080/Decline/title.jsp";
+            lrcurl = "http://api.sunkejava.com/Decline/title.jsp";
 			$songName.html("<span>" + LimitStr(NeiCeList[albumId].song_list[songId].song_title) + "</span>");
             $songFrom.html("<span>" + LimitStr(NeiCeList[albumId].song_list[songId].singer) + "</span>");
             $songFrom1.html("<span>" + LimitStr(NeiCeList[albumId].song_list[songId].album) + "</span>");
@@ -199,7 +199,7 @@ else {
                     $cover.removeClass("changing")
                 }, 100);
                 $.ajax({
-                    url: "http://123.56.131.190:8080/Decline/getColor.jsp?q=" + c.src,
+                    url: "http://api.sunkejava.com/Decline/getColor.jsp?q=" + c.src,
                     type: "GET",
                     dataType: "script",
                     success: function() {
@@ -508,7 +508,7 @@ else {
                     $(".switch-ksclrc").show()
                 }, 300) : $(".switch-ksclrc").show();
                 $.ajax({
-                    url:  "http://123.56.131.190:8080/Decline/title.jsp",
+                    url:  "http://api.sunkejava.com/Decline/title.jsp",
                     type: "GET",
                     dataType: "script",
                     success: function() {
