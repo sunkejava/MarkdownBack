@@ -72,7 +72,7 @@ else {
             $songTime.text(formatSecond(audio.currentTime) + " / " + formatSecond(audio.duration));
             audio.currentTime < audio.duration / 2 ? $btns.css("background-image", "linear-gradient(90deg, " + roundcolor + " 50%, transparent 50%, transparent), linear-gradient(" + (90 + 180 / (audio.duration / 2) * audio.currentTime) + "deg, " + lightcolor + " 50%, " + roundcolor + " 50%, " + roundcolor + ")") : $btns.css("background-image", "linear-gradient(" + (90 + 180 / (audio.duration / 2) * audio.currentTime) + "deg, " + lightcolor + " 50%, transparent 50%, transparent), linear-gradient(270deg, " + lightcolor + " 50%, " + roundcolor + " 50%, " + roundcolor + ")")
         };
-    apiurl = "http://api.sunkejava.com/Decline/mains.jsp";
+    apiurl = "http://api.sunkejava.com/Decline/mainsp.jsp";
     fileurl = apiurl + "?q=" + user;
     "open" != geci ? (songFrom33 = "关闭", hasgeci = !1) : (songFrom33 = "开启", hasgeci = !0);
     random = "open" != random ? !1 : !0;
@@ -94,6 +94,7 @@ else {
     $songFrom4 = $(".player .switch-ksclrc", $player);
     $songFrom5 = $(".player .switch-down", $player);
 	$songFrom77 = $(".player .switch-tv", $player);
+	$songFrom78 = $(".player .switch-plan", $player);
     songFrom55 = songFrom44 = "";
     roundcolor = "#6c6971";
     lightcolor = "#81c300";
@@ -127,7 +128,7 @@ else {
 			// $player.toggleClass("showAlbumList");
             $player.addClass("playing");
             cicleTime = setInterval(wenkmCicle, 800);
-            hasLrc && (lrcTime = setInterval(wenkmLrc.lrc.play, 500), $("#wenkmLrc").addClass("show"), $(".switch-tv").css("right", "95px"),$(".switch-down").css("right", "65px"), $(".switch-default").css("right", "95px"), hasdefault ? setTimeout(function() {
+            hasLrc && (lrcTime = setInterval(wenkmLrc.lrc.play, 500), $("#wenkmLrc").addClass("show"),$(".switch-plan").css("right", "125px"),$(".switch-tv").css("right", "95px"),$(".switch-down").css("right", "65px"), $(".switch-default").css("right", "95px"), hasdefault ? setTimeout(function() {
                 $(".switch-ksclrc").show()
             }, 300) : $(".switch-ksclrc").show())
         },
@@ -135,6 +136,7 @@ else {
             clearInterval(cicleTime);
             $player.removeClass("playing");
             $(".switch-ksclrc").hide();
+			$(".switch-plan").css("right", "95px");
 			$(".switch-tv").css("right", "65px");
             $(".switch-down").css("right", "35px");
             $(".switch-default").css("right", "65px");
@@ -166,11 +168,20 @@ else {
             songId = a;
             id = NeiCeList[albumId].song_list[songId].song_id;
             audio.src = NeiCeList[albumId].song_list[songId].resurl;
-            $songFrom5.show();
+            typeName = NeiCeList[albumId].song_list[songId].resurl;
+			resuln = typeName.substring(7,10);
+			if(resuln == "god"){
+				psname = "网易云音乐";
+			}else{
+				psname = "YY神曲";
+			}
+			$songFrom5.show();
 			$songFrom77.show();
+			$songFrom78.show();
             $songFrom5.html('<a class="down"><i class="fa fa-cloud-download" title="下载：' + NeiCeList[albumId].song_list[songId].song_title + " - " + NeiCeList[albumId].song_list[songId].singer + '"></i></a>');
 			$songFrom77.html('<a class="down1"><i class="fa fa-caret-square-o-right" title="MV观看：' + NeiCeList[albumId].song_list[songId].song_title + " - " + NeiCeList[albumId].song_list[songId].singer + '"></i></a>');
-            $(".down").click(function() {
+            $songFrom78.html('<a class="exchange"><i class="fa fa-exchange" title="切换到：' + psname + '"></i></a>');
+			$(".down").click(function() {
                 window.open(audio.src, "newwindow")
             });
 			$(".down1").click(function (){
@@ -181,6 +192,9 @@ else {
 				RootCookies.SetCookie("player", "no", 30);
 				audio.pause();
 				openNew();
+			});
+			$(".exchange").click(function (){
+				wenkmTips.show("开发中，敬请期待！" );
 			});
             lrcurl = "http://api.sunkejava.com/Decline/title.jsp";
 			$songName.html("<span>" + LimitStr(NeiCeList[albumId].song_list[songId].song_title) + "</span>");
@@ -224,6 +238,7 @@ else {
             $cover.html(c);
             audio.volume = volume; - 1 != window.document.cookie.indexOf("player=") ? (wenkmMedia.pause(), $("#wenkmLrc").hide(), setTimeout(function() {
                 $(".switch-ksclrc").hide();
+				$(".switch-plan").css("right", "95px");
 				$(".switch-tv").css("right", "65px");
                 $(".switch-down").css("right", "35px");
                 $(".switch-default").css("right", "65px")
@@ -231,6 +246,7 @@ else {
                 wenkmTips.show("播放器自动停止播放")
             }, 3E3)) : "close" != auto ? (wenkmTips.show("开始播放 - " + NeiCeList[albumId].song_list[songId].song_title), audio.play(), $cover.addClass("coverplay")) : (wenkmMedia.pause(), $("#wenkmLrc").hide(), setTimeout(function() {
                 $(".switch-ksclrc").hide();
+				$(".switch-plan").css("right", "95px");
 				$(".switch-tv").css("right", "65px");
                 $(".switch-down").css("right", "35px");
                 $(".switch-default").css("right", "65px")
@@ -497,25 +513,27 @@ else {
                 hasLrc = !1;
                 $("#wenkmLrc").html("");
                 $(".switch-ksclrc").hide();
+				$(".switch-plan").css("right", "95px");
 				$(".switch-tv").css("right", "65px");
                 $(".switch-down").css("right", "35px");
                 $(".switch-default").css("right", "65px");
                 hasgeci ? $songFrom3.html('<i class="fa fa-check-circle"></i> Lrc歌词' + songFrom33) : $songFrom3.html('<i class="fa fa-times-circle"></i> Lrc歌词' + songFrom33);
-                $(".switch-tv").css("right", "95px");
+                $(".switch-plan").css("right", "125px");
+				$(".switch-tv").css("right", "95px");
 				$(".switch-down").css("right", "65px");
                 $(".switch-default").css("right", "95px");
                 hasdefault ? setTimeout(function() {
                     $(".switch-ksclrc").show()
                 }, 300) : $(".switch-ksclrc").show();
                 $.ajax({
-                    url:  "http://api.sunkejava.com/Decline/songLirc.jsp?q=" + id,
+                    url:  "http://api.sunkejava.com/Decline/title.jsp",
                     type: "GET",
                     dataType: "script",
                     success: function() {
                         0 <= cont.indexOf("[00") ? setTimeout(function() {
                             songFrom44 = $("#wenkmLrc").hasClass("hide") ? " - Lrc歌词已关闭！" : " - Lrc歌词获取成功!";
                             wenkmLrc.lrc.format(cont)
-                        }, 500) : (songFrom44 = " - 暂无歌词!", $songFrom3.html('<i class="fa fa-times-circle"></i> 暂无歌词'), $(".switch-ksclrc").hide(),$(".switch-tv").css("right", "65px"), $(".switch-down").css("right", "35px"), $(".switch-default").css("right", "65px"))
+                        }, 500) : (songFrom44 = " - 暂无歌词!", $songFrom3.html('<i class="fa fa-times-circle"></i> 暂无歌词'), $(".switch-ksclrc").hide(),$(".switch-plan").css("right", "95px"),$(".switch-tv").css("right", "65px"), $(".switch-down").css("right", "35px"), $(".switch-default").css("right", "65px"))
                     }
                 })
             },

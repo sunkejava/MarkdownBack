@@ -30,8 +30,8 @@ else {
             $songTime.text(formatSecond(audio.currentTime) + " / " + formatSecond(audio.duration));
             audio.currentTime < audio.duration / 2 ? $btns.css("background-image", "linear-gradient(90deg, " + roundcolor + " 50%, transparent 50%, transparent), linear-gradient(" + (90 + 180 / (audio.duration / 2) * audio.currentTime) + "deg, " + lightcolor + " 50%, " + roundcolor + " 50%, " + roundcolor + ")") : $btns.css("background-image", "linear-gradient(" + (90 + 180 / (audio.duration / 2) * audio.currentTime) + "deg, " + lightcolor + " 50%, transparent 50%, transparent), linear-gradient(270deg, " + lightcolor + " 50%, " + roundcolor + " 50%, " + roundcolor + ")")
         };
-    apiurl = "https://api.xiaocp.com/player/get.php";
-    fileurl = apiurl + "?mode=list&parm=" + user;
+    //apiurl = "https://api.xiaocp.com/player/get.php";
+    fileurl = "http://api.sunkejava.com/Decline/songlist.jsp?q=" + user;
     "open" != geci ? (songFrom33 = "关闭", hasgeci = !1) : (songFrom33 = "开启", hasgeci = !0);
     random = "open" != random ? !1 : !0;
     var audio = new Audio,
@@ -117,13 +117,14 @@ else {
             $songFrom5.hide();
             songId = a;
             id = NeiCeList[albumId].song_list[songId].song_id;
-            audio.src = apiurl + "?mode=net_mp3&parm=" + NeiCeList[albumId].song_list[songId].song_id;
+			audio.src = "http://api.sunkejava.com/Decline/songurl.jsp?q=" + NeiCeList[albumId].song_list[songId].song_id;
+            //alert(audio.src);
             $songFrom5.show();
             $songFrom5.html('<a class="down"><i class="fa fa-cloud-download" title="下载：' + NeiCeList[albumId].song_list[songId].song_title + " - " + NeiCeList[albumId].song_list[songId].singer + '"></i></a>');
             $(".down").click(function() {
                 window.open(audio.src, "newwindow")
             });
-            lrcurl = apiurl + "?mode=net_lrc&parm=" + id;
+            lrcurl = "http://api.sunkejava.com/Decline/songLirc.jsp?q=" + id;
 			$songName.html("<span>" + LimitStr(NeiCeList[albumId].song_list[songId].song_title) + "</span>");
             $songFrom.html("<span>" + LimitStr(NeiCeList[albumId].song_list[songId].singer) + "</span>");
             $songFrom1.html("<span>" + LimitStr(NeiCeList[albumId].song_list[songId].album) + "</span>");
@@ -140,7 +141,7 @@ else {
                     $cover.removeClass("changing")
                 }, 100);
                 $.ajax({
-                    url: apiurl + "?mode=image_info&parm=" + base64_encode(c.src),
+                    url: "http://api.sunkejava.com/Decline/getColor.jsp?q=" + c.src,
                     type: "GET",
                     dataType: "script",
                     success: function() {
@@ -445,7 +446,7 @@ else {
                     $(".switch-ksclrc").show()
                 }, 300) : $(".switch-ksclrc").show();
                 $.ajax({
-                    url: apiurl + "?mode=net_lrc&parm=" + id,
+                    url: "http://api.sunkejava.com/Decline/songLirc.jsp?q=" + id,
                     type: "GET",
                     dataType: "script",
                     success: function() {
